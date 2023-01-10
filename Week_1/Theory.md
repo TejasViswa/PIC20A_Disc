@@ -68,7 +68,12 @@ What is printed when each of the following statements is executed?
     System.out.println("printing: " + x * y);
 ```
 solution
-
+```
+30
+30!
+printing: 2010
+printing: 200
+```
 ## C++ Files vs Java Files
 
 A C++ programmer deals with source files, object files, and executable files:
