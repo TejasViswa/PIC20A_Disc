@@ -7,3 +7,4 @@
 
 ## Thu Jan 12
 - [Static keyword in C++ vs Java](Static_cpp_java.md)
+- [Datatypes in C++ vs Java](datatypes.md)
