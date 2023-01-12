@@ -16,6 +16,29 @@
 | No unsigned int, char, long etc. in Java. | |
 | [boolean](https://www.geeksforgeeks.org/comparison-boolean-data-type-c-java/) | [bool](https://www.geeksforgeeks.org/comparison-boolean-data-type-c-java/)|
 
+## Note
+
+Java and C++ have almost identical syntax as for assignment, control
+structures ( if and switch statements), and repetitive structures
+(for, while, do-while statements).  However, C++ allows integer expressions
+appear where a logic expression is needed while Java allows only boolean
+expression anywhere a logical expression is required.
+
+### Logical Expressions
+
+   In control statement such as if ( condition ) ... ; while( conditin ) ...;
+for( ; condition ; ) ... ; integer expresions can be used in those statements.
+However, you can not use integer expression when boolean expression is required
+in Java. The boolean expression must be used.
+
+```java
+while ( exp ) ...       // illegal in Java if exp return an integer. 
+```
+   Therefore, the logic connectives such as ||, &&, !, ?: must work on
+boolean expresions, not integer expression allowed when a logical expression
+is required in Java.
+
+
 ## User Defined types
 
 | Java | C++ |
