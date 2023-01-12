@@ -14,7 +14,7 @@
 | Fixed length for each  | Lengths are implementation dependent primitive data type on every platform. |
 | char: Unicode 2 bytes  | Ascii, 1 byte |
 | No unsigned int, char, long etc. in Java. | |
-| boolean | |
+| [boolean](https://www.geeksforgeeks.org/comparison-boolean-data-type-c-java/) | [bool](https://www.geeksforgeeks.org/comparison-boolean-data-type-c-java/)|
 
 ## User Defined types
 
