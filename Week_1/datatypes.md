@@ -26,16 +26,16 @@ expression anywhere a logical expression is required.
 
 ### Logical Expressions
 
-   In control statement such as if ( condition ) ... ; while( conditin ) ...;
-for( ; condition ; ) ... ; integer expresions can be used in those statements.
+   In control statement such as if ( condition ) ... ; while( condition ) ...;
+for( ; condition ; ) ... ; integer expressions can be used in those statements for C++.
 However, you can not use integer expression when boolean expression is required
 in Java. The boolean expression must be used.
 
 ```java
-while ( exp ) ...       // illegal in Java if exp return an integer. 
+while ( exp ) ...       // illegal in Java if exp returns an integer. 
 ```
    Therefore, the logic connectives such as ||, &&, !, ?: must work on
-boolean expresions, not integer expression allowed when a logical expression
+boolean expressions (not integer expression) when a logical expression
 is required in Java.
 
 
