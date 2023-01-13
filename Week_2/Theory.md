@@ -9,3 +9,5 @@
   - for each loop (enhanced for loop) cannot edit the elements
 - [Pass by value vs Pass by reference](https://stackoverflow.com/questions/373419/whats-the-difference-between-passing-by-reference-vs-passing-by-value/430958#430958)
   - Pass by value means that a copy of the variable is created and then this copy is manipulated. Pass by reference means that a reference or handle to the variable is passed - which can essentially manipulate the said variable itself and no copy is created.
+- [Is java pass by reference or pass by value?](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value)
+  - Java is mostly pass by value.
