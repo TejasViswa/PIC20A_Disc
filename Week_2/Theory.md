@@ -11,3 +11,4 @@
   - Pass by value means that a copy of the variable is created and then this copy is manipulated. Pass by reference means that a reference or handle to the variable is passed - which can essentially manipulate the said variable itself and no copy is created.
 - [Is java pass by reference or pass by value?](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value)
   - Java is mostly pass by value.
+- [Declaring and initializing an array in java](https://stackoverflow.com/questions/1200621/how-do-i-declare-and-initialize-an-array-in-java)
