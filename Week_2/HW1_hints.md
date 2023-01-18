@@ -17,7 +17,7 @@
 - How can you optimize the prime number program?
 - A few hints could be:
   - Do you need to search for all the numbers?
-    - You know that some numbers cannot be prime - like even numbers
-    - you don't have to search all the numbers until the candidate to see if its divisible - where do you think you should stop?
+    - You know that some numbers cannot be prime - like even numbers (other than 2)
+    - you don't have to search all the numbers until the candidate to see if its divisible - where do you think you should stop? (hint: think of factors and square roots)
     - [Sieve of Erasthosthenes](https://web.nmsu.edu/~pbaggett/Lessons/primeNumbers/primeNumbers.html)
  
