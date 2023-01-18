@@ -19,4 +19,5 @@
   - Do you need to search for all the numbers?
     - You know that some numbers cannot be prime - like even numbers
     - you don't have to search all the numbers until the candidate to see if its divisible - where do you think you should stop?
+    - [Sieve of Erasthosthenes](https://web.nmsu.edu/~pbaggett/Lessons/primeNumbers/primeNumbers.html)
  
