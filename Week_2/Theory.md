@@ -12,3 +12,5 @@
 - [Is java pass by reference or pass by value?](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value)
   - Java is mostly pass by value.
 - [Declaring and initializing an array in java](https://stackoverflow.com/questions/1200621/how-do-i-declare-and-initialize-an-array-in-java)
+- [Difference between array and string in Java](https://www.geeksforgeeks.org/difference-between-array-and-string-in-java/)
+  - Arrays are mutable and strings are immutable in Java
