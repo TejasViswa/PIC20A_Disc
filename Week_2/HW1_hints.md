@@ -20,4 +20,5 @@
     - You know that some numbers cannot be prime - like even numbers (other than 2)
     - you don't have to search all the numbers until the candidate to see if its divisible - where do you think you should stop? (hint: think of factors and square roots)
     - [Sieve of Erasthosthenes](https://web.nmsu.edu/~pbaggett/Lessons/primeNumbers/primeNumbers.html)
+    - Another really important thing - your task requires you to get all list of primes. To find if a number is prime or not, then the main criteria it needs to fulfill is that it shouldn't be divisible by the previous list of primes (which you already have). This probably enough to really boost your program execution speed.
  
