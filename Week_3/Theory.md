@@ -18,7 +18,9 @@
 ```math
 \{0,1,2,3................... 2^{32}\}\text{ to } \{-2^{31} ....-2,-1,0,1,2...... 2^{31} - 1\}
 ```
-- Similarly, the ranges for long, byte, short, etc are definitely in a simialr way. The number of bytes they occupy let you know their ranges.
+- Finally, the ranges for long, byte, short, etc are defined similarly. The number of bytes they occupy let you know their ranges.
 
 ## Floating Primitive Data Types
 - [Look at this video](https://www.youtube.com/watch?v=dQhj5RGtag0)
+- For float, the idea is to represent numbers using scientific notation but with binary numbers
+- [Take a look at this article to get a better picture](https://www.geeksforgeeks.org/ieee-standard-754-floating-point-numbers/)
