@@ -6,20 +6,19 @@ public class StudentTester {
     }
 }
 class Student {
-    // fields...
-
+    // fields
     public String name;
     public String id;
     public String[] courses;
 
 
-    // constructors...
-
+    // constructor
     public Student(String name, String id) {
         this.name = name;
         this.id = id;
     }
 
+    // variable arguments - varargs
     public void addCourses(String ... course)
     {
         this.courses = new String[courses.length];
@@ -28,7 +27,8 @@ class Student {
             this.courses[i] = courses[i]; 
         }
     }
-//variable arguments - varargs
+
+    // toString for printing on console
     public String toString()
     {
         return "Name: " + name + ", ID: " + id + ", Courses: " + java.util.Arrays.toString(courses);
