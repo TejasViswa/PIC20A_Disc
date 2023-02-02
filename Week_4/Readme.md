@@ -4,3 +4,4 @@
 - [GroupTester](GroupTester.java)
 
 ## Thu Feb 2
+- [UndergradStudentTester](UndergradStudentTester.java)
