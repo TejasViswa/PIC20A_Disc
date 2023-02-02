@@ -4,9 +4,9 @@ public class GroupTester {
         Student s1 = new Student("John","12345");
         s1.addCourses("English", "History", "Mathematics");
         Student s2 = new Student("Peter","56789");
-        s1.addCourses("Science", "English", "Economics");
+        s2.addCourses("Science", "English", "Economics");
         Student s3 = new Student("Elizabeth","12121");
-        s1.addCourses("Science", "Art", "French");
+        s3.addCourses("Science", "Art", "French");
         
         Group g1 = new Group(s1,s2,s3);
         System.out.println(g1);
@@ -28,7 +28,7 @@ class Student {
     }
 
     // variable arguments - varargs
-    public void addCourses(String ... course)
+    public void addCourses(String ... courses)
     {
         this.courses = new String[courses.length];
         for(int i = 0; i < courses.length; i++)
@@ -50,7 +50,7 @@ class Group {
 
     // varargs constructor
     public Group(Student ... students) {
-        this.students = new Students[students.length];
+        this.students = new Student[students.length];
         for(int i=0; i<students.length; i++)
         {
             this.students[i] = students[i];
@@ -81,7 +81,7 @@ class Group {
         {
             if(studentGroup[i] != null)
             {
-                actualGroup[i] = studentGroup[i];
+                actualGroup[counter] = studentGroup[i];
                 counter++;
             }
             else
