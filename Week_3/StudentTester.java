@@ -19,7 +19,7 @@ class Student {
     }
 
     // variable arguments - varargs
-    public void addCourses(String ... course)
+    public void addCourses(String ... courses)
     {
         this.courses = new String[courses.length];
         for(int i = 0; i < courses.length; i++)
