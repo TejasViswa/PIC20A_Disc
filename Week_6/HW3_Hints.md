@@ -75,7 +75,8 @@ c = (c == 'a')? 'b' : 'a';
     // Note that the following for-loop is allowed and can be really useful as an inner for-loop for this part
     for(int i = 0, j = n; i <= n ; i++, j-- )
     {
-      .....
+        if(...beyond certain limits...)
+            continue;
     }
     ```
     - Similar to the previous for left diagonal with different conditions in the inner for-loop.
