@@ -58,18 +58,18 @@ c = (c == 'a')? 'b' : 'a';
     Then, when you iterate over i and j for right diagonal check, the values should be like:
     (where first number is i and second is j)
     
-    00   
-    01 10
-    02 11 20
-    03 12 21 30
-    04 13 22 32 40
-    05 14 23 32 41 50
-    06 15 24 33 42 51
-    16 25 34 43 52
-    26 35 44 53
-    36 45 54
-    46 55
-    56
+    00      
+    01 10       
+    02 11 20  
+    03 12 21 30  
+    04 13 22 32 40  
+    05 14 23 32 41 50  
+    06 15 24 33 42 51  
+    16 25 34 43 52    
+    26 35 44 53       
+    36 45 54        
+    46 55             
+    56             
     ```
     ```c++
     // Note that the following for-loop is allowed and can be really useful as an inner for-loop for this part
