@@ -58,7 +58,7 @@ c = (c == 'a')? 'b' : 'a';
     Then, when you iterate over i and j for right diagonal check, the values should be like:
     (where first number is i and second is j)
     
-    00
+    00   
     01 10
     02 11 20
     03 12 21 30
