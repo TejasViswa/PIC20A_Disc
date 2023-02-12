@@ -55,7 +55,8 @@ c = (c == 'a')? 'b' : 'a';
     | 40 41 42 43 44 45 46 |
     | 50 51 52 53 54 55 56 |
     
-    Then, when you iterate over i and j for right diagonal check, the values should be like: (where first number is i and second is j)
+    Then, when you iterate over i and j for right diagonal check, the values should be like:
+    (where first number is i and second is j)
     
     00
     01 10
@@ -79,7 +80,8 @@ c = (c == 'a')? 'b' : 'a';
     ```
     - Similar to the previous for left diagonal with different conditions in the inner for-loop.
     ```
-    When you iterate over i and j for left diagonal check, the values should be like: (where first number is i and second is j)
+    When you iterate over i and j for left diagonal check, the values should be like:
+    (where first number is i and second is j)
     
     06
     05 16
