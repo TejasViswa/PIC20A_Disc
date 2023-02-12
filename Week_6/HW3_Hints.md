@@ -44,7 +44,7 @@ c = (c == 'a')? 'b' : 'a';
 7. Now, this is the most interesting part of the HW. Checking for the continuous four `R`'s or `Y`'s is relatively easier than checking for the diagonals. 
     - For checking the rows, a simple approach is use two counters for `R` and `Y` which keep incrementing and resetting(if `R` is encountered then the counter for `R` is incremented and `Y` counter is reset to zero and vice versa. When empty slot is encountered, both are reset to zero) appropriately when checking along the row. If any point, any of the counters reach 4 then you break out of the nest for loops.
     - Similar approach with i and j exchanged. Remember that the limits for i and j are not the same. COLS=7 and ROWS=6.
-    - The concept for checking diagonals can be made similarly but with a rotated square.
+    - The concept for checking right diagonals can be made similarly but with a rotated square.
     ```c++
     // Note that the following for-loop is allowed and can be really useful as an inner for-loop for this part
     for(int i = 0, j = n; i <= n ; i++, j-- )
@@ -52,7 +52,7 @@ c = (c == 'a')? 'b' : 'a';
       .....
     }
     ```
-    - Similar to the previous for left diagonal with different conditions in the for-loop.
+    - Similar to the previous for left diagonal with different conditions in the inner for-loop.
 8. Refer to Task 6 - point 8.
 9. Refer to Task 6 - point 9.
 
