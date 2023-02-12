@@ -42,9 +42,34 @@ c = (c == 'a')? 'b' : 'a';
 5. `validMove` needs to make sure that the input received is within range of `super.board`'s columns. Additionally, you must also iterate through the elements of that column to check if there are any empty slots remaining.
 6. `applyMove` needs to only fill the location in `super.board` by iterating through the elements in that column until it finds an empty slot
 7. Now, this is the most interesting part of the HW. Checking for the continuous four `R`'s or `Y`'s is relatively easier than checking for the diagonals. 
-    - For checking the rows, a simple approach is use two counters for `R` and `Y` which keep incrementing and resetting(if `R` is encountered then the counter for `R` is incremented and `Y` counter is reset to zero and vice versa. When empty slot is encountered, both are reset to zero) appropriately when checking along the row. If any point, any of the counters reach 4 then you break out of the nest for loops.
+    - For checking the rows, a simple approach is use two counters for `R` and `Y` which keep incrementing and resetting(if `R` is encountered then the counter for `R` is incremented and `Y` counter is reset to zero and vice versa. When empty slot is encountered, both are reset to zero) appropriately when checking along the row. If at any point, any of the counters reach 4 then you return `true` from the method.
     - Similar approach with i and j exchanged. Remember that the limits for i and j are not the same. COLS=7 and ROWS=6.
-    - The concept for checking right diagonals can be made similarly but with a rotated square.
+    - The concept for checking right diagonals can be made similarly but with a rotated square. You will also need a nested for-loop here but the way it should iterate is slightly different.
+    ```
+    Your board actually looks like: (in terms of indexes where first number is i and second is j)
+    
+    | 00 01 02 03 04 05 06 |
+    | 10 11 12 13 14 15 16 |
+    | 20 21 22 23 24 25 26 |
+    | 30 31 32 33 34 35 36 |
+    | 40 41 42 43 44 45 46 |
+    | 50 51 52 53 54 55 56 |
+    
+    Then, when you iterate over i and j for right diagonal check, the values should be like: (where first number is i and second is j)
+    
+    00
+    01 10
+    02 11 20
+    03 12 21 30
+    04 13 22 32 40
+    05 14 23 32 41 50
+    06 15 24 33 42 51
+    16 25 34 43 52
+    26 35 44 53
+    36 45 54
+    46 55
+    56
+    ```
     ```c++
     // Note that the following for-loop is allowed and can be really useful as an inner for-loop for this part
     for(int i = 0, j = n; i <= n ; i++, j-- )
@@ -53,6 +78,22 @@ c = (c == 'a')? 'b' : 'a';
     }
     ```
     - Similar to the previous for left diagonal with different conditions in the inner for-loop.
+    ```
+    When you iterate over i and j for left diagonal check, the values should be like: (where first number is i and second is j)
+    
+    06
+    05 16
+    04 15 26
+    03 14 25 36
+    02 13 24 35 46
+    01 12 23 34 45 56
+    00 11 22 33 44 55
+    10 21 32 43 54
+    20 31 42 53
+    30 41 52
+    40 51
+    50
+    ```
 8. Refer to Task 6 - point 8.
 9. Refer to Task 6 - point 9.
 
