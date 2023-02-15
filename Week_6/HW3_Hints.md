@@ -43,7 +43,7 @@ c = (c == 'a')? 'b' : 'a';
 6. `applyMove` needs to only fill the location in `super.board` by iterating through the elements in that column until it finds an empty slot
 7. Now, this is the most interesting part of the HW. Checking for the continuous four `R`'s or `Y`'s is relatively easier than checking for the diagonals. 
     - For checking the rows, a simple approach is use two counters for `R` and `Y` which keep incrementing and resetting(if `R` is encountered then the counter for `R` is incremented and `Y` counter is reset to zero and vice versa. When empty slot is encountered, both are reset to zero) appropriately when checking along the row. If at any point, any of the counters reach 4 then you return `true` from the method.
-    - Dor the checking the columns, it is a similar approach with i and j exchanged. Remember that the limits for i and j are not the same. COLS=7 and ROWS=6.
+    - For the checking the columns, it is a similar approach with i and j exchanged. Remember that the limits for i and j are not the same. COLS=7 and ROWS=6.
     - The concept for checking right diagonals can be made similarly but with a rotated square. You will also need a nested for-loop here but the way it should iterate is slightly different. And, when the values that it should iterate over exceeds the range you want it to be in, then you may use a `continue` statement to skip over that value/iteration.
     ```
     Your board actually looks like: (in terms of indexes where first number is i and second is j)
