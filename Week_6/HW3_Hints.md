@@ -3,7 +3,7 @@
 ## Task 1
 Well... here's one of the lines from the show:
 
-> Jen: ["They've turned me into one of them. I am one of them. That's why you need me. I am your conduit. I am your bridge. Ich bin ein nerd!"](https://www.youtube.com/watch?v=sD3SF6foL00&t=5s)
+> Jen: ["They've turned me into one of them. I am one of them. That's why you need me. I am your conduit. I am your bridge. Ich bin ein nerd!"](https://www.youtube.com/watch?v=sD3SF6foL00)
 
 ## Task 2
 Notice that Player class has factory methods - `createHuman` and `createComputer` to create instances of player as a human and an AI. And thus, the constructor is made private.
