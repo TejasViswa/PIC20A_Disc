@@ -30,7 +30,7 @@ Alternatively, you may choose to place breakpoints in certain lines of code (one
 ```c++
 // Using the ternary operator:
 // Here, c is compared with 'a' and if true, 'b' is assigned to it otherwise 'a' is assigned to it
-char c;
+char c = 'a';
 c = (c == 'a')? 'b' : 'a';
 ```
 
