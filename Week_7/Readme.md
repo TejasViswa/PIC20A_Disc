@@ -4,3 +4,4 @@
 - [Smiley Panel](TestGUI.java)
 
 ## Thu Feb 23
+- [Ice cream Confirm dialog](MyGUI.java)
