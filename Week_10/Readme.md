@@ -6,4 +6,4 @@
 ## Thu Mar 16
 - [Final Revision](Final_Revision.md)
 
-# ALL THE BEST FOR YOUR FINALS!!!
+# All the Best for your Finals!!!
