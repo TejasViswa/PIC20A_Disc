@@ -14,7 +14,7 @@
 [Accessing protected members](https://www.geeksforgeeks.org/accessing-protected-members-in-java/)
 
 ## Method Overiding with Access Specifiers
-[Method Overiding with Access specifiers](Method Overiding with Access specifiers)
+[Method Overiding with Access specifiers](https://www.geeksforgeeks.org/method-overriding-with-access-modifier/)
 
 ## Method Hiding
 [Method Hiding](https://www.geeksforgeeks.org/method-hiding-in-java/)
