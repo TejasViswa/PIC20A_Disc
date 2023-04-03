@@ -1,6 +1,6 @@
 # PIC20A_Disc
 
-## PIC20A - Disc 1A Spring 2023
+## PIC20A - Disc 1A and Disc 1B Spring 2023
 
 ### Welcome !!
 
