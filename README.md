@@ -6,5 +6,7 @@
 
 You'll hopefully be spending your next 10 weeks on this site. So, make sure to get used to it.
 
-Under the folder for each week, there's a markdown file (.md file) that contains some theory and explains the code snippet for each week along with Java files (.java files).
+Navigate to the current week and look at the README which has a bunch of links for each date. All of the links are either website links, markdown file (.md files) or Java files (.java files).
+
+For those of you who know a bit more about Github, you may choose to fork, clone or download the files from this repository but there really isn't much benefit to it. This is repository is meant to access course content from anywhere/on-the-go and thus, there are only a bunch of links and files here.
 
