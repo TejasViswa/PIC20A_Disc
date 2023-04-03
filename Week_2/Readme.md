@@ -8,6 +8,7 @@ Symbols at the end of links and what they mean (hopefully)
 # Spring 2023
 ## Tue Apr 11
 - [Theory](Theory.md) !
+- [HW1 Hints](HW1_hints.md) ?
 
 ## Thu Apr 13
 - [Theory](Theory.md) !
