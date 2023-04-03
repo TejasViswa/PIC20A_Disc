@@ -1,5 +1,14 @@
 # README
 
+# Spring 2023
+## Tue Apr 4
+- [Hello World in 30 different languages](https://www.geeksforgeeks.org/hello-world-in-30-different-languages/)
+- [Theory](Theory.md)
+
+## Thu Apr 6
+
+
+# Winter 2023
 ## Tue Jan 10
 - C++ Recap
 - [Theory](Theory.md)
