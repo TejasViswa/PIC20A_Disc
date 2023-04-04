@@ -29,10 +29,11 @@ public class Joke {
 - [Hello World in 30 different languages](https://www.geeksforgeeks.org/hello-world-in-30-different-languages/) !
 - [Are you Ready ?](ReadyJava.md) !
 - [Installing Java and creating a project](InstallJava.md) ?
-- [Theory](Theory.md) ?
-- [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
+- [Some Concepts in C++](ConceptsCPP.md)
 
 ## Thu Apr 6
+- [Theory](Theory.md) ?
+- [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
 - [Static keyword in C++ vs Java](Static_cpp_java.md) !
 - [Datatypes in C++ vs Java](datatypes.md) ?
 - [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/) !
