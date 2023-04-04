@@ -18,7 +18,7 @@ Please use this google form for daily feedback / concern : [Daily Feedback / Con
 
 ## Welcome !!
 
-You'll hopefully be spending your next 10 weeks on this site. So, make sure to get used to it.
+You'll hopefully be spending your next 10 weeks on this site. So, make sure to get used to it. You may also use the discussion section to discuss any questions you may related to the GitHub Repository.
 
 Navigate to the current week and look at the README which has a bunch of links for each date. All of the links are either website links, markdown file (.md files) or Java files (.java files).
 
