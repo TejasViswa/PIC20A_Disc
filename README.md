@@ -14,6 +14,8 @@ Office Hours - 1:30 to 3:00 PM | PIC Lab MS 2000
 
 email - tejasviswa@g.ucla.edu
 
+Please use this google form for daily feedback / concern : [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA)
+
 ## Welcome !!
 
 You'll hopefully be spending your next 10 weeks on this site. So, make sure to get used to it.
