@@ -26,7 +26,7 @@ public class Joke {
 
 ## Tue Apr 4
 - [Hello World in 30 different languages](https://www.geeksforgeeks.org/hello-world-in-30-different-languages/) !
-- [Installing Java and creating a project](InstallJava.md)
+- [Installing Java and creating a project](InstallJava.md) ?
 - [Theory](Theory.md) ?
 - [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
 
