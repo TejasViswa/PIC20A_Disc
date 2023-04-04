@@ -10,6 +10,13 @@ Symbols at the end of links and what they mean (hopefully)
 - ? - Directly related to course content / Exam or assignment
 - ! - Indirectly related to course content / Additional or Fun
 
+Please use the [discussions section on this site](https://github.com/TejasViswa/PIC20A_Disc/discussions) to ask any questions you may have.
+
+Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**.
+
+### Note: For any official purposes such as regrade requests or any other permissions that you officially need, please send me an email.
+
+
 # Spring 2023
 
 ```java
@@ -39,6 +46,11 @@ public class Joke {
 - [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/) !
 - [JDK, JRE, JVM](https://www.geeksforgeeks.org/differences-jdk-jre-jvm/) !
 
+Please use the [discussions section on this site](https://github.com/TejasViswa/PIC20A_Disc/discussions) to ask any questions you may have. 
+Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**. 
+### Note: For any official purposes such as regrade requests or any other permissions that you officially need, please send me an email.
+
+
 # Winter 2023
 ## Tue Jan 10
 - C++ Recap
@@ -50,3 +62,5 @@ public class Joke {
 - [Datatypes in C++ vs Java](datatypes.md)
 - [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/)
 - [JDK, JRE, JVM](https://www.geeksforgeeks.org/differences-jdk-jre-jvm/)
+
+
