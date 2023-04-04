@@ -2,6 +2,9 @@
 
 ## PIC20A - Disc 1A and Disc 1B Spring 2023
 
+Disc 1A - 11:00 to 11:50 AM | Physics and Astronomy 2748
+Disc 1B - 12:00 to 12:50 PM | Geology 6704
+
 ### Welcome !!
 
 You'll hopefully be spending your next 10 weeks on this site. So, make sure to get used to it.
