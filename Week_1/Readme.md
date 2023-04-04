@@ -31,6 +31,10 @@ public class Joke {
 - [Are you Ready ?](ReadyJava.md) !
 - [Installing Java and creating a project](InstallJava.md) ?
 - [Some Concepts in C++](ConceptsCPP.md) ?
+- Disc 1B recording
+    - [Link](https://ucla.zoom.us/rec/share/tj_bsdTNcYB1754x6MPwDJ0XCtMs3ZRnKTgiuBF1EXQJDYX7_eFAXfic4yf6gCYL.ADabHt8O3rMRKtZA)
+    - Passcode: %ZAH1%4R
+
 
 ## Thu Apr 6
 - [Theory](Theory.md) ?
