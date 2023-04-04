@@ -16,7 +16,9 @@ email - tejasviswa@g.ucla.edu
 
 Please use the [discussions section on this site](https://github.com/TejasViswa/PIC20A_Disc/discussions) to ask any questions you may have.
 
-Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**. 
+Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**.
+
+### Note: For any official purposes such as regrade requests or any other permissions that you officially need, please send me an email.
 
 ## Welcome !!
 
