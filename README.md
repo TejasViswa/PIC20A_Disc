@@ -14,11 +14,13 @@ Office Hours - 1:30 to 3:00 PM | PIC Lab MS 2000
 
 email - tejasviswa@g.ucla.edu
 
-Please use this google form for daily feedback / concern : [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA)
+Please use the [discussions section on this site](https://github.com/TejasViswa/PIC20A_Disc/discussions) to ask any questions you may have.
+
+Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**. 
 
 ## Welcome !!
 
-You'll hopefully be spending your next 10 weeks on this site. So, make sure to get used to it. You may also use the discussion section to discuss any questions you may related to the GitHub Repository.
+You'll hopefully be spending your next 10 weeks on this site. So, make sure to get used to it.
 
 Navigate to the current week and look at the README which has a bunch of links for each date. All of the links are either website links, markdown file (.md files) or Java files (.java files).
 
