@@ -22,3 +22,6 @@
 
 https://user-images.githubusercontent.com/45400093/229691633-603d6447-491b-469a-8cb0-2469a7a4dae4.mp4
 
+You can also create a Java project using the Java: Create Java Project command. Bring up the Command Palette (⇧⌘P) and then type java to search for this command. After selecting the command, you will be prompted for the location and name of the project. You can also choose your build tool (slect no build tools) from this command.
+
+[Reference](https://code.visualstudio.com/docs/java/java-tutorial)
