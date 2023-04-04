@@ -10,13 +10,6 @@ Symbols at the end of links and what they mean (hopefully)
 - ? - Directly related to course content / Exam or assignment
 - ! - Indirectly related to course content / Additional or Fun
 
-Please use the [discussions section on this site](https://github.com/TejasViswa/PIC20A_Disc/discussions) to ask any questions you may have.
-
-Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**.
-
-### Note: For any official purposes such as regrade requests or any other permissions that you officially need, please send me an email.
-
-
 # Spring 2023
 
 ```java
@@ -49,7 +42,6 @@ public class Joke {
 Please use the [discussions section on this site](https://github.com/TejasViswa/PIC20A_Disc/discussions) to ask any questions you may have. 
 Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**. 
 ### Note: For any official purposes such as regrade requests or any other permissions that you officially need, please send me an email.
-
 
 # Winter 2023
 ## Tue Jan 10
