@@ -2,6 +2,8 @@
 
 ## PIC20A - Disc 1A and Disc 1B Spring 2023
 
+### Course Details
+
 Both discussions and office hours on Tue and Thu
 
 Disc 1A - 11:00 to 11:50 AM | Physics and Astronomy 2748
@@ -10,7 +12,9 @@ Disc 1B - 12:00 to 12:50 PM | Geology 6704
 
 Office Hours - 1:30 to 3:00 PM | PIC Lab MS 2000
 
-### Welcome !!
+email - tejasviswa@g.ucla.edu
+
+## Welcome !!
 
 You'll hopefully be spending your next 10 weeks on this site. So, make sure to get used to it.
 
