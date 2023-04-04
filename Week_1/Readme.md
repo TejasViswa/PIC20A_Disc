@@ -23,6 +23,7 @@ public class Joke {
     }
 }
 ```
+### Note: Someone please remind me to record the discussion sessions!
 
 ## Tue Apr 4
 - [Hello World in 30 different languages](https://www.geeksforgeeks.org/hello-world-in-30-different-languages/) !
