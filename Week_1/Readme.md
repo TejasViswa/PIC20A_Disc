@@ -11,6 +11,19 @@ Symbols at the end of links and what they mean (hopefully)
 - ! - Indirectly related to course content / Additional or Fun
 
 # Spring 2023
+
+```java
+// Your weekly joke brought to you by our friend ChatGPT
+// Copy-paste and run this code on your PC once you have all of your required software installed
+public class Joke {
+    public static void main(String[] args) {
+        String joke = "Why do Java developers wear glasses?\n"
+                + "Because they can't C#!";
+        System.out.println(joke);
+    }
+}
+```
+
 ## Tue Apr 4
 - [Hello World in 30 different languages](https://www.geeksforgeeks.org/hello-world-in-30-different-languages/) !
 - [Theory](Theory.md) ?
