@@ -16,7 +16,7 @@ I'm Tejas Viswanath, a 2nd year M.S in Electrical and Computer Engineering stude
 - I will try to keep a zoom link for the office hours and eventually send it in the announcement
 
 ## Emails
-- Please to help me prioritize your emails, ie: if you need urgent attention, please include [PIC 20A-1A] [URGENT] in the subject line.
+- Please help me to prioritize your emails, ie: if you need urgent attention, please include [PIC 20A-1A] [URGENT] in the subject line.
 - Ideally even if you are behind and have not started the homework and it is due in 2 days ( Hey!  It happens), give me a heads up that you are running late and might need some help before submission so I at least know some students might need help near submission.
 - I have received emails 1 hour before submission time, I am still willing to help if I have time but I at least need to plan and know about it.
 
