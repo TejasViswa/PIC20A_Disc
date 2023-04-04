@@ -24,6 +24,7 @@ In this example, the increment function takes an integer reference parameter x. 
 ### Additional (This is completely optional)
 For those who are interested about scope in C++:
 - [Scope in C++ - Local and Global Variables](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/scope.md)
+
 For those who are interested in knowing about C++ references in more detail:
 - [Exercise Questions on C++ References](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/References.md)
 - [Return by References in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/Ret_by_ref.md)
