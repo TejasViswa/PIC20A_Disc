@@ -2,9 +2,13 @@
 
 ## PIC20A - Disc 1A and Disc 1B Spring 2023
 
+Both discussions and office hours on Tue and Thu
+
 Disc 1A - 11:00 to 11:50 AM | Physics and Astronomy 2748
 
 Disc 1B - 12:00 to 12:50 PM | Geology 6704
+
+Office Hours - 1:30 to 3:00 PM | PIC Lab MS 2000
 
 ### Welcome !!
 
