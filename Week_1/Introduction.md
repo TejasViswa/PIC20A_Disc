@@ -21,7 +21,7 @@ I'm Tejas Viswanath, a 2nd year M.S in Electrical and Computer Engineering stude
 - I have received emails 1 hour before submission time, I am still willing to help if I have time but I at least need to plan and know about it.
 
 ## Important Facts to know
-- In PIC 20A TAs do not grade homework. I cannot help you if you feel you have been graded unfairly .I CANNOT PROCESS EXTENTION REQUESTS. You can either talk to the Prof. or do a regrade request.
+- In PIC 20A TAs do not grade homework. I cannot help you if you feel you have been graded unfairly . I do not process regrade requests. You can either talk to the Prof. or do a regrade request.
 - Make sure your code runs on the IDE in the PIC Lab before you submit your HW.
 - If an individual student has a doubt it can happen that I resolve it and post it on Github.
 - Sometimes your email gets pushed down under the barrage of emails I get; I am a grad student and I get course emails too. Please send a follow-up email if you do not receive a reply in say 5-10 hours.
