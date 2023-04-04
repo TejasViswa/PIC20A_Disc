@@ -21,6 +21,13 @@ int main() {
 
 In this example, the increment function takes an integer reference parameter x. When a is passed to this function, the function modifies the original value of a by incrementing it. As a result, the value of a is 11 when it is printed in main.
 
+### Additional (This is completely optional)
+For those who are interested about scope in C++:
+- [Scope in C++ - Local and Global Variables](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/scope.md)
+For those who are interested in knowing about C++ references in more detail:
+- [Exercise Questions on C++ References](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/References.md)
+- [Return by References in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/Ret_by_ref.md)
+
 ## Pointers
 
 Pointers are variables that store memory addresses. They can be used to manipulate data indirectly by pointing to the memory location where the data is stored. Pointers can be used to dynamically allocate memory, access arrays, and create data structures such as linked lists and trees.
@@ -35,7 +42,12 @@ int main() {
     return 0;
 }
 ```
-In this example, a pointer ptr is declared and assigned the memory address of a using the address-of operator (&). The value of a is then printed using the dereference operator (*), which accesses the value stored at the memory address pointed to by ptr.
+In this example, a pointer ptr is declared and assigned the memory address of a using the address-of operator (&). The value of a is then printed using the dereference operator (\*), which accesses the value stored at the memory address pointed to by ptr.
+
+### Additional (This is completely optional)
+For those who are interested in knowing about C++ pointers in more detail:
+- [C++ Pointers](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/Pointers_and_memory.md)
+- [C++ Pointers Vs Arrays](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_2/Arrays.md)
 
 ## Classes
 
@@ -66,3 +78,7 @@ int main() {
 ```
 
 In this example, a Rectangle class is defined with private member variables width and height, and a public member function area that calculates the area of the rectangle. A constructor is also defined to initialize the width and height of the rectangle when an object is created. In main, an object rect of type Rectangle is created with width 5 and height 10, and its area is printed to the console using the area method.
+
+### Additional (This is completely optional)
+For those who are interested in knowing about C++ classes and objects in more detail:
+- [C++ classes and objects](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_2/classes.md)
