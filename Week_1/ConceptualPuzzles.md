@@ -93,3 +93,17 @@ public class A {
     }
 }
 ```
+
+## Question 7
+What is the output of the following code snippet?
+```java
+public class A {
+    public static void main(String[] args)
+    {
+        int x = 5;
+        int y = 10;
+        boolean z = x < y == true;
+        System.out.println(z);
+    }
+}
+```
