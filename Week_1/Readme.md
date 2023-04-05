@@ -38,13 +38,15 @@ public class Joke {
 
 ## Thu Apr 6
 - [C++ Vs Java](Theory.md) ?
-- [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
-- [Static keyword in C++ vs Java](Static_cpp_java.md) !
 - [Datatypes in C++ vs Java](datatypes.md) ?
-- [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/) !
 - [JDK, JRE, JVM](https://www.geeksforgeeks.org/differences-jdk-jre-jvm/) !
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ?
 - [Problem-solving Java puzzles](Puzzles.md) !
+
+## Additonal Weekly Content
+- [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
+- [Static keyword in C++ vs Java](Static_cpp_java.md) !
+- [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/) !
 
 Please use the [discussions section on this site](https://github.com/TejasViswa/PIC20A_Disc/discussions) to ask any questions you may have. 
 Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**. 
