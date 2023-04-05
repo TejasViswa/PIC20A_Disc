@@ -41,6 +41,7 @@ public class Joke {
 ## Thu Apr 6
 - [Java in 100 seconds](https://www.youtube.com/watch?v=l9AzO1FMgM8) !
 - [VSCode in 100 seconds](https://www.youtube.com/watch?v=KMxo3T_MTvY) !
+- [JDK, JRE & JVM](JavaExecution.md) !
 - [Static methods in Java](Static_methods.md) ?
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ?
 - [Problem-solving Java puzzles](Puzzles.md) !
@@ -51,7 +52,6 @@ public class Joke {
 - [Static keyword in C++ vs Java](Static_cpp_java.md) !
 - [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/) !
 - [Datatypes in C++ vs Java](datatypes.md) !
-- [JDK, JRE, JVM](https://www.geeksforgeeks.org/differences-jdk-jre-jvm/) !
 - [C++ in 100 seconds](https://www.youtube.com/watch?v=MNeX4EGtR5Y) !!
 - [Python in 100 seconds](https://www.youtube.com/watch?v=x7X9w_GIm1s) !!
 - [Another view of Java in 100 seconds](https://www.youtube.com/watch?v=m4-HM_sCvtQ) !!
