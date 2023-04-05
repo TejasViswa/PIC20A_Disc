@@ -28,7 +28,7 @@ if __name__ == "__main__":
 // A Java Hello World Program
 
 public class Hello {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
@@ -56,7 +56,7 @@ public void callMe(){
 }
 
 public class Hello {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         callMe();
     }
 }
@@ -64,7 +64,7 @@ public class Hello {
 Java does not allow this and similarly, Java does not also allow this:
 ```java
 // This is not allowed
-public static void main(String[] args) throws Exception {
+public static void main(String[] args) {
     callMe();
 }
 ```
@@ -91,7 +91,7 @@ class CallMeClass{
     }
 }
 public class Hello {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         callMe();
     }
 }
@@ -108,7 +108,7 @@ class CallMeClass{
     }
 }
 public class Hello {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         CallMeClass c = new CallMeClass();  // c is an object of type CallMeClass
         c.callMe(); // Using c, we can now call the callMe method
     }
@@ -119,7 +119,7 @@ In Java, we can create objects from a class using the `new` method as shown abov
 Alternatively, we could've create the method as part of the same class and created an isntance of the same class and call it as shown:
 ```java
 public class Hello {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Hello h = new Hello();
         h.callMe();
     }
@@ -132,7 +132,7 @@ public class Hello {
 If all of this seems too much of a hassle to do just to call a method, we can reduce the effort by using the static keyword as shown below:
 ```java
 public class Hello {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         callMe();
     }
     public static void callMe(){
@@ -150,8 +150,10 @@ class CallMeClass{
     }
 }
 public class Hello {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         CallMeClass.callMe(); // Notice how I'm still not creating an object but only calling the method albeit using the class name now
     }
 }
 ```
+
+Now, we can finally understand why there is a `static` keyword in the main method as the Java interpreter only calls your method but does not create an object each time it calls it.
