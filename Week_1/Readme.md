@@ -47,12 +47,10 @@ public class Joke {
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ?
 - [Problem-solving Java puzzles](Puzzles.md) !
 
-## Weekly Fun Content
+## Additional Weekly Content
 - [C++ in 100 seconds](https://www.youtube.com/watch?v=MNeX4EGtR5Y) !!
 - [Python in 100 seconds](https://www.youtube.com/watch?v=x7X9w_GIm1s) !!
 - [Another view of Java in 100 seconds](https://www.youtube.com/watch?v=m4-HM_sCvtQ) !!
-
-## Additional Weekly Content
 - [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
 - [Static keyword in C++ vs Java](Static_cpp_java.md) !
 - [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/) !
