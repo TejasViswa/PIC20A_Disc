@@ -43,7 +43,7 @@ public class Joke {
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ?
 - [Problem-solving Java puzzles](Puzzles.md) !
 
-## Additonal Weekly Content
+## Additional Weekly Content
 - [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
 - [Static keyword in C++ vs Java](Static_cpp_java.md) !
 - [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/) !
