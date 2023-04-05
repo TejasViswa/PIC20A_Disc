@@ -159,3 +159,5 @@ public class Hello {
 Now, we can finally understand why there is a `static` keyword in the main method as the Java interpreter only calls your method but does not create an object each time it calls it.
 
 `static` means something that is associated with the class and not the object. (You will learn more about this later)
+
+## NOTE: Unlike C++, `static` variables/fields are not allowed in Java and only `static` methods are allowed in Java
