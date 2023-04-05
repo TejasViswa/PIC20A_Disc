@@ -55,3 +55,26 @@ public class A {
     }
 }
 ```
+
+## Question 5
+What is the output of the following snippet?
+```java
+public class A {
+    public static void main(String[] args)
+    {
+        int x = 2;
+        switch (x) {
+            case 1:
+                System.out.println("x is 1");
+                break;
+            case 2:
+                System.out.println("x is 2");
+            case 3:
+                System.out.println("x is 3");
+                break;
+            default:
+                System.out.println("x is not 1, 2, or 3");
+        }
+    }
+}
+```
