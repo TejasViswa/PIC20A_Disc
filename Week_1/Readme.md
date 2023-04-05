@@ -37,7 +37,7 @@ public class Joke {
 
 
 ## Thu Apr 6
-- [VSCode in 100 Seconds](https://www.youtube.com/watch?v=KMxo3T_MTvY)
+- [VSCode in 100 Seconds](https://www.youtube.com/watch?v=KMxo3T_MTvY) !
 - [C++ Vs Java](Theory.md) ?
 - [Datatypes in C++ vs Java](datatypes.md) ?
 - [JDK, JRE, JVM](https://www.geeksforgeeks.org/differences-jdk-jre-jvm/) !
