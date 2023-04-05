@@ -43,3 +43,15 @@ Choices:
 
 1. Nothing
 2. Error
+
+## Question 4
+What is the output of the following snippet?
+```java
+public class A {
+    public static void main(String[] args)
+    {
+        int x = 10;
+        System.out.println(x++ + ++x);
+    }
+}
+```
