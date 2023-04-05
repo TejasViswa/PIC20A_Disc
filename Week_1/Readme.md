@@ -43,6 +43,7 @@ public class Joke {
 - [Datatypes in C++ vs Java](datatypes.md) ?
 - [Free Functions in C++ vs Java](https://arne-mertz.de/2015/05/everything-in-a-class-c-is-not-java/) !
 - [JDK, JRE, JVM](https://www.geeksforgeeks.org/differences-jdk-jre-jvm/) !
+- [Problem-solving Java puzzles](Puzzles.md)
 
 Please use the [discussions section on this site](https://github.com/TejasViswa/PIC20A_Disc/discussions) to ask any questions you may have. 
 Alternatively, you may also use this form - [Daily Feedback / Concerns](https://forms.gle/xSVQHMXqSEJjwCseA) ask them **anonymously**. 
