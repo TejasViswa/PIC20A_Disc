@@ -48,7 +48,7 @@ public class Joke {
 - [Problem-solving Java puzzles](Puzzles.md) !
 
 ## Weekly Fun Content
-- [Java in 100 seconds for the haters](https://www.youtube.com/watch?v=m4-HM_sCvtQ) !!
+- [Another view of Java in 100 seconds](https://www.youtube.com/watch?v=m4-HM_sCvtQ) !!
 - [Another interesting programming language](https://www.youtube.com/watch?v=hdHjjBS4cs8) !!
 
 ## Additional Weekly Content
