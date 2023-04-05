@@ -51,7 +51,6 @@ public class Joke {
 - [C++ in 100 seconds](https://www.youtube.com/watch?v=MNeX4EGtR5Y) !!
 - [Python in 100 seconds](https://www.youtube.com/watch?v=x7X9w_GIm1s) !!
 - [Another view of Java in 100 seconds](https://www.youtube.com/watch?v=m4-HM_sCvtQ) !!
-- [Another interesting programming language](https://www.youtube.com/watch?v=hdHjjBS4cs8) !!
 
 ## Additional Weekly Content
 - [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
