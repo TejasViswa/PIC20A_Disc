@@ -45,6 +45,10 @@ public class Joke {
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ?
 - [Problem-solving Java puzzles](Puzzles.md) !
 
+## Weekly Fun Content
+- [Java in 100 seconds for the haters](https://www.youtube.com/watch?v=m4-HM_sCvtQ) !!
+- [Another interesting programming language](https://www.youtube.com/watch?v=hdHjjBS4cs8) !!
+
 ## Additional Weekly Content
 - [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
 - [Static keyword in C++ vs Java](Static_cpp_java.md) !
