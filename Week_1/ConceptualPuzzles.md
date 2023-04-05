@@ -1,7 +1,7 @@
 # Conceptual Java Puzzles
 
 ## Question 1
-What will be the Output of the below code:
+What is the output of the following snippet?
 ```java
 public class A {
     public static void main(String[] args)
@@ -16,7 +16,7 @@ Choices:
 2. Error
 
 ## Question 2
-What will be the Output of the below code:
+What is the output of the following snippet?
 ```java
 public class A {
     public static void main(String[] args)
@@ -30,7 +30,7 @@ Choices:
 2. Something else (Other than simple concatenation)
 
 ## Question 3
-What will be the Output of the below code:
+What is the output of the following snippet?
 ```java
 public class A {
     public static void main(String[] args)
