@@ -37,7 +37,7 @@ public class Joke {
 
 
 ## Thu Apr 6
-- [Theory](Theory.md) ?
+- [C++ Vs Java](Theory.md) ?
 - [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
 - [Static keyword in C++ vs Java](Static_cpp_java.md) !
 - [Datatypes in C++ vs Java](datatypes.md) ?
