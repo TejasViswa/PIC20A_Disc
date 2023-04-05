@@ -12,9 +12,8 @@ public class A {
 }
 ```
 Choices:
-
-a) Nothing
-b) Error
+1. Nothing
+2. Error
 
 ## Question 2
 What will be the Output of the below code:
@@ -27,9 +26,8 @@ public class A {
 }
 ```
 Choices:
-
-a) java
-b) Something else (Other than simple concatenation)
+1. java
+2. Something else (Other than simple concatenation)
 
 ## Question 3
 What will be the Output of the below code:
@@ -43,5 +41,5 @@ public class A {
 ```
 Choices:
 
-a) Nothing
-b) Error
+1. Nothing
+2. Error
