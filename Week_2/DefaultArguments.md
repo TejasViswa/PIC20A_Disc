@@ -1,5 +1,5 @@
 # Default Arguments in different languages
-C++ and Python allow default arguments in their functions but Java does not. Java only allows method overloading instead of allowing default arguments.
+C++ and Python allow default arguments in their functions but Java does not. Java only allows method overloading instead of default arguments.
 
 ## C++ Default Arguments
 In C++, you can specify default arguments for a function by assigning a default value to one or more of its parameters. For example:
