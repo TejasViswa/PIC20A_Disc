@@ -11,10 +11,7 @@ Symbols at the end of links and what they mean (hopefully) in order of importanc
 
 ```java
 // Your weekly knock-knock joke brought to you by our friend ChatGPT
-
-// ChatGPT's explanation:
-// Every time you run the program, you'll get a different response for the punchline!
-// You can add more responses to the responses array to make the program even more entertaining.
+// When you run this code, it will print out a random knock-knock joke from the arrays of setups and punchlines. Enjoy!
 
 import java.util.Random;
 
