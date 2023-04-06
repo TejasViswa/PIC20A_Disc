@@ -85,6 +85,7 @@ public class A {
 What is the output of the following code snippet?
 
 [Learn more about post and pre increment operators](#post-and-pre-increment-operators)
+[Learn more about evaluating boolean expressions](#evaluating-boolean-expressions)
 ```java
 public class A {
     public static void main(String[] args)
@@ -100,6 +101,8 @@ public class A {
 
 ## Question 7
 What is the output of the following code snippet?
+
+[Learn more about evaluating boolean expressions](#evaluating-boolean-expressions)
 ```java
 public class A {
     public static void main(String[] args)
@@ -154,3 +157,38 @@ It's important to note that both the post-increment and pre-increment operators 
 ### Note:
 - Similar rules apply even when they are using in mathematical expressions because remember the expression can be divided into sub-expressions and each sub-expression returns something and evaluated from left to right (based on their order of precedence).
 - Similar rules apply for post(i--) and pre(--i) decrement operators
+
+## Evaluating boolean expressions:
+In Java, boolean expressions are evaluated using boolean operators and boolean values. Boolean operators include AND (&&), OR (||), and NOT (!), and are used to combine multiple boolean values or expressions into a single boolean value.
+
+For example, consider the following boolean expressions:
+
+```java
+boolean a = true;
+boolean b = false;
+boolean c = a && b;  // c will be false, since both a and b are not true
+boolean d = a || b;  // d will be true, since at least one of a or b is true
+boolean e = !a;      // e will be false, since a is true
+```
+In the first expression, the && operator is used to combine the boolean values of a and b. Since both a and b are not true, the result of the expression is false. In the second expression, the || operator is used to combine the boolean values of a and b. Since at least one of a or b is true, the result of the expression is true. In the third expression, the ! operator is used to invert the boolean value of a. Since a is true, the result of the expression is false.
+
+It's important to note that the order of operations in a boolean expression follows the same rules as in a mathematical expression. Parentheses can be used to group sub-expressions and force a specific order of evaluation.
+
+For example:
+
+```java
+boolean a = true;
+boolean b = false;
+boolean c = a || (b && (a || !b));  // c will be true, since the sub-expression b && (a || !b) evaluates to false, and a || false evaluates to true
+```
+In this example, the sub-expression b && (a || !b) evaluates to false, since b is false and (a || !b) evaluates to true. The final expression then evaluates to a || false, which is true, since a is true.
+
+Boolean expressions are commonly used in conditional statements, such as if statements, to determine whether or not to execute a certain block of code based on the value of a boolean expression. For example:
+
+```java
+boolean a = true;
+if (a) {
+    // This block of code will be executed, since a is true
+}
+```
+In this example, the if statement evaluates the boolean expression a, and if it is true, the block of code inside the curly braces will be executed.
