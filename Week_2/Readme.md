@@ -40,6 +40,7 @@ public class KnockKnockJoke {
 
 ## Tue Apr 11
 - [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
+- [Naming conventions in Java and Python](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/NamingConvention.md) !
 - [Theory](Theory.md) !
 - [HW1 Hints](HW1_hints.md) ??
 
