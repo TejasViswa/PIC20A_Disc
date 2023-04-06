@@ -149,4 +149,6 @@ After the above code is executed, both i and j will have the value 6.
 ```
 It's important to note that both the post-increment and pre-increment operators can be used with variables of any numerical type, including int, long, float, and double. Additionally, they can also be used with certain types of objects, but their behavior may be different depending on the specific implementation of the object.
 
-Similar rules apply even when they are using in mathematical expressions because remember the expression can be divided into sub-expressions and each sub-expression returns something and evaluated from left to right (based on their order of precedence).
+### Note:
+- Similar rules apply even when they are using in mathematical expressions because remember the expression can be divided into sub-expressions and each sub-expression returns something and evaluated from left to right (based on their order of precedence).
+- Similar rules apply for post(i--) and pre(--i) decrement operators
