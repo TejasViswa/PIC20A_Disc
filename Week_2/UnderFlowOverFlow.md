@@ -28,6 +28,6 @@ To prevent overflow and underflow, it's important to ensure that the values bein
 ### Hint:
 - Remember there is a wrap-around happening. Meaning, it loops within the range over and over whenever the value exceeds its range.
 - A good way to think about this is the `%` (modulo) operator and how it works. Anytime you divide a number a number `m` with another number `n`, the remainder is always in the range  - `0 to n-1`. Meaning, regardless of how big the number `m` is, the final output range is always within `0 to n-1`.
-- For eg: `47 % 5 = 2`, `578 % 5 = 3`, `5000 % 5 = 0` - Notice how the result is always within the range of `0 to 5` regardless of the size of the number the I'm dividing.
+- For eg: `47 % 5 = 2`, `578 % 5 = 3`, `5000 % 5 = 0` - Notice how the result is always within the range of `0 to 5` regardless of the size of the number I'm dividing.
 
 [Reference]((https://www.baeldung.com/java-overflow-underflow))
