@@ -49,7 +49,7 @@ public class Joke {
 - [VSCode in 100 seconds](https://www.youtube.com/watch?v=KMxo3T_MTvY) !
 - [JDK, JRE & JVM](JavaExecution.md) !
 - [Static methods in Java](Static_methods.md) ?
-- [Naming conventions in Java and Python](NamingConventions.md) ! [wasn't covered in Disc 1B, will be covered next week but you may read it regardless]
+- [Naming conventions in Java and Python](NamingConvention.md) ! [wasn't covered in Disc 1B, will be covered next week but you may read it regardless]
 - [Different types of variables in Java](Static_fields.md) ? [wasn't covered, will be covered next week but you may read it regardless]
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ?
 - [Problem-solving Java puzzles](Puzzles.md) !
