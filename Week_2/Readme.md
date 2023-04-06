@@ -2,6 +2,8 @@
 
 [Back to Discussion Main Page](https://github.com/TejasViswa/PIC20A_Disc)
 
+Please refer to the dates under Spring 2023. Usually, everything that I teach during discussion will be mentioned here.
+
 ### Legend
 Symbols at the end of links and what they mean (hopefully) in order of importance:
 - ?? - Exam or assignment help
