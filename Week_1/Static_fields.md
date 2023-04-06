@@ -50,7 +50,7 @@ public class StaticVarClass {
     - A variable defined within a block, method or constructor is called a local variable. 
     - These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
     - The scope of these variables exists only within the block in which the variables are declared, i.e., we can access these variables only within that block.
-    - Initialization of the local variable is mandatory before using it in the defined scope. (Unlike C++ which gives you a garbage/random value)
+    - Initialization of the local variable is mandatory before using it in the defined scope. (Unlike C++ which gives you a garbage/random value, accessing the value of an uninitialized local variable in Java will throw a compiler error)
 - Instance fields
     - Instance variables are non-static variables and are declared in a class outside of any method, constructor, or block. 
     - As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
