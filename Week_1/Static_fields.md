@@ -19,7 +19,7 @@ class CallMeClass{
 public class Hello {
 
     static int sfh = 5;   // static field
-    int ifh = 6;    // instance field
+    int ifh;    // instance field
     
     public static void main(String[] args) {
         int lvh = 7;    // local variable
