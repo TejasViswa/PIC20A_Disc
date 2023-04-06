@@ -1,4 +1,4 @@
-Naming Conventions in Java and Python
+# Naming Conventions in Java and Python
 
 Naming conventions are important in programming as they make code more readable and understandable. In this article, we will discuss the naming conventions for variables and classes in Java and Python with code examples.
 
