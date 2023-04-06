@@ -38,7 +38,7 @@ public class KnockKnockJoke {
 
 ## Tue Apr 11
 - [Theory](Theory.md) !
-- [HW1 Hints](HW1_hints.md) ?
+- [HW1 Hints](HW1_hints.md) ??
 
 ## Thu Apr 13
 - [Theory](Theory.md) !
