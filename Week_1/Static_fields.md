@@ -1,4 +1,4 @@
-# Static fields
+# Types of variables in Java
 
 In Java, you can essentially create 3 types of variables based on its scope:
 
