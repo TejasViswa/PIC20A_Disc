@@ -160,4 +160,5 @@ Now, we can finally understand why there is a `static` keyword in the main metho
 
 `static` means something that is associated with the class and not the object. (You will learn more about this later)
 
-## NOTE: Unlike C++, `static` variables/fields are not allowed in Java and only `static` methods are allowed in Java
+## NOTE:
+Unlike C++, `static` variables/fields are not allowed within methods in Java but they can be declared within a class and outside a method.
