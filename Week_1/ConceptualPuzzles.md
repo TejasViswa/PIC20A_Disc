@@ -114,6 +114,8 @@ public class A {
 
 ## Question 8
 What is the output of the following code snippet?
+
+[Learn more about post and pre increment operators](#post-and-pre-increment-operators)
 ```java
 public class A {
     public static void main(String[] args)
