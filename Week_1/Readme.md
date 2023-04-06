@@ -46,6 +46,7 @@ public class Joke {
 - [VSCode in 100 seconds](https://www.youtube.com/watch?v=KMxo3T_MTvY) !
 - [JDK, JRE & JVM](JavaExecution.md) !
 - [Static methods in Java](Static_methods.md) ?
+- [Different types of variables in Java](Static_fields.md) ?
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ?
 - [Problem-solving Java puzzles](Puzzles.md) !
 
