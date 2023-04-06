@@ -85,6 +85,7 @@ public class A {
 What is the output of the following code snippet?
 
 [Learn more about post and pre increment operators](#post-and-pre-increment-operators)
+
 [Learn more about evaluating boolean expressions](#evaluating-boolean-expressions)
 ```java
 public class A {
