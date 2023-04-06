@@ -12,23 +12,34 @@ Symbols at the end of links and what they mean (hopefully) in order of importanc
 ```java
 // Your weekly haiku brought to you by our friend ChatGPT
 
-// This program uses an array of three lines to construct a haiku,
-// and then uses the Random class to select a random line from the array
-// each time the program is run. The result is a different haiku each time!
+// This program generates a random haiku by selecting three random phrases from an array of haiku lines.
+// You can add your own haiku lines to the phrases array to create more variations.
 
 import java.util.Random;
 
 public class HaikuGenerator {
     public static void main(String[] args) {
-        String[] lines = {
-            "An old silent pond",
-            "A frog jumps into the pond—",
-            "Splash! Silence again."
-        };
+        String[] phrases = {"Autumn moonlight", 
+                            "A worm digs silently", 
+                            "I kill an ant", 
+                            "The light of a candle",
+                            "In the cicada's cry", 
+                            "No sign can foretell", 
+                            "The ancient pond",
+                            "A frog jumps in", 
+                            "The sea darkens",
+                            "Over the barren fields", 
+                            "Only a scarecrow stands", 
+                            "The first snow!"};
+
         Random rand = new Random();
-        for (int i = 0; i < 3; i++) {
-            System.out.println(lines[rand.nextInt(lines.length)]);
-        }
+        int line1 = rand.nextInt(phrases.length);
+        int line2 = rand.nextInt(phrases.length);
+        int line3 = rand.nextInt(phrases.length);
+
+        System.out.println(phrases[line1]);
+        System.out.println(phrases[line2]);
+        System.out.println(phrases[line3]);
     }
 }
 ```
