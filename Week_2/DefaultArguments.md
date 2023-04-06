@@ -48,3 +48,5 @@ public void myMethod() {
 }
 ```
 In this example, the myMethod method is defined with two parameters, x and y, with no default values. If you want to provide a default value for y, you need to define an overloaded version of the method with only one parameter and then call the original version of the method with a default value for y. This is similar to what we did in the C++ example above. However, this approach can become cumbersome if you have a large number of parameters or if you want to provide default values for more than one parameter.
+
+[Why does java not support default parameters and what else can be used instead?](https://stackoverflow.com/questions/997482/does-java-support-default-parameter-values)
