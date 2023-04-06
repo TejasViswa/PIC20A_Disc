@@ -20,17 +20,20 @@ import java.util.Random;
 
 public class KnockKnockJoke {
   public static void main(String[] args) {
-    String[] responses = {"Boo",
-                          "Don't cry, it's only a joke",
-                          "Gladys who? Gladys Friday, isn't it?",
-                          "Lettuce in, it's cold out here!"};
-    Random rand = new Random();
-    int randomResponseIndex = rand.nextInt(responses.length);
-    System.out.println("Knock knock!");
+    String[] setups = {"Boo", "Alpaca", "Wanda", "Lettuce", "Tank", "Gladys"};
+    String[] punchlines = {"Don't cry, it's just a joke.",
+                           "Alpaca the suitcase, you load up the car.", 
+                           "Wanda you do with a hundred pounds of chocolate?", 
+                           "Let us in, it's cold out here!",
+                           "You're welcome.",
+                           "Gladys my last knock-knock joke?"};
+    Random random = new Random();
+    int index = random.nextInt(setups.length);
+    System.out.println("Knock, knock.");
     System.out.println("Who's there?");
-    System.out.println("Gladys.");
-    System.out.println("Gladys who?");
-    System.out.println(responses[randomResponseIndex]);
+    System.out.println(setups[index] + ".");
+    System.out.println(setups[index] + " who?");
+    System.out.println(punchlines[index]);
   }
 }
 
