@@ -23,3 +23,5 @@ In this loop, the variable element is assigned to each element in the array, one
 One of the advantages of the enhanced for-loop is that it is simpler and more concise than the basic for-loop, especially when you are iterating over all the elements of an array. However, it has some limitations. For example, you cannot use the enhanced for-loop to modify the elements of an array, as it only provides read-only access to the elements. You also cannot use the enhanced for-loop to iterate over a range of indexes in an array, as it does not provide access to the index of the current element.
 
 In summary, the basic for-loop and enhanced for-loop can both be used to iterate over the elements of an array in Java, but they have different syntax and capabilities. The basic for-loop is more flexible and can be used to iterate over a range of indexes in an array, while the enhanced for-loop is simpler and more concise but provides read-only access to the elements of an array.
+
+[Difference between for-loop and enhanced for-loop in more detail](https://www.geeksforgeeks.org/difference-between-for-loop-and-enhanced-for-loop-in-java/)
