@@ -47,14 +47,14 @@ public class StaticVarClass {
 }
 ```
 - Local variables
-    - A variable defined within a block, method or constructor is called a local variable. 
+    - A variable defined within a block, method or constructor is called a local variable.(don't worry about blocks or constructors for now, just know that any variable you declare within a method is a local variable)
     - These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
     - The scope of these variables exists only within the block in which the variables are declared, i.e., we can access these variables only within that block.
     - Initialization of the local variable is mandatory before using it in the defined scope. (Unlike C++ which gives you a garbage/random value, accessing the value of an uninitialized local variable in Java will throw a compiler error)
 - Instance fields
     - Instance variables are non-static variables and are declared in a class outside of any method, constructor, or block. 
-    - As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
-    - Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier, then the default access specifier will be used.
+    - As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed (goes out of scope).
+    - Unlike local variables, we may use access specifiers(ie: public, private, etc) for instance variables. If we do not specify any access specifier, then the default access specifier will be used. (you don't have to worry about this for now)
     - Initialization of an instance variable is not mandatory. Its default value is dependent on the data type of variable. For String it is null, for float it is 0.0f, for int it is 0, for Wrapper classes like Integer it is null, etc.
     - Instance variables can be accessed only by creating objects.
     - We initialize instance variables using constructors while creating an object. We can also use instance blocks to initialize the instance variables.
