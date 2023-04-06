@@ -159,36 +159,41 @@ It's important to note that both the post-increment and pre-increment operators 
 - Similar rules apply for post(i--) and pre(--i) decrement operators
 
 ## Evaluating boolean expressions:
-In Java, boolean expressions are evaluated using boolean operators and boolean values. Boolean operators include AND (&&), OR (||), and NOT (!), and are used to combine multiple boolean values or expressions into a single boolean value.
+In Java, boolean mathematical expressions can be evaluated using comparison operators and boolean logical operators to produce a boolean result. Comparison operators include == (equal to), != (not equal to), < (less than), > (greater than), <= (less than or equal to), and >= (greater than or equal to). Boolean logical operators include && (AND), || (OR), and ! (NOT).
 
-For example, consider the following boolean expressions:
+For example, consider the following boolean mathematical expressions:
 
 ```java
-boolean a = true;
-boolean b = false;
-boolean c = a && b;  // c will be false, since both a and b are not true
-boolean d = a || b;  // d will be true, since at least one of a or b is true
-boolean e = !a;      // e will be false, since a is true
-```
-In the first expression, the && operator is used to combine the boolean values of a and b. Since both a and b are not true, the result of the expression is false. In the second expression, the || operator is used to combine the boolean values of a and b. Since at least one of a or b is true, the result of the expression is true. In the third expression, the ! operator is used to invert the boolean value of a. Since a is true, the result of the expression is false.
+int a = 5;
+int b = 10;
 
-It's important to note that the order of operations in a boolean expression follows the same rules as in a mathematical expression. Parentheses can be used to group sub-expressions and force a specific order of evaluation.
+boolean c = a == b;
+// c will be false,
+// since a is not equal to b
+
+boolean d = a < b || b > 20;
+// d will be true,
+// since a is less than b and b is greater than 20
+
+boolean e = !(a >= b);
+// e will be true,
+// since a is not greater than or equal to b
+```
+In the first expression, the == operator is used to compare the values of a and b. Since they are not equal, the result of the expression is false. In the second expression, the || operator is used to combine two sub-expressions: a < b and b > 20. Since a is less than b and b is greater than 20, the result of the expression is true. In the third expression, the ! operator is used to invert the result of the sub-expression a >= b. Since a is not greater than or equal to b, the result of the sub-expression is false, and the result of the expression is true.
+
+It's important to note that the order of operations in a boolean mathematical expression follows the same rules as in a mathematical expression. Parentheses can be used to group sub-expressions and force a specific order of evaluation.
 
 For example:
 
 ```java
-boolean a = true;
-boolean b = false;
-boolean c = a || (b && (a || !b));  // c will be true, since the sub-expression b && (a || !b) evaluates to false, and a || false evaluates to true
-```
-In this example, the sub-expression b && (a || !b) evaluates to false, since b is false and (a || !b) evaluates to true. The final expression then evaluates to a || false, which is true, since a is true.
+int a = 5;
+int b = 10;
 
-Boolean expressions are commonly used in conditional statements, such as if statements, to determine whether or not to execute a certain block of code based on the value of a boolean expression. For example:
-
-```java
-boolean a = true;
-if (a) {
-    // This block of code will be executed, since a is true
-}
+boolean c = !(a >= b && (b - a) > 5);
+// c will be true,
+// since the sub-expression (b - a) > 5 evaluates to true,
+// and !(a >= b && true) evaluates to true
 ```
-In this example, the if statement evaluates the boolean expression a, and if it is true, the block of code inside the curly braces will be executed.
+In this example, the sub-expression (b - a) > 5 evaluates to true, since b - a is 5, which is greater than 5. The sub-expression a >= b is false, so the entire expression a >= b && (b - a) > 5 evaluates to false. The ! operator then inverts the result of the sub-expression, resulting in true.
+
+Boolean mathematical expressions are commonly used in conditional statements and loops to determine the flow of the program based on a boolean condition.
