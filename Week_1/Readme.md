@@ -25,7 +25,6 @@ public class Joke {
     }
 }
 ```
-### Note: Someone please remind me to record the discussion sessions!
 
 ## Tue Apr 4
 - [Introduction](Introduction.md) ?
@@ -37,6 +36,10 @@ public class Joke {
     - [Link](https://ucla.zoom.us/rec/share/tj_bsdTNcYB1754x6MPwDJ0XCtMs3ZRnKTgiuBF1EXQJDYX7_eFAXfic4yf6gCYL.ADabHt8O3rMRKtZA)
     - Passcode: %ZAH1%4R
 
+### Note:
+- Someone please remind me to stream/record the discussion sessions!
+- Please introduce yourselves whenever you ask a question or answer my questions. This way I can remember your names better.
+- Remote Office hours for 4/6 and 4/11
 
 ## Thu Apr 6
 - [Java in 100 seconds](https://www.youtube.com/watch?v=l9AzO1FMgM8) !
