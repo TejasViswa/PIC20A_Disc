@@ -65,6 +65,10 @@ public class KnockKnockJoke {
 - Debugger ! [will be shown in discussion]
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 
+### Java Book
+- This is a really really good if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
+- It is not intimidating and you can just browse the first few chapters refresh all your previous programming experience.
+
 # Winter 2023
 ## Tue Jan 17
 - [Theory](Theory.md)
