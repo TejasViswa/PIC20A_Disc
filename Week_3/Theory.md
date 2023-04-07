@@ -1,4 +1,4 @@
-# Theory
+# How are primitive data types stored/represented in Java?
 
 ## Integral Primitive Data types and their representation
 - Let us start from a single slot which is otherwise known as a bit:
