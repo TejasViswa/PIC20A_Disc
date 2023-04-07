@@ -43,3 +43,5 @@ Hello, world
 Hello, !
 ```
 Varargs are a powerful feature that allows methods to be more flexible in the number of arguments they accept, and can make the code more concise and readable.
+
+[Learn more about varargs in Java](https://www.geeksforgeeks.org/variable-arguments-varargs-in-java/)
