@@ -56,7 +56,7 @@ public class KnockKnockJoke {
 - [How do references and objects in Java work ?](RefAndObj.md) ?
 - [Pass by value Vs Pass by reference](PassValPassRef.md) !
 - [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
-- Debugger !
+- Debugger ! [will be shown in discussion]
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 
 # Winter 2023
