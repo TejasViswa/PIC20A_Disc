@@ -44,6 +44,13 @@ public class HaikuGenerator {
 }
 ```
 
+## Tue Apr 18
+- [Theory](Theory.md)
+
+## Thu Apr 20
+- [Student Class](StudentTester.java)
+- [Variable Arguments](https://www.geeksforgeeks.org/variable-arguments-varargs-in-java/)
+
 # Winter 2023
 
 ## Tue Jan 24
