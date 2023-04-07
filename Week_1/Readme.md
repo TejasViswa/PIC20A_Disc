@@ -56,6 +56,10 @@ public class Joke {
 - Disc 1B recording
     - [Link](https://ucla.zoom.us/rec/share/ghPz4cMG1p5f1PCDAlyUDRP9vvBbT-K4oH3EjRNcXn9hUxKSfuWOmEBWxThA761N.-9t1UX8-6NX0TCbo)
     - Passcode: jAp%Dmk3
+    
+### Java Book
+- This is a really really good if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
+- It is not intimidating and you can just browse the first few chapters refresh all your previous programming experience.
 
 ## Additional Weekly Content
 - [Static Keyword in C++](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/static.md) !
