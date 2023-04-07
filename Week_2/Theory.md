@@ -1,16 +1,34 @@
-# Theory
+# Bare Essential Summary
 
-## Some Useful Stuff
-- [Overflow and Underflow in Java](https://www.baeldung.com/java-overflow-underflow)
-  - There is an wrap around that happens when underflow (eg: 1 lesser than min value goes to the max value) or overflow (eg: 1 more than max values goes to the min value) happens.
-- [Does Java support Default values?](https://stackoverflow.com/questions/997482/does-java-support-default-parameter-values)
-  - It does not (unlike C++) and only method overloading is allowed. (Look at the solution in the above link to see what else can be used instead)
-- [Difference between for loop and enhanced for loop](https://www.geeksforgeeks.org/difference-between-for-loop-and-enhanced-for-loop-in-java/)
+- [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md)
+  - Local variables
+    - Declared and exists within methods and dies at the end of method call. Thus, it cannot be accessed outside the method.
+    - Cannot be accessed when uninitialized - compiler error.
+  - Instance variables
+    - Inside class, outside method. Can be accessed only via an object of that class (and provided the access specifier allows it).
+    - One copy for each object generated. Therefore, multiple instance variable copies can exist when muliple obejcts are created.
+    - Can be accessed when uninitialized, uses default values.
+  - Static variables
+    - Inside class, outside method with the `static` keyword. Can be accessed only via class name (and provided the access specifier allows it).
+    - Only 1 static variable for a class. There cannot be multiple copies.
+    - Can be accessed when uninitialized, uses default values.
+- [Naming Convention in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/NamingConvention.md)
+  - Classes use `PascalCase`
+  - Methods and variables use `camelCase`
+- [Overflow and Underflow in Java](UnderFlowOverFlow.md)
+  - There is a wrap around that happens when underflow (eg: 1 lesser than min value goes to the max value) or overflow (eg: 1 more than max values goes to the min value) happens.
+- [Does Java support Default values?](DefaultArguments.md)
+  - It does not (unlike C++) and only method overloading is allowed instead.
+- [Difference between for loop and enhanced for loop](ForLoop.md)
   - The variable in for each loop (enhanced for loop) cannot edit the elements but can only access them. If you need to edit the elements then you need to index the array and then edit it (which you can with a normal for-loop).
-- [Pass by value vs Pass by reference](https://stackoverflow.com/questions/373419/whats-the-difference-between-passing-by-reference-vs-passing-by-value/430958#430958)
+- [How references and objects in Java work?](RefAndObj.md)
+  - Java creates references in the stack that store the memory addresses of the objects that are stored in heap.
+  - Multiple references in stack can point to the same object in heap
+- [Pass by value vs Pass by reference](PassValPassRef.md)
   - Pass by value means that a copy of the variable is created and then this copy is manipulated. Pass by reference means that a reference or handle to the variable is passed - which can essentially manipulate the said variable itself and no copy is created.
-- [Is java pass by reference or pass by value?](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value)
+- [Is java pass by reference or pass by value?](PassValPassRef.md)
   - Java is mostly pass by value.
 - [Declaring and initializing an array in java](https://stackoverflow.com/questions/1200621/how-do-i-declare-and-initialize-an-array-in-java)
-- [Difference between array and string in Java](https://www.geeksforgeeks.org/difference-between-array-and-string-in-java/)
-  - Arrays are mutable and strings are immutable in Java
+- [Difference between array and string in Java](ArrayVsString.md)
+  - Arrays are mutable and strings are immutable in Java.
+  - Any attempt to mutate a string will generate a new string instead of mutating the original string.
