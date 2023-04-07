@@ -51,6 +51,7 @@ public class KnockKnockJoke {
 - [For-loops Vs Enhanced For-loops](ForLoop.md) ?
 - [Bare Essential Summary](Theory.md) ??
 - [HW1 Hints](HW1_hints.md) ??
+- [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 
 ## Thu Apr 13
 - [How do references and objects in Java work ?](RefAndObj.md) ?
@@ -58,6 +59,7 @@ public class KnockKnockJoke {
 - [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
 - [Bare Essential Summary](Theory.md) ??
 - Debugger !
+- [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 
 # Winter 2023
 ## Tue Jan 17
