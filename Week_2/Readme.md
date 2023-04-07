@@ -67,7 +67,7 @@ public class KnockKnockJoke {
 
 ### Java Book
 - This is a really really good book if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
-- It is not intimidating and you can just browse the first few chapters refresh all your previous programming experience.
+- It is not intimidating and you can just browse the first few chapters to refresh all your previous programming experience.
 
 # Winter 2023
 ## Tue Jan 17
