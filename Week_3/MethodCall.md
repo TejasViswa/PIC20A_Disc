@@ -26,50 +26,16 @@ In the main method, we define two integers x and y, and then call the addNumbers
 Here's a visual representation of the call stack before and after the addNumbers method call:
 
 Before addNumbers call:
-```
-|  Stack |
-|________|
-|   main |
-|________|
-|   x=5  |
-|________|
-|   y=7  |
-|________|
-```
+
+![image](https://user-images.githubusercontent.com/45400093/230575378-4b7e936b-bbbd-4493-a4ce-3376af201606.png)
+
 After addNumbers call:
-```
-|  Stack   |
-|__________|
-|addNumbers|
-|__________|
-|result=12 |
-|__________|
-|   b=7    |
-|__________|
-|   a=5    |
-|__________|
-|  main    |
-|__________|
-|   x=5    |
-|__________|
-|   y=7    |
-|__________|
-```
+
+![image](https://user-images.githubusercontent.com/45400093/230576155-368017ab-1262-4464-b089-69bde4c38246.png)
+
 Before the method call, the call stack contains the main method's local variables x and y, as well as the args parameter.
 
 After the method call, a new frame is pushed onto the stack for the addNumbers method, and it contains the method's local variables a, b, and result.
 
 Once the addNumbers method completes and returns the result, its frame is popped off the stack and the sum variable is assigned the result. The call stack returns to its previous state with only the main method's variables and parameters.
-
-```
-|  Stack   |
-|__________|
-|  main    |
-|__________|
-|  sum=12  |
-|__________|
-|   x=5    |
-|__________|
-|   y=7    |
-|__________|
-```
+![image](https://user-images.githubusercontent.com/45400093/230576385-ebe97cb9-d6e5-4b8c-b027-c75d75fb6795.png)
