@@ -49,7 +49,6 @@ public class KnockKnockJoke {
 - [Overflow and underflow in Java](UnderFlowOverFlow.md) ?
 - [Java does not allow default arguments](DefaultArguments.md) !
 - [For-loops Vs Enhanced For-loops](ForLoop.md) ?
-- [Bare Essential Summary](Theory.md) ??
 - [HW1 Hints](HW1_hints.md) ??
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 
@@ -57,7 +56,6 @@ public class KnockKnockJoke {
 - [How do references and objects in Java work ?](RefAndObj.md) ?
 - [Pass by value Vs Pass by reference](PassValPassRef.md) !
 - [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
-- [Bare Essential Summary](Theory.md) ??
 - Debugger !
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 
