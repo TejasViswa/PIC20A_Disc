@@ -40,7 +40,7 @@ public class KnockKnockJoke {
 
 ```
 
-### Does it feel like there is a lot to study?
+### Does it feel like there is too much to study?
 ### Fret not, for here is a [Bare Essential Summary](Theory.md) to help you revise for your exams!
 
 ## Tue Apr 11
