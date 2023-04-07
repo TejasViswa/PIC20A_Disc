@@ -52,7 +52,7 @@ public class HaikuGenerator {
 
 ## Thu Apr 20
 - [Student Class](StudentTester.java)
-- [Variable Arguments](https://www.geeksforgeeks.org/variable-arguments-varargs-in-java/)
+- [Variable Arguments](Varargs.md)
 
 # Winter 2023
 
