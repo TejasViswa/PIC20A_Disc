@@ -87,6 +87,22 @@ This may seem confusing as why something passed by value can still change someth
 4. After `increment(arr)` finishes execution and `farr` goes out of scope:
 ![image](https://user-images.githubusercontent.com/45400093/230513523-8ac5fdce-b442-4886-8432-dee480a28d39.png)
 
+Another way to think about this is both array references are separate references but both of them hold the same memory addresses. But they are not aliases of each other (ie: they are both references that occupy separate spots in memory as references):
+
+```
+   Stack     |          Heap
++--------+   |   +----------------+
+|  arr   |   |   |  array Object  |
++--------+   |   +----------------+
+|  0x100 | ----> |    {2,3,4}     |
++--------+   |   +----------------+
+             |           ^
++--------+   |           |
+|  farr  |   |           |
++--------+   |           |
+|  0x100 |---------------+
++--------+   |
+```
 
 [Learn more about pass by value Vs pass by reference](https://stackoverflow.com/questions/373419/whats-the-difference-between-passing-by-reference-vs-passing-by-value/430958#430958)
 
