@@ -160,7 +160,6 @@ What is the output of the following snippet?
 
 Draw the memory diagram of the references and the objects as well
 ```java
-```java
 import java.util.*;
 public class App {
     public static void main(String[] args) {
