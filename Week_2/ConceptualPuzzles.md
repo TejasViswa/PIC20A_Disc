@@ -125,3 +125,32 @@ public class App {
     }
 }
 ```
+
+## Question 6
+What is the output of the following snippet?
+
+Draw the memory diagram of the references and the objects as well
+```java
+public class ArrayPuzzle {
+    public static void main(String[] args) {
+        String[] arr1 = {"one", "two", "three"};
+        String[] arr2 = {"four", "five", "six"};
+        
+        modifyArray(arr1, arr2);
+        
+        System.out.println("Array 1: " + Arrays.toString(arr1));
+        System.out.println("Array 2: " + Arrays.toString(arr2));
+    }
+    
+    public static void modifyArray(String[] a, String[] b) {
+        a = new String[3];
+        a[0] = "seven";
+        a[1] = "eight";
+        a[2] = "nine";
+        
+        b[0] = "ten";
+        b[1] = "eleven";
+        b[2] = "twelve";
+    }
+}
+```
