@@ -47,14 +47,14 @@ public class KnockKnockJoke {
 - [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
 - [Naming conventions in Java and Python](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/NamingConvention.md) !
 - [Overflow and underflow in Java](UnderFlowOverFlow.md) ?
-- [Java does not allow default arguments](DefaultArguments.md) ?
+- [Java does not allow default arguments](DefaultArguments.md) !
 - [For-loops Vs Enhanced For-loops](ForLoop.md) ?
 - [Bare Essential Summary](Theory.md) ??
 - [HW1 Hints](HW1_hints.md) ??
 
 ## Thu Apr 13
 - [How do references and objects in Java work ?](RefAndObj.md) ?
-- [Pass by value Vs Pass by reference](PassValPassRef.md) ?
+- [Pass by value Vs Pass by reference](PassValPassRef.md) !
 - [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
 - [Bare Essential Summary](Theory.md) ??
 - Debugger !
