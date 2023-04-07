@@ -131,7 +131,8 @@ What is the output of the following snippet?
 
 Draw the memory diagram of the references and the objects as well
 ```java
-public class ArrayPuzzle {
+import java.util.*;
+public class App {
     public static void main(String[] args) {
         String[] arr1 = {"one", "two", "three"};
         String[] arr2 = {"four", "five", "six"};
@@ -151,6 +152,35 @@ public class ArrayPuzzle {
         b[0] = "ten";
         b[1] = "eleven";
         b[2] = "twelve";
+    }
+}
+```
+## Question 7
+What is the output of the following snippet?
+
+Draw the memory diagram of the references and the objects as well
+```java
+```java
+import java.util.*;
+public class App {
+    public static void main(String[] args) {
+        String s = "Hello";
+        char[] c = {'H', 'e', 'l', 'l', 'o'};
+        
+        modifyString(s);
+        modifyArray(c);
+        
+        System.out.println("String: " + s);
+        System.out.println("Array: " + Arrays.toString(c));
+    }
+    
+    public static void modifyString(String str) {
+        str = "World";
+    }
+    
+    public static void modifyArray(char[] arr) {
+        arr[0] = 'W';
+        arr[3] = 'd';
     }
 }
 ```
