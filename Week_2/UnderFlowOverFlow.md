@@ -22,9 +22,8 @@ Overflow and underflow can also occur when working with floating-point data type
 
 To prevent overflow and underflow, it's important to ensure that the values being used and calculated with are within the range of their respective data types. In some cases, you may need to use a larger data type to accommodate larger values. You can also use error-checking techniques, such as range checking and boundary checking, to detect and prevent overflow and underflow conditions.
 
-## Questions to ask yourself
-1. What is the output if you add a to itself instead of 1 (ie:`a = a + a`)?
-2. What is the output if you multiply a with itself instead of adding 1 (ie:`a = a * a`)?
+## Question to ask yourself
+What is the output if you add a to itself instead of 1 (ie:`a = a + a`)?
 ### Hint:
 - Remember there is a wrap-around happening. Meaning, it loops within the range over and over whenever the value exceeds its range.
 - A good way to think about this is the `%` (modulo) operator and how it works. Anytime you divide a number a number `m` with another number `n`, the remainder is always in the range  - `0 to n-1`. Meaning, regardless of how big the number `m` is, the final output range is always within `0 to n-1`.
