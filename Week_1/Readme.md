@@ -58,7 +58,7 @@ public class Joke {
     - Passcode: jAp%Dmk3
     
 ### Java Book
-- This is a really really good if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
+- This is a really really good book if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
 - It is not intimidating and you can just browse the first few chapters refresh all your previous programming experience.
 
 ## Additional Weekly Content
