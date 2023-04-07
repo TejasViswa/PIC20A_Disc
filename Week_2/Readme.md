@@ -40,6 +40,8 @@ public class KnockKnockJoke {
 
 ```
 
+Does it feel like there is too much to study? Fret not, for here is a [Bare Essential Summary](Theory.md) to help you revise for your exams!
+
 ## Tue Apr 11
 - [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
 - [Naming conventions in Java and Python](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/NamingConvention.md) !
@@ -49,7 +51,7 @@ public class KnockKnockJoke {
 - [How do references and objects in Java work ?](RefAndObj.md) ?
 - [Pass by value Vs Pass by reference](PassValPassRef.md) ?
 - [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
-- [Theory](Theory.md) !
+- [Bare Essential Summary](Theory.md) ??
 - [HW1 Hints](HW1_hints.md) ??
 
 ## Thu Apr 13
