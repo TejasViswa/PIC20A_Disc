@@ -43,6 +43,12 @@ public class KnockKnockJoke {
 ### Does it feel like there is too much to study?
 ### Fret not, for here is a [Bare Essential Summary](Theory.md) to help you revise for your exams!
 
+### Note:
+- Someone please remind me to stream/record the discussion sessions!
+- Please introduce yourselves whenever you ask a question or answer my questions. This way I can remember your names better.
+- Remote Office hours for 4/11
+- Please remind me to do a live coding demo if the explanation starts to get too dry!
+
 ## Tue Apr 11
 - [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
 - [Naming conventions in Java and Python](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/NamingConvention.md) !
