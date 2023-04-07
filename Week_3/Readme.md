@@ -51,7 +51,7 @@ public class HaikuGenerator {
 - [Where are objects in objects stored in Java ?](ObjectInObject.md) !
 
 ## Thu Apr 20
-- [Student Class](StudentTester.java)
+- [Student Class Exercise](StudentClassExercise.md)
 - [Variable Arguments](Varargs.md)
 
 # Winter 2023
