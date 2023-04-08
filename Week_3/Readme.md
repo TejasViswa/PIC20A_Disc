@@ -10,7 +10,7 @@ Symbols at the end of links and what they mean (hopefully) in order of importanc
 # Spring 2023
 
 ```java
-// Your weekly haiku brought to you by our friend ChatGPT
+// Your weekly haiku brought to you by our friend ChatGPT (slightly modified to ensure no repeating lines)
 
 // This program generates a random haiku by selecting three random phrases from an array of haiku lines.
 // You can add your own haiku lines to the phrases array to create more variations.
@@ -33,9 +33,10 @@ public class HaikuGenerator {
                             "The first snow!"};
 
         Random rand = new Random();
-        int line1 = rand.nextInt(phrases.length);
-        int line2 = rand.nextInt(phrases.length);
-        int line3 = rand.nextInt(phrases.length);
+        int line1 = rand.nextInt(phrases.length),line2,line3;
+        while((line2 = rand.nextInt(phrases.length)) == line1){}
+        while((line3 = rand.nextInt(phrases.length)) == line1 ||
+              (line3 = rand.nextInt(phrases.length)) == line2 ){}
 
         System.out.println(phrases[line1]);
         System.out.println(phrases[line2]);
