@@ -36,7 +36,7 @@ public class HaikuGenerator {
         int line1 = rand.nextInt(phrases.length),line2,line3;
         while((line2 = rand.nextInt(phrases.length)) == line1){}
         while((line3 = rand.nextInt(phrases.length)) == line1 ||
-              (line3 = rand.nextInt(phrases.length)) == line2 ){}
+               line3 == line2 ){}
 
         System.out.println(phrases[line1]);
         System.out.println(phrases[line2]);
