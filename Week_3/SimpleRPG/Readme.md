@@ -44,57 +44,6 @@ Name: Goblin
 Damage: 5
 Health: 17
 
-Nikunj, what do you want to do?
-1. Attack
-2. Run
-3. Check status levels
-Enter your choice: 1
-You attack the Goblin and deal 10 damage.
-The Goblin attacks you and deals 5 damage.
-Congratulations, you have reached level 2!
-You have defeated the Goblin and gained 10 experience.
-
-You have encountered a Orc with 50 health and 10 damage.
-
-Nikunj, what do you want to do?
-1. Attack
-2. Run
-3. Check status levels
-Enter your choice: 1
-You attack the Orc and deal 9 damage.
-The Orc attacks you and deals 7 damage.
-
-...
-
-You have encountered a Demon with 80 health and 15 damage.
-
-Nikunj, what do you want to do?
-1. Attack
-2. Run
-3. Check status levels
-Enter your choice: 3
-
-Player's stats:
-Name: Nikunj
-Class: warrior
-Level: 4
-Experience: 0
-Damage: 25
-Health: 47
-
-Monster's stats:
-Name: Demon
-Damage: 15
-Health: 80
-
-Nikunj, what do you want to do?
-1. Attack
-2. Run
-3. Check status levels
-Enter your choice: 1
-You attack the Demon and deal 10 damage.
-The Demon attacks you and deals 7 damage.
-
 ...
 
 Nikunj, what do you want to do?
