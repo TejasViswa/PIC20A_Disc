@@ -2,7 +2,7 @@
 
 This is a very simple RPG game to introduce the concept of classes. Please create a new project and add all the .java files in this folder to your src folder and simple run the main file.
 
-You should be able to see outputs like the following:
+Your should be able to see outputs like the following:
 ### Output 1
 ```
 Welcome to the RPG game!
