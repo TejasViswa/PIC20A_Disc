@@ -50,6 +50,7 @@ public class KnockKnockJoke {
 - Please remind me to do a live coding demo if the explanation starts to get too dry!
 
 ## Tue Apr 11
+- [Answers to Week 1 Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/AnswersConceptual.md) ?
 - [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
 - [Naming conventions in Java and Python](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/NamingConvention.md) !
 - [Overflow and underflow in Java](UnderFlowOverFlow.md) ?
