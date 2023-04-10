@@ -52,6 +52,7 @@ public class Joke {
 - [Naming conventions in Java and Python](NamingConvention.md) ! [wasn't covered in Disc 1B, will be covered next week but you may read it regardless]
 - [Different types of variables in Java](Static_fields.md) ? [wasn't covered, will be covered next week but you may read it regardless]
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ?
+- [Answers to Conceptual Java Puzzles](AnswersConceptual.md) ?
 - [Problem-solving Java puzzles](Puzzles.md) !
 - Disc 1B recording
     - [Link](https://ucla.zoom.us/rec/share/ghPz4cMG1p5f1PCDAlyUDRP9vvBbT-K4oH3EjRNcXn9hUxKSfuWOmEBWxThA761N.-9t1UX8-6NX0TCbo)
