@@ -45,6 +45,11 @@ public class HaikuGenerator {
 }
 ```
 
+## Simple RPG
+- [Simple RPG](https://github.com/TejasViswa/PIC20A_Disc/tree/main/Week_3/SimpleRPG) is a simple RPG-like game. Look at the README to see the sample output.
+- It has `Player.java`,`Monster.java`,`Game.java` and `Main.java` files to illustrate how classes work and additionally uses the `Scanner` and `Random` classes.
+- Remember that it is a very simple implementationa and you may tweak it as you wish or improve upon it for better game mechanics.
+
 ## Tue Apr 18
 - [How are method calls are executed in Java ?](MethodCall.md) ?
 - [Strings in Java - Immutability](StringImmutable.md) ?
