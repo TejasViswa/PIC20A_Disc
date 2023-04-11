@@ -69,6 +69,7 @@ public class KnockKnockJoke {
 - [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
 - Debugger ! [will be shown in discussion]
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
+- [Problem Solving Java Puzzles](ProblemSolving.md) !
 
 ### Java Book
 - This is a really really good book if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
