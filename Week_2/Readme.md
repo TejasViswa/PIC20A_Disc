@@ -59,19 +59,25 @@ public class KnockKnockJoke {
 
 ## Tue Apr 11
 - [Answers to Week 1 Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/AnswersConceptual.md) ?
+- [Bare Essential Summary](Theory.md)
 - [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
 - [Naming conventions in Java and Python](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/NamingConvention.md) !
 - [Overflow and underflow in Java](UnderFlowOverFlow.md) ?
 - [Java does not allow default arguments](DefaultArguments.md) !
-- [For-loops Vs Enhanced For-loops](ForLoop.md) ?
-- [HW1 Hints](HW1_hints.md) ??
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/XTw7eGD1fjVZ7IfdoIrRUsfi6xM12qy25PA57pYSk7TkgYjYOM8pEsa06XcAUhXx.C48CEOaNVoJ77tLx)
+    - Passcode: 7ic46+.s
 
 ## Thu Apr 13
+- [Bare Essential Summary](Theory.md)
+- [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
+- [For-loops Vs Enhanced For-loops](ForLoop.md) ?
 - [How do references and objects in Java work ?](RefAndObj.md) ?
 - [Pass by value Vs Pass by reference](PassValPassRef.md) !
 - [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
 - Debugger ! [will be shown in discussion]
+- [HW1 Hints](HW1_hints.md) ??
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 - [Problem Solving Java Puzzles](ProblemSolving.md) !
 
