@@ -49,6 +49,10 @@ public class KnockKnockJoke {
 - Remote Office hours for 4/11
 - Please remind me to do a live coding demo if the explanation starts to get too dry!
 
+## Hangman
+- [Hangman Game](https://github.com/TejasViswa/PIC20A_Disc/tree/main/Hangman) is a simple Hangman game implemented using only strings and arrays
+- You may tweak the implementation as you wish
+
 ## Tue Apr 11
 - [Answers to Week 1 Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/AnswersConceptual.md) ?
 - [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
