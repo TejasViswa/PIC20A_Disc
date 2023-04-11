@@ -1,6 +1,6 @@
 # READ ME
 
--[Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
+- [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue Feb 21
 - [Smiley Panel](TestGUI.java)
