@@ -5,5 +5,6 @@ Create a new project and place all the .java files in this folder uner your src 
 
 Your output should like this:
 
-![image](https://user-images.githubusercontent.com/45400093/231031082-af9d539b-a1e9-45e7-bc06-cf3e43425c9a.png)
+![image](https://user-images.githubusercontent.com/45400093/231031254-4dfd3eff-7723-4f10-b2d4-6eb8c1ba11b2.png)
+
 
