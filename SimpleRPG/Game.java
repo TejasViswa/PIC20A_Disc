@@ -24,6 +24,7 @@ public class Game {
         
         for (int i = 0; i < monsters.length; i++) {
             Monster monster = monsters[i];
+            int choice = 0;
             System.out.println("\nYou have encountered a " + monster.getName() + " with " + monster.getHealth() + " health and " + monster.getDamage() + " damage.");
             while (player.isAlive() && monster.isAlive()) {
                 System.out.println("\n" + player.getName() + ", what do you want to do?");
@@ -31,7 +32,7 @@ public class Game {
                 System.out.println("2. Run");
                 System.out.println("3. Check status levels");
                 
-                int choice = getIntInput("Enter your choice: ", 1, 3);
+                choice = getIntInput("Enter your choice: ", 1, 3);
                 if (choice == 1) {
                     int playerDamage = player.attack();
                     int monsterDamage = monster.attack();
@@ -45,15 +46,27 @@ public class Game {
                     System.out.println("\nMonster's stats:");
                     System.out.println(monster);
                 } else{
-                System.out.println("You run away from the " + monster.getName() + ".");
-                    break;
+                    if(monster.allowEscape())
+                    {
+                        System.out.println("You ran away from the " + monster.getName() + ".");
+                        break;
+                    }
+                    else
+                    {
+                        System.out.println("The " + monster.getName() + " did not let you escape!");
+                        int monsterDamage = monster.attack();
+                        player.takeDamage(monsterDamage);
+                        System.out.println("The " + monster.getName() + " attacks you and deals " + monsterDamage + " damage.");
+                    } 
                 }
             }
             
-            if (player.isAlive()) {
+            if (player.isAlive() && choice == 1) {
                 int experience = (i + 1)*10;
                 player.gainExperience(experience);
                 System.out.println("You have defeated the " + monster.getName() + " and gained " + experience + " experience.");
+            } else if(player.isAlive() && choice == 2 ) {
+                // do nothing
             } else {
                 System.out.println("You have been defeated by the " + monster.getName() + ". Game over!");
                 return;
