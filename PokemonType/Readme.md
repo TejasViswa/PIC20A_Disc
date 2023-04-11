@@ -13,3 +13,7 @@ Charmander's attack against Bulbasaur did 40.0 damage.
 Charmander took 10 damage!
 Bulbasaur's attack against Charmander did 5.0 damage.
 ```
+
+If you really want to implement all the types in gen 1, use this chart for reference:
+![image](https://user-images.githubusercontent.com/45400093/231074866-e88d71f7-aaa1-4beb-933c-88be9c0abdfa.png)
+
