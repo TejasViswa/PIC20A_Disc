@@ -49,6 +49,10 @@ public class KnockKnockJoke {
 - Remote Office hours for 4/11
 - Please remind me to do a live coding demo if the explanation starts to get too dry!
 
+### Java Book
+- This is a really really good book if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
+- It is not intimidating and you can just browse the first few chapters to refresh all your previous programming experience.
+
 ## Hangman
 - [Hangman Game](https://github.com/TejasViswa/PIC20A_Disc/tree/main/Hangman) is a simple Hangman game implemented using only strings and arrays
 - You may tweak the implementation as you wish
@@ -70,10 +74,6 @@ public class KnockKnockJoke {
 - Debugger ! [will be shown in discussion]
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 - [Problem Solving Java Puzzles](ProblemSolving.md) !
-
-### Java Book
-- This is a really really good book if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
-- It is not intimidating and you can just browse the first few chapters to refresh all your previous programming experience.
 
 # Winter 2023
 ## Tue Jan 17
