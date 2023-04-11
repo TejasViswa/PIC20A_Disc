@@ -39,6 +39,9 @@ Navigate to the current week and look at the README which has a bunch of links f
 - [Week 10](Week_10)
 
 ## Fun Java Projects
+- [Hangman Game](https://github.com/TejasViswa/PIC20A_Disc/tree/main/Hangman)
 - [Simple RPG](https://github.com/TejasViswa/PIC20A_Disc/tree/main/SimpleRPG)
+- [Pokemon Type](https://github.com/TejasViswa/PIC20A_Disc/tree/main/PokemonType)
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
+- [Shape Shooter](https://github.com/TejasViswa/PIC20A_Disc/tree/main/ShapeShooter)
 
