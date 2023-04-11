@@ -43,12 +43,6 @@ public class KnockKnockJoke {
 ### Does it feel like there is too much to study?
 ### Fret not, for here is a [Bare Essential Summary](Theory.md) to help you revise for your exams!
 
-### Note:
-- Someone please remind me to stream/record the discussion sessions!
-- Please introduce yourselves whenever you ask a question or answer my questions. This way I can remember your names better.
-- Remote Office hours for 4/11
-- Please remind me to do a live coding demo if the explanation starts to get too dry!
-
 ### Java Book
 - This is a really really good book if you want to refresh your basics in Java or if you just want to learn Java more formally : [Think Java](https://greenteapress.com/wp/think-java-2e/)
 - It is not intimidating and you can just browse the first few chapters to refresh all your previous programming experience.
@@ -68,6 +62,11 @@ public class KnockKnockJoke {
 - Disc 1B recording
     - [link](https://ucla.zoom.us/rec/share/XTw7eGD1fjVZ7IfdoIrRUsfi6xM12qy25PA57pYSk7TkgYjYOM8pEsa06XcAUhXx.C48CEOaNVoJ77tLx)
     - Passcode: 7ic46+.s
+
+### Note:
+- Someone please remind me to stream/record the discussion sessions!
+- Please introduce yourselves whenever you ask a question or answer my questions. This way I can remember your names better.
+- Please remind me to do a live coding demo if the explanation starts to get too dry!
 
 ## Thu Apr 13
 - [Bare Essential Summary](Theory.md) ??
