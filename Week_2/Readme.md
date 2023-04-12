@@ -81,7 +81,7 @@ public class KnockKnockJoke {
 - [Problem Solving Java Puzzles](ProblemSolving.md) !
 
 ## Additional Weekly Content
-- [Naming Things in Code](https://www.youtube.com/watch?v=-J3wNP6u5YU)
+- [Naming Things in Code](https://www.youtube.com/watch?v=-J3wNP6u5YU) !!
 
 # Winter 2023
 ## Tue Jan 17
