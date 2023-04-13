@@ -76,7 +76,7 @@ public class KnockKnockJoke {
 - [Pass by value Vs Pass by reference](PassValPassRef.md) !
 - [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
 - Debugger ! [will be shown in discussion]
-- In progress, I'm writing the Hints file for HW 1
+- [HW1 Hints](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/HW1_Spring_Hints.md) ??
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 - [Problem Solving Java Puzzles](ProblemSolving.md) !
 
