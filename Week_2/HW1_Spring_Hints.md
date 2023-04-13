@@ -28,22 +28,63 @@ Write a Java program to check the number of `true` elements in a given boolean a
 - Now, I also need to keep count of if my check is `true`, therefore, I can use a variable for that purpose and increment it each time, I find something `true`.
 - Threfore, my pseudocode will look like this:
 ```
-variable count
+create a variable count
 - loop through the boolean array
   - check if element in array is true
     - if true then increment count
 return count
 ```
-
+### Part 3 - Implementing your pseudocode stepwise
+- `create a variable count` -> `int count = 0`
+    - Remember that count should have a decimal point and it should start from zero
+- `loop through the boolean array` -> `for (boolean val : arr)`
+    - I'm specifically using an enhanced for-loop to loop through the values because I only need to check values but not modify them. If I were modify the values or if I needed to know the index/position of those values then I will need to use the regular for-loop
+- `check if element in array is true` -> `if(val == true)`
+    - Use the `==` symbol to check for something
+- `if true then increment count` -> `count++` (within if block)
+    - Using `++count` or `count+=1` will not make any difference here given that you are only trying to increment count at the end of it
+- `return count` -> `return count`
+    - Well, its the same thing
+   
+### Part 4 - Testing your code and handling edge cases
+- You can test your code by calling it in the method with different values.
+- Now, how can we think of test cases? 
+    - If you ever have to test for an int input then think of numbers like 0, 1, 2, -1, -2, max int value, min int value, etc.
+      - Why these numbers?
+      - Well, 0 lets you know when something is strange or frequently makes code fail especially with operations like division
+      - 1,2 are small positive numbers, easy to calculate expected values and compare
+      - Similarly, some for small negative numbers like -1 and -2
+      - And then, max and min values to really ensure that your code does not break
+    - In our case, we need to test for some boolean array values
+      - empty array is a something that can break your code 
+      - a small array of all trues or all falses
+      - a mixture of both
+### Part 5 - Make your code look readable and elegant
+- Now that we know that our code can handle these cases, we might as well explicit handle some specific cases too like the empty array and finally write the code as follows:
+```java
+int countTrue(boolean[] arr) {
+    if (arr.length == 0) { return 0; }
+    
+    int count = 0;
+    for (boolean val : arr) {
+        if (val == true) {
+            count++;
+        }
+    }
+    
+    return count;
+}
+```
+- Notice how I explicitly handle some edge cases at the start and only then start my actual code.
 
 ## Task 1
 - Loop thru the array and get average.
 
 ## Task 2
 ### Part 1
-- Loop thru the array and get average.
+- Loop thru the array and get max.
 ### Part 2
-- 
+- Loop thru the array and get max.
 
 ## Task 3
 - Remember arrays in Java are jagged (ie: they need not be rectangular) so make sure to check if all of the arrays have the same length, exit as soon as any one of them does not have the same length.
