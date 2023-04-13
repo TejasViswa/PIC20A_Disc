@@ -73,12 +73,12 @@ public class KnockKnockJoke {
 - [Different types of variables in Java](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_1/Static_fields.md) ?
 - [For-loops Vs Enhanced For-loops](ForLoop.md) ?
 - [How do references and objects in Java work ?](RefAndObj.md) ?
-- [Pass by value Vs Pass by reference](PassValPassRef.md) !
-- [Arrays Vs Strings - Mutability](ArrayVsString.md) ?
-- Debugger ! [will be shown in discussion]
 - [HW1 Hints](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/HW1_Spring_Hints.md) ??
 - [Conceptual Java Puzzles](ConceptualPuzzles.md) ??
 - [Problem Solving Java Puzzles](ProblemSolving.md) !
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/ZYRdZehSyAnljWTqaVhULUu3eKbeRcIWETtsB8yo1IbElZ1K_gJ5sw-XmWGnTReO.kOfGz5spXabAtW-M)
+    - Passcode: =6#kdn9u
 
 ## Additional Weekly Content
 - [Naming Things in Code](https://www.youtube.com/watch?v=-J3wNP6u5YU) !!
