@@ -79,6 +79,9 @@ public class KnockKnockJoke {
 - Disc 1B recording
     - [link](https://ucla.zoom.us/rec/share/ZYRdZehSyAnljWTqaVhULUu3eKbeRcIWETtsB8yo1IbElZ1K_gJ5sw-XmWGnTReO.kOfGz5spXabAtW-M)
     - Passcode: =6#kdn9u
+- Disc 1B Live Coding
+    - [Code](Hello.java)
+    - [Memory Diagrams](HelloMemDiag.md)
 
 ## Additional Weekly Content
 - [Naming Things in Code](https://www.youtube.com/watch?v=-J3wNP6u5YU) !!
