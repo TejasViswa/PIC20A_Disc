@@ -51,6 +51,10 @@ public class HaikuGenerator {
 - Remember that it is a very simple implementation and you may tweak it as you wish or improve upon it for better game mechanics.
 
 ## Tue Apr 18
+- [HW1 Hints](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/HW1_Spring_Hints.md) ??
+- Debugger ! [will be shown in discussion]
+- [Pass by value Vs Pass by reference](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/PassValPassRef.md) !
+- [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) ?
 - [How are method calls are executed in Java ?](MethodCall.md) ?
 - [Strings in Java - Immutability](StringImmutable.md) ?
 - [How are primitive data types stored/represented in Java ?](Theory.md) !
