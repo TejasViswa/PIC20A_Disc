@@ -125,7 +125,7 @@ public class ArrayTest {
 ![image](https://user-images.githubusercontent.com/45400093/232639501-4e99335a-14a7-4e0a-8d33-e1586e5faaad.png)
 ## Stage 7
 ![image](https://user-images.githubusercontent.com/45400093/232639663-f4a20cfe-a95f-4ea5-b14b-f81124e3fdab.png)
-## Stage 8
+## Stage 8 (At the end of the first iteration when i=0)
 ![image](https://user-images.githubusercontent.com/45400093/232640925-cc696754-784a-4fd8-98da-31e9e4ca6888.png)
 ## Stage 9
 ![image](https://user-images.githubusercontent.com/45400093/232640023-3b5e8116-6e1e-4e38-9392-94f4278adc10.png)
