@@ -13,20 +13,23 @@
     - Handle edge case described in question before you initialize your variable
 
 ## Problem 3
-- Remember arrays in Java are jagged (ie: they need not be rectangular) so make sure to check if all of the arrays have the same length, exit as soon as any one of them does not have the same length.
-- For magic squares, the values range only from 1 to N^2 and exactly once. Exit if anything appears twice or something is beyond this range.
-- You may use a boolean array whose indexes act as the values you are checking for in the magic square. ie: if you find 5 in the magic square then you are going to mark the 5th location in this boolean array as true (ie: used[4] - here used is the name of the boolean array and 4 actually refers to the 5th location because indexing in ana array is N-1 as it starts from 0).
-- In total, you will first need two for loops to iterate through the array of arrays and a bunch of if statements within them to check for out of range and repeated occurence condition (if a value appears twice then used[value-1] (indexing hence value-1 instead of value) is going to already be true instead of false) and only then are you going to mark it to be true. Then another separate for-loop outside these nested for-loops to check if all the locations within the boolean array is marked true. This way you are sure that all the values from 1 to N^2 are there and appear exactly once.
 - Everything should sum upto magic total (Remember you get N from the length of an individual array) and summing up rows is with 2 loops, inner loop for second index and outer loop for first index. And vice versa for column. For the two diagonals - think about the indexes of diagonals - how are they special?
 - Potential Problems
-    - Not checking if all the elements are present exactly once
     - Not resetting your row or column sum variables each time you accumulate the sum for a row or column
     - Wrong diagonal condition which can cause your index to go out of bounds and guve you an error
+### Iff you would like to solve for conditions 1 and 2 (This is entirely optional and not part of your HW)
+- Remember arrays in Java are jagged (ie: they need not be rectangular) so make sure to check if all of the arrays have the same length, exit as soon as any one of them does not have the same length.
+- For magic squares, the values range only from 1 to N^2 and exactly once. Exit if anything appears twice or something is beyond this range.
+- You may use a boolean array whose indexes act as the values you are checking for in the magic square. ie: if you find 5 in the magic square then you are going to mark the 5th location in this boolean array as true (ie: used[4] - here used is the name of the boolean array and 4 actually refers to the 5th location because indexing in an array is N-1 as it starts from 0).
+- In total, you will first need two for loops to iterate through the array of arrays and a bunch of if statements within them to check for out of range and repeated occurence condition (if a value appears twice then used[value-1] (indexing hence value-1 instead of value) is going to already be true instead of false) and only then are you going to mark it to be true. Then another separate for-loop outside these nested for-loops to check if all the locations within the boolean array is marked true. This way you are sure that all the values from 1 to N^2 are there and appear exactly once.
+- Potential Problems
+    - Not checking if the values are appearing exactly once
 
 ## Problem 4
 - Code is really similar to Prof's code
 - Potential Problems
   - getting confused between the candidate and the divisor
+### If you would like to do something more...
 - How can you optimize the prime number program?
 - A few hints could be:
   - Do you need to search for all the numbers?
