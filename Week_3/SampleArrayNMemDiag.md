@@ -116,6 +116,7 @@ public class ArrayTest {
 ### Stage 2
 ![image](https://user-images.githubusercontent.com/45400093/232640654-4859b5e3-4570-4d5c-ba01-c3b17ab0289d.png)
 ## Stage 3 (At the end of the first iteration when i=0)
+### Error: arr1 should be {2,2,3,4} instead of {2,3,4,5} at the end of first iteration when i=0
 ![image](https://user-images.githubusercontent.com/45400093/232640545-8cda4902-08c6-435d-8754-65f5a2e8a4d8.png)
 ## Stage 4
 ![image](https://user-images.githubusercontent.com/45400093/232640614-b75262be-eee7-4848-a5f4-c2b5179436ca.png)
