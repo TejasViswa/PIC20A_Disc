@@ -126,6 +126,6 @@ public class ArrayTest {
 ## Stage 7
 ![image](https://user-images.githubusercontent.com/45400093/232639663-f4a20cfe-a95f-4ea5-b14b-f81124e3fdab.png)
 ## Stage 8
-![image](https://user-images.githubusercontent.com/45400093/232639912-f9b2a437-2005-45ea-b0d3-515398acdb5d.png)
+![image](https://user-images.githubusercontent.com/45400093/232640925-cc696754-784a-4fd8-98da-31e9e4ca6888.png)
 ## Stage 9
 ![image](https://user-images.githubusercontent.com/45400093/232640023-3b5e8116-6e1e-4e38-9392-94f4278adc10.png)
