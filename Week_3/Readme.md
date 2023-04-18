@@ -52,15 +52,20 @@ public class HaikuGenerator {
 
 ## Tue Apr 18
 - [HW1 Hints](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/HW1_Spring_Hints.md) ??
-- Debugger ! [will be shown in discussion]
+- [Sample Code and Memory Diagram](SampleCodeNMemDiag.md) !
+- [Sample Code with Arrays and Memory Diagram](SampleArrayNMemDiag.md) !
+- Debugger ! [shown in discussion, look at the last 10 minutes in recording]
 - [Pass by value Vs Pass by reference](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/PassValPassRef.md) !
-- [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) ?
 - [How are method calls are executed in Java ?](MethodCall.md) ?
-- [Strings in Java - Immutability](StringImmutable.md) ?
 - [How are primitive data types stored/represented in Java ?](Theory.md) !
-- [Where are objects in objects stored in Java ?](ObjectInObject.md) !
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/sqFT3Byp5SK6TAdsxukvEySKbtNSFThQ6AetVgT6RXy7WAVHcaE4rse-oNrWw9o6.Z6dHksri9LtJbVDG)
+    - Passcode: 0*!91TaL
 
 ## Thu Apr 20
+- [Where are objects in objects stored in Java ?](ObjectInObject.md) !
+- [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) ?
+- [Strings in Java - Immutability](StringImmutable.md) ?
 - [Student Class Exercise](StudentClassExercise.md) !
 - [Variable Arguments](Varargs.md) ?
 
