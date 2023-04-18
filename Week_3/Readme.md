@@ -51,13 +51,13 @@ public class HaikuGenerator {
 - Remember that it is a very simple implementation and you may tweak it as you wish or improve upon it for better game mechanics.
 
 ## Tue Apr 18
-- [HW1 Hints](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/HW1_Spring_Hints.md) ??
+- [How are method calls are executed in Java ?](MethodCall.md) ?
 - [Sample Code and Memory Diagram](SampleCodeNMemDiag.md) !
 - [Sample Code with Arrays and Memory Diagram](SampleArrayNMemDiag.md) !
 - Debugger ! [shown in discussion, look at the last 10 minutes in recording]
 - [Pass by value Vs Pass by reference](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/PassValPassRef.md) !
-- [How are method calls are executed in Java ?](MethodCall.md) ?
-- [How are primitive data types stored/represented in Java ?](Theory.md) !
+- [How are primitive data types stored/represented in Java ?](Theory.md) !!
+- [HW1 Hints](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/HW1_Spring_Hints.md) ??
 - Disc 1B recording
     - [link](https://ucla.zoom.us/rec/share/sqFT3Byp5SK6TAdsxukvEySKbtNSFThQ6AetVgT6RXy7WAVHcaE4rse-oNrWw9o6.Z6dHksri9LtJbVDG)
     - Passcode: 0*!91TaL
