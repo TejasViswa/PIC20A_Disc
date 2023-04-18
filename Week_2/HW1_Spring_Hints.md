@@ -13,7 +13,10 @@
     - Handle edge case described in question before you initialize your variable
 
 ## Problem 3
-- Everything should sum upto magic total (Remember you get N from the length of an individual array) and summing up rows is with 2 loops, inner loop for second index and outer loop for first index. And vice versa for column. For the two diagonals - think about the indexes of diagonals - how are they special?
+- Everything should sum upto magic total (Remember you get N from the length of an individual array) and summing up rows is with 2 loops, inner loop for second index and outer loop for first index. And vice versa for column.
+- For the two diagonals - think about the indexes of diagonals - how are they special?
+    - Your left diagonal element indexes, list them out - `0,0`,`1,1`,`2,2`,`3,3` - What are special about these numbers? What is the pattern you see?
+    - Your right diagonal element indexes, list them out - `0,3`,`1,2`,`2,1`,`3,0` - What are special about these numbers? What is the pattern you see?
 - Potential Problems
     - Not resetting your row or column sum variables each time you accumulate the sum for a row or column
     - Wrong diagonal condition which can cause your index to go out of bounds and guve you an error
