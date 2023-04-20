@@ -54,7 +54,4 @@ public class MultiArrayTest {
 ## Stage 6 (At the end of the first iteration of outer loop)
 <img width="931" alt="image" src="https://user-images.githubusercontent.com/45400093/233229131-71dada40-0de2-4593-8be6-3cc1866b0b4c.png">
 ## Stage 7
-<img width="931" alt="image" src="https://user-images.githubusercontent.com/45400093/233229166-9c08ada1-e245-4c12-ba84-290a0c1713ac.png">
-
-
-<img width="931" alt="image" src="https://user-images.githubusercontent.com/45400093/233228607-53aa68ca-c7a3-4ea5-9c94-9768a0662d86.png">
+<img width="931" alt="image" src="https://user-images.githubusercontent.com/45400093/233229286-f3029674-6f2b-49c6-a28f-92fbdba89444.png">
