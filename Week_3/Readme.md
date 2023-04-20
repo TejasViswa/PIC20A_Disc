@@ -64,10 +64,8 @@ public class HaikuGenerator {
 
 ## Thu Apr 20
 - [Where are objects in objects stored in Java ?](ObjectInObject.md) !
-- [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) ?
-- [Strings in Java - Immutability](StringImmutable.md) ?
-- [Student Class Exercise](StudentClassExercise.md) !
-- [Variable Arguments](Varargs.md) ?
+- [Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ConceptualPuzzles.md) ??
+- [Problem Solving Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ProblemSolving.md) !
 
 # Winter 2023
 
