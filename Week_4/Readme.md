@@ -1,5 +1,5 @@
 # READ ME
-
+[Back to Discussion Main Page](https://github.com/TejasViswa/PIC20A_Disc)
 ### Legend
 Symbols at the end of links and what they mean (hopefully) in order of importance:
 - ?? - Exam or assignment help
@@ -36,6 +36,21 @@ public class RandomFactGenerator {
 }
 
 ```
+## Simple RPG
+- [Simple RPG](https://github.com/TejasViswa/PIC20A_Disc/tree/main/SimpleRPG) is a simple RPG-like game. Look at the README to see the sample output.
+- It has `Player.java`,`Monster.java`,`Game.java` and `Main.java` files to illustrate how classes work and additionally uses the `Scanner` and `Random` classes.
+- Remember that it is a very simple implementation and you may tweak it as you wish or improve upon it for better game mechanics.
+## Tue Apr 25
+- [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) ?
+- [Strings in Java - Immutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StringImmutable.md) ?
+- [Student Class Exercise](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StudentClassExercise.md) !
+- [Variable Arguments](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/Varargs.md) ?
+
+## Thu Apr 27
+- [GroupTester](GroupTester.java)
+- [UndergradStudentTester](UndergradStudentTester.java)
+
+# Winter 2023
 ## Tue Jan 31
 - [GroupTester](GroupTester.java)
 
