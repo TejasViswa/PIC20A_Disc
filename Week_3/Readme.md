@@ -67,6 +67,10 @@ public class HaikuGenerator {
 - [Sample Code with 2D Array and Memory Diagram](SampleMultiArrayNMemDiag.md) !
 - [Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ConceptualPuzzles.md) ??
 - [Problem Solving Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ProblemSolving.md) !
+- [HW1 Hints](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/HW1_Spring_Hints.md) ??
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/ybCkl3DDpxrcLTzDl-Q1VYDIW8BHpk3q5zgCUxjT10RF0c54l3k80NneylM6kKL4.m9klQ6DeDC3Ek-PM)
+    - Passcode: &$.9NWJ+
 
 # Winter 2023
 
