@@ -1,4 +1,4 @@
-# Sample Code with Arrays and its Memory Diagram
+# Sample Code with 2D Array and its Memory Diagram
 
 ## Code
 ```java
