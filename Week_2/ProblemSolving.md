@@ -1,49 +1,5 @@
 # Problem Solving Java Puzzles
 
-## Strings
-
-### Easy:
-
-1. Write a Java program to count the number of characters in a string.
-    - Example: "hello" => 5
-
-2. Write a Java program to reverse a string.
-    - Example: "hello" => "olleh"
-
-3. Write a Java program to check if a string is a palindrome.
-    - Example: "racecar" => true, "hello" => false
-
-4. Write a Java program to convert a string to lowercase.
-    - Example: "HeLLo" => "hello"
-
-### Medium
-
-1. Write a Java program to find the longest common prefix of two strings.
-    - Example: "flower", "flow", => "flow"
-
-2. Write a Java program to check if two strings are anagrams of each other.
-    - Example: "listen", "silent" => true, "hello", "world" => false
-
-3. Write a Java program to find the first non-repeating character in a string.
-    - Example: "hello" => "h", "teeter" => "r"
-
-4. Write a Java program to remove all white spaces from a string.
-    - Example: "hello world" => "helloworld"
-
-### Hard
-
-1. Write a Java program to find the longest palindrome substring in a string.
-    - Example: "babad" => "bab"
-
-2. Write a Java program to find the minimum window in a string which will contain all the characters of another string.
-    - Example: "ADOBECODEBANC", "ABC" => "BANC"
-
-3. Write a Java program to implement the Rabin-Karp algorithm for pattern searching in a string.
-    - Example: "hello world", "world" => 6
-
-4. Write a Java program to find the longest repeating substring in a string.
-    - Example: "banana" => "ana"
-
 ## Arrays
 
 ### Easy
@@ -87,3 +43,47 @@
 
 4. Write a Java program to implement the Kadane's algorithm for finding the maximum subarray sum.
     - Example: [-2, 1, -3, 4, -1, 2, 1, -5, 4] => 6
+
+## Strings
+
+### Easy:
+
+1. Write a Java program to count the number of characters in a string.
+    - Example: "hello" => 5
+
+2. Write a Java program to reverse a string.
+    - Example: "hello" => "olleh"
+
+3. Write a Java program to check if a string is a palindrome.
+    - Example: "racecar" => true, "hello" => false
+
+4. Write a Java program to convert a string to lowercase.
+    - Example: "HeLLo" => "hello"
+
+### Medium
+
+1. Write a Java program to find the longest common prefix of two strings.
+    - Example: "flower", "flow", => "flow"
+
+2. Write a Java program to check if two strings are anagrams of each other.
+    - Example: "listen", "silent" => true, "hello", "world" => false
+
+3. Write a Java program to find the first non-repeating character in a string.
+    - Example: "hello" => "h", "teeter" => "r"
+
+4. Write a Java program to remove all white spaces from a string.
+    - Example: "hello world" => "helloworld"
+
+### Hard
+
+1. Write a Java program to find the longest palindrome substring in a string.
+    - Example: "babad" => "bab"
+
+2. Write a Java program to find the minimum window in a string which will contain all the characters of another string.
+    - Example: "ADOBECODEBANC", "ABC" => "BANC"
+
+3. Write a Java program to implement the Rabin-Karp algorithm for pattern searching in a string.
+    - Example: "hello world", "world" => 6
+
+4. Write a Java program to find the longest repeating substring in a string.
+    - Example: "banana" => "ana"
