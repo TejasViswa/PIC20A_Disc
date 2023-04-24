@@ -32,6 +32,8 @@ Write a PokemonWithType class that inherits from Pokemon Class with the followin
                             {   0,   1,   1,   1,   1,   1,   1,   1,   1,   1,   0,   1,   1,   2,   1},
                             {   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   2}};
     ```
+    which is adapted from this chart:
+    ![image](https://user-images.githubusercontent.com/45400093/231074866-e88d71f7-aaa1-4beb-933c-88be9c0abdfa.png)
     - Find the string types indexes for the types of both the pokemon
     - Using these indexes, get the effectiveness factor from the typeChart and set the maxDamage as maxDamage = 40 * factor
     - get a random damage number using random (ie: `random.nextInt(maxDamage+1)`)
