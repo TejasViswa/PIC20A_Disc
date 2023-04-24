@@ -1,18 +1,39 @@
 # Pokemon Class Exercise
 
 Write a Pokemon class with the following details:
-- Attributes/fields
+- Variables/Attributes/fields
   - name
   - HP
   - random (must be an instance of Random object, you need to import it. ie: `import java.util.Random;`)
-- Behavior/methods
+- Functions/Behavior/methods
   - constructor (parameters - name)
     - sets name
     - sets HP to 100
     - sets random to a new Random object
-  - addCourses
-    - parametes - varargs courses
+  - getName
+    - return name
+  - getHP
+    - return HP
+  - hasFainted
+    - check and return if HP <= 0
+  - takeDamage (parameter - damage)
+    - reduce HP by damage
+    - Don't let HP become negative, it should be capped to zero
+  - attack (parameter - other pokemon)
+    - if other pokemon has fainted then print that the other pokemon has already fainted
+    - get a random damage number using random (ie: `random.nextInt(maxDamage+1)`) where maxDamage = 40
+        - `nextInt` gives a value between 0 and the (input value - 1), thus when we pass `random.nextInt(maxDamage+1)` and maxDamage = 40, we get a value between 0 and 40 (and not 39).
+    - if damage more than 0.75*maxDamage
+        - print  - `It was a critical hit!`
+    - if damage less than 0.75*maxDamage and damage greater than or equal to 0.5*maxDamage
+        - print - `It was super effective!`
+    - if damage less than 0.5*maxDamage and damage greater than or equal to 0.25*maxDamage
+        - print - `It was moderately effective.`
+    - else
+        - print - `It was not so effective.`
+    - Make other pokemon take damage
   - toString
+    - Must return a string which includes the values of all the variables
 
 Finally, add the following main method to your class:
 ```java
