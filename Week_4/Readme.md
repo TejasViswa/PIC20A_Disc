@@ -42,8 +42,10 @@ public class RandomFactGenerator {
 - Remember that it is a very simple implementation and you may tweak it as you wish or improve upon it for better game mechanics.
 ## Tue Apr 25
 - [Pokemon Class Exercise](PokemonExercise.md) ?
+- [Pokemon Class](Pokemon.java) ?
 - [Student Class Exercise](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StudentClassExercise.md) !
-- [Variable Arguments](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/Varargs.md) ?
+- [Student Tester Class](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StudentTester.java) !
+- [Variable Arguments](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/Varargs.md) !
 
 ## Thu Apr 27
 - [PokemonWithType Class Exercise](PokemonWithTypeExercise.md) ?
