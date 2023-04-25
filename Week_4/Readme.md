@@ -46,6 +46,10 @@ public class RandomFactGenerator {
 - [Student Class Exercise](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StudentClassExercise.md) !
 - [Student Tester Class](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StudentTester.java) !
 - [Variable Arguments](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/Varargs.md) !
+- [HW1 Hints](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/HW1_Spring_Hints.md) ??
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/FKmL9gMs8VwUJHhSsjamloYJkkEQsThuuMAMaQAn5e_MCTDLXbYIZAqAZ46HJ394.V1E9qOKzxwOg4PUi)
+    - Passcode: xHlK*e37
 
 ## Thu Apr 27
 - [PokemonWithType Class Exercise](PokemonWithTypeExercise.md) ?
