@@ -19,17 +19,19 @@ import java.util.Scanner;
 import java.util.Random;
 import java.io.*;
 
+import java.util.Arrays;
+
 public class PokemonBattle extends JPanel {
 
 
-    static String[][] pokemonPool = {{"Rattata","Normal","19"},{"Sandshrew","Ground","27"},{"Pidgey","Flying","16"},
-                                {"Pikachu","Electric","25"},{"Charmander","Fire","4"},{"Squirtle","Water","7"},
-                                {"Bulbasaur","Grass","1"},{"Geodude","Rock","74"},{"Gastly","Ghost","92"},
-                                {"Abra","Psychic","63"},{"Mankey","Fighting","56"},{"Ekans","Poison","23"},
-                                {"Caterpie","Bug","10"},{"Dratini","Dragon","147"},{"Spearow","Flying","21"},
-                                {"Seel","Ice","86"},{"Voltorb","Electric","100"},{"Machop","Fighting","66"},
-                                {"Diglett","Ground","50"},{"Poliwag","Water","60"},{"Vulpix","Fire","37"},
-                                {"Meowth","Normal","52"},{"Nidoran","Poison","29"},{"Bellsprout","Grass","69"},};
+    static String[][] pokemonPool = {{"Rattata","Normal","19","Tackle"},{"Sandshrew","Ground","27","Scratch"},{"Pidgey","Flying","16","Gust"},
+                                {"Pikachu","Electric","25","Thundershock"},{"Charmander","Fire","4","Ember"},{"Squirtle","Water","7","Bubble"},
+                                {"Bulbasaur","Grass","1","Vine Whip"},{"Geodude","Rock","74","Rock Throw"},{"Gastly","Ghost","92","Lick"},
+                                {"Abra","Psychic","63","Teleport"},{"Drowzee","Psychic","96","Confusion"},{"Mankey","Fighting","56","Low Kick"},{"Ekans","Poison","23","Poison Sting"},
+                                {"Caterpie","Bug","10","String Shot"},{"Dratini","Dragon","147","Twister"},{"Spearow","Flying","21","Peck"},
+                                {"Seel","Ice","86","Icy Wind"},{"Voltorb","Electric","100","Spark"},{"Machop","Fighting","66","Karate Chop"},
+                                {"Diglett","Ground","50","Magnitude"},{"Poliwag","Water","60","Water Gun"},{"Vulpix","Fire","37","Ember"},
+                                {"Meowth","Normal","52","Scratch"},{"Nidoran","Poison","29","Poison Sting"},{"Bellsprout","Grass","69","Vine Whip"}};
 
     // Declare instance variables
     // private PokeSprite background;
@@ -159,6 +161,15 @@ public class PokemonBattle extends JPanel {
         
     }
 
+    public static String getInfo(Pokemon pokemon, int ind) {
+        for(int i = 0; i < pokemonPool.length; i++) {
+            if(pokemonPool[i][0].equals(pokemon.getName())) {
+                return pokemonPool[i][ind];
+            }
+        }
+        return "NA";
+    }
+
     
         // Main method
 public static void main(String[] args) {
@@ -282,9 +293,9 @@ public static void main(String[] args) {
 
         switch(scan.nextInt()) {
             case 1 : System.out.println();
-                        pokemonBattle.setMessage(yourTeam.currentPokemon.getName()+" used\nTACKLE!");
+                        pokemonBattle.setMessage(yourTeam.currentPokemon.getName()+" used "+getInfo(yourTeam.currentPokemon,3)+"!");
                         System.out.println(yourTeam.currentPokemon.getName()+" used");
-                        System.out.print("TACKLE!");
+                        System.out.print(getInfo(yourTeam.currentPokemon,3)+"!");
                         scan.nextLine();
                         System.out.println();
                         ps.flush();
@@ -316,9 +327,9 @@ public static void main(String[] args) {
         if(enemyTeam.currentPokemon.hasFainted()) { 
             continue;
         }
-        pokemonBattle.setMessage(enemyTeam.currentPokemon.getName()+" used\nTACKLE!");
+        pokemonBattle.setMessage(enemyTeam.currentPokemon.getName()+" used "+getInfo(enemyTeam.currentPokemon,3)+"!");
         System.out.println(enemyTeam.currentPokemon.getName()+" used");
-        System.out.print("TACKLE!");
+        System.out.print(getInfo(enemyTeam.currentPokemon,3)+"!");
         scan.nextLine();
         ps.flush();
         baos.reset();
