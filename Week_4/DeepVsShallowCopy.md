@@ -56,6 +56,8 @@ To create a shallow copy in Java, you can use the clone() method, but it only co
 The constructor we created during today's discussion using the for-loop for the PokemonTeam class looks the following:
 <img width="1307" alt="image" src="https://user-images.githubusercontent.com/45400093/234998471-e648dedf-10b1-4696-869a-2b775a1fa4fc.png">
 
-This is still a shallow copy because team2 is still pointing to the pokemon objects from team1. A true deep copy will look like the following:
+This is still a shallow copy because team2 is still pointing to the pokemon objects from team1.
+
+A true deep copy will look like the following:
 <img width="1307" alt="image" src="https://user-images.githubusercontent.com/45400093/234998833-367e5fb4-f74e-435e-9ff1-35f2c3493c88.png">
 
