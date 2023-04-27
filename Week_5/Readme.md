@@ -48,7 +48,7 @@ public class RandomFactGenerator {
 - [PokemonBattle Class](https://github.com/TejasViswa/PIC20A_Disc/blob/main/PokemonBattle/PokemonBattle.java) !!
 - [PokemonWithType Class Exercise](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_4/PokemonWithTypeExercise.md) ?
 - [PokemonWithType Class](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_4/PokemonWithType.java) ?
-- [UndergradStudentTester](Uhttps://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_4/UndergradStudentTester.java) !
+- [UndergradStudentTester](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_4/UndergradStudentTester.java) !
 - [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) ?
 - [Strings in Java - Immutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StringImmutable.md) ?
 
