@@ -54,6 +54,7 @@ public class RandomFactGenerator {
 ## Thu Apr 27
 - [PokemonTeam Class](PokemonTeam.java) ?
 - [GroupTester](GroupTester.java) !
+- [Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ConceptualPuzzles.md) ??
 - Disc 1B recording
     - [link](https://ucla.zoom.us/rec/share/m-wqYW-OMO5OklB8ebdl2qo1zKcG11SzsvybwHW_m-KFMtkgYpFk1UYUpaHcFVX4.M-ikgjfpFn_nztVB)
     - Passcode: %uJY+Z0$
