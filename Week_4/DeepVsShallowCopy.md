@@ -48,3 +48,14 @@ public class Ex {
 To create a shallow copy in Java, you can use the clone() method, but it only copies the object and its fields, not the objects to which the fields point. To create a deep copy, you will need to implement the copy logic yourself, which can be a more involved process. This is where the copy constructor comes into play. You need to define your copy constructor such that it performs a deep copy.
 
 [Reference](https://www.geeksforgeeks.org/deep-shallow-lazy-copy-java-examples/)
+
+## More on Copy
+
+### Note: I have omitted the Random objects in the Pokemon objects. But, in your actual code, they also exist and they also need to be deep copied.
+
+The constructor we created during today's discussion using the for-loop for the PokemonTeam class looks the following:
+<img width="1307" alt="image" src="https://user-images.githubusercontent.com/45400093/234998471-e648dedf-10b1-4696-869a-2b775a1fa4fc.png">
+
+This is still a shallow copy because team2 is still pointing to the pokemon objects from team1. A true deep copy will look like the following:
+<img width="1307" alt="image" src="https://user-images.githubusercontent.com/45400093/234998833-367e5fb4-f74e-435e-9ff1-35f2c3493c88.png">
+
