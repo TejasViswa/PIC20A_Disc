@@ -17,7 +17,8 @@ Symbols at the end of links and what they mean (hopefully) in order of importanc
 // If the adjacent cell in that direction is unvisited,
 // it carves a path to that cell by replacing the wall characters with empty space characters.
 // It then recursively repeats this process from the new cell until there are no more unvisited cells to move to.
-// The shuffleArray method is used to randomize the order in which directions are attempted, which helps to produce more interesting and varied mazes.
+// The shuffleArray method is used to randomize the order in which directions are attempted,
+// which helps to produce more interesting and varied mazes.
 
 import java.util.Random;
 
