@@ -54,6 +54,7 @@ public class RandomFactGenerator {
 ## Thu Apr 27
 - [PokemonTeam Class Exercise](PokemonTeamExercise.md) ?
 - [PokemonTeam Class](PokemonTeam.java) ?
+- [Shallow Vs Deep Copy](DeepVsShallowCopy.md) !
 - [Student Group Class Exercise](GroupClassExercise.md) !
 - [Student Group Class](GroupTester.java) !
 - [Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ConceptualPuzzles.md) ??
