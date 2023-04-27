@@ -52,14 +52,11 @@ public class RandomFactGenerator {
     - Passcode: xHlK*e37
 
 ## Thu Apr 27
-- [PokemonWithType Class Exercise](PokemonWithTypeExercise.md) ?
-- [PokemonWithType Class](PokemonWithType.java) ?
-- [PokemonTeam Class](PokemonTeam.java) !
-- [PokemonBattle Class](PokemonBattle.java) !!
+- [PokemonTeam Class](PokemonTeam.java) ?
 - [GroupTester](GroupTester.java) !
-- [UndergradStudentTester](UndergradStudentTester.java) !
-- [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) ?
-- [Strings in Java - Immutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StringImmutable.md) ?
+- Disc 1B recording
+    - [link] (https://ucla.zoom.us/rec/share/m-wqYW-OMO5OklB8ebdl2qo1zKcG11SzsvybwHW_m-KFMtkgYpFk1UYUpaHcFVX4.M-ikgjfpFn_nztVB)
+    - Passcode: %uJY+Z0$
 
 ## Pokemon Battle
 - [Pokemon Battle](https://github.com/TejasViswa/PIC20A_Disc/blob/main/PokemonBattle/Readme.md) is a simple Pokemon Battle simulator. You will need to be connected to the internet for it to work. It emulates (well atleast it tries to ) a pokemon battle from the game "FireRead/LeafGreen" but you are restricted to only 1 move ie:tackle and assigned some pokemon at random and do not have any items. It does use type advantage for the pokemon so you have to strategize to win.
