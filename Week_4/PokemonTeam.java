@@ -18,19 +18,19 @@ public class PokemonTeam {
                                   {"Meowth","Normal"},{"Nidoran","Poison"},{"Bellsprout","Grass"},};
 
         int i = 0, index = 0;
-        Pokemon pokemonWithType;
+        Pokemon pokemon;
         Random rand1 = new Random(), rand2 = new Random();
         boolean[] used = new boolean[pokemonPool.length];
         Scanner scan = new Scanner(System.in);
 
         while(i < 6) {
             do { index = rand1.nextInt(pokemonPool.length); } while(used[index]); used[index] = true;
-            pokemonWithType = new PokemonWithType(pokemonPool[index][0],pokemonPool[index][1]);
-            yourTeam.addPokemon(pokemonWithType);
+            pokemon = new PokemonWithType(pokemonPool[index][0]);
+            yourTeam.addPokemon(pokemon);
 
             do { index = rand2.nextInt(pokemonPool.length); } while(used[index]); used[index] = true;
-            pokemonWithType = new PokemonWithType(pokemonPool[index][0],pokemonPool[index][1]);
-            enemyTeam.addPokemon(pokemonWithType);
+            pokemonWithType = new PokemonWithType(pokemonPool[index][0]);
+            enemyTeam.addPokemon(pokemon);
 
             i++;
         }
