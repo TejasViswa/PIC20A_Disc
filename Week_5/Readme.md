@@ -89,6 +89,19 @@ public class RandomMazeGenerator {
 }
 
 ```
+Sample Output
+```
+####################
+#   #       #     ##
+# # # ##### # # ####
+# # # #     # #   ##
+### # # ##### ### ##
+# #   # #     #   ##
+# ##### ####### # ##
+#               # ##
+####################
+####################
+```
 ## Simple RPG
 - [Simple RPG](https://github.com/TejasViswa/PIC20A_Disc/tree/main/SimpleRPG) is a simple RPG-like game. Look at the README to see the sample output.
 - It has `Player.java`,`Monster.java`,`Game.java` and `Main.java` files to illustrate how classes work and additionally uses the `Scanner` and `Random` classes.
