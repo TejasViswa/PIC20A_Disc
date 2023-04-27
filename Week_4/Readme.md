@@ -55,7 +55,7 @@ public class RandomFactGenerator {
 - [PokemonTeam Class](PokemonTeam.java) ?
 - [GroupTester](GroupTester.java) !
 - Disc 1B recording
-    - [link] (https://ucla.zoom.us/rec/share/m-wqYW-OMO5OklB8ebdl2qo1zKcG11SzsvybwHW_m-KFMtkgYpFk1UYUpaHcFVX4.M-ikgjfpFn_nztVB)
+    - [link](https://ucla.zoom.us/rec/share/m-wqYW-OMO5OklB8ebdl2qo1zKcG11SzsvybwHW_m-KFMtkgYpFk1UYUpaHcFVX4.M-ikgjfpFn_nztVB)
     - Passcode: %uJY+Z0$
 
 ## Pokemon Battle
