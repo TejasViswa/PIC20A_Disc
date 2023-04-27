@@ -52,6 +52,7 @@ public class RandomFactGenerator {
     - Passcode: xHlK*e37
 
 ## Thu Apr 27
+- [PokemonTeam Class Exercise](PokemonTeamExercise.md) ?
 - [PokemonTeam Class](PokemonTeam.java) ?
 - [GroupTester](GroupTester.java) !
 - [Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ConceptualPuzzles.md) ??
