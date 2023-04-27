@@ -62,7 +62,7 @@ public class RandomFactGenerator {
     - Passcode: %uJY+Z0$
 
 ## Pokemon Battle
-- [Pokemon Battle](https://github.com/TejasViswa/PIC20A_Disc/blob/main/PokemonBattle/Readme.md) is a simple Pokemon Battle simulator. You will need to be connected to the internet for it to work. It emulates (well atleast it tries to ) a pokemon battle from the game "FireRead/LeafGreen" but you are restricted to only 1 move ie:tackle and assigned some pokemon at random and do not have any items. It does use type advantage for the pokemon so you have to strategize to win.
+- [Pokemon Battle](https://github.com/TejasViswa/PIC20A_Disc/tree/main/PokemonBattle) is a simple Pokemon Battle simulator. You will need to be connected to the internet for it to work. It emulates (well atleast it tries to ) a pokemon battle from the game "FireRead/LeafGreen" but you are restricted to only 1 move ie:tackle and assigned some pokemon at random and do not have any items. It does use type advantage for the pokemon so you have to strategize to win.
 - When you run it, the output should look like the following (hopefully):
 
 ![image](https://user-images.githubusercontent.com/45400093/234679136-068ce830-7fd2-487c-8b5d-6088536cc2a5.png)
