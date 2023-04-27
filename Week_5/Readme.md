@@ -10,30 +10,49 @@ Symbols at the end of links and what they mean (hopefully) in order of importanc
 # Spring 2023
 
 ```java
-// Your weekly random fact brought to you by our friend ChatGPT
+// Your weekly coin toss simulator brought to you by our friend ChatGPT
 
-// This program generates a random fact from its list.
-// You can add your own facts to the array to the facts arrays to see more facts.
+// When you run this program, it will ask you how many times you want to toss a coin.
+// It will then simulate that many coin tosses and keep track of the number of heads and tails.
+// Finally, it will display the results and tell you whether you won, lost, or tied the game. Have fun!
 
 import java.util.Random;
+import java.util.Scanner;
 
-public class RandomFactGenerator {
+public class CoinToss {
     public static void main(String[] args) {
-        String[] facts = {
-            "The shortest war in history was between Britain and Zanzibar in 1896. Zanzibar surrendered after just 38 minutes.",
-            "The world's oldest piece of chewing gum is over 9,000 years old.",
-            "A group of flamingos is called a flamboyance.",
-            "The world's largest grand piano was built by a 15-year-old in New Zealand.",
-            "The longest wedding veil was longer than 63 football fields."
-        };
-        
+        Scanner input = new Scanner(System.in);
         Random rand = new Random();
-        int index = rand.nextInt(facts.length);
-        String fact = facts[index];
+        int heads = 0;
+        int tails = 0;
         
-        System.out.println(fact);
+        System.out.print("How many times do you want to toss the coin? ");
+        int numTosses = input.nextInt();
+        
+        for (int i = 1; i <= numTosses; i++) {
+            int result = rand.nextInt(2);
+            if (result == 0) {
+                System.out.println("Toss " + i + ": heads");
+                heads++;
+            } else {
+                System.out.println("Toss " + i + ": tails");
+                tails++;
+            }
+        }
+        
+        System.out.println("\nResults: ");
+        System.out.println("Heads: " + heads);
+        System.out.println("Tails: " + tails);
+        if (heads > tails) {
+            System.out.println("You win!");
+        } else if (tails > heads) {
+            System.out.println("You lose!");
+        } else {
+            System.out.println("It's a tie!");
+        }
     }
 }
+
 
 ```
 ## Simple RPG
