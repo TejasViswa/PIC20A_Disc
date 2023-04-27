@@ -10,49 +10,82 @@ Symbols at the end of links and what they mean (hopefully) in order of importanc
 # Spring 2023
 
 ```java
-// Your weekly coin toss simulator brought to you by our friend ChatGPT
+// Your weekly random ASCII maze generator brought to you by our friend ChatGPT
 
-// When you run this program, it will ask you how many times you want to toss a coin.
-// It will then simulate that many coin tosses and keep track of the number of heads and tails.
-// Finally, it will display the results and tell you whether you won, lost, or tied the game. Have fun!
+// This algorithm uses a recursive backtracking approach to generate the maze.
+// It starts at a random cell and randomly chooses a direction to move in.
+// If the adjacent cell in that direction is unvisited,
+// it carves a path to that cell by replacing the wall characters with empty space characters.
+// It then recursively repeats this process from the new cell until there are no more unvisited cells to move to.
+// The shuffleArray method is used to randomize the order in which directions are attempted, which helps to produce more interesting and varied mazes.
 
 import java.util.Random;
-import java.util.Scanner;
 
-public class CoinToss {
+public class RandomMazeGenerator {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        int rows = 10;
+        int cols = 20;
+
         Random rand = new Random();
-        int heads = 0;
-        int tails = 0;
-        
-        System.out.print("How many times do you want to toss the coin? ");
-        int numTosses = input.nextInt();
-        
-        for (int i = 1; i <= numTosses; i++) {
-            int result = rand.nextInt(2);
-            if (result == 0) {
-                System.out.println("Toss " + i + ": heads");
-                heads++;
-            } else {
-                System.out.println("Toss " + i + ": tails");
-                tails++;
+        char[][] maze = new char[rows][cols];
+
+        // Initialize maze with walls
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                maze[i][j] = '#';
             }
         }
-        
-        System.out.println("\nResults: ");
-        System.out.println("Heads: " + heads);
-        System.out.println("Tails: " + tails);
-        if (heads > tails) {
-            System.out.println("You win!");
-        } else if (tails > heads) {
-            System.out.println("You lose!");
-        } else {
-            System.out.println("It's a tie!");
+
+        // Generate maze
+        generateMaze(rand, maze, 1, 1);
+
+        // Print maze
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                System.out.print(maze[i][j]);
+            }
+            System.out.println();
+        }
+    }
+
+    private static void generateMaze(Random rand, char[][] maze, int row, int col) {
+        int[] directions = { 1, 2, 3, 4 };
+        shuffleArray(rand, directions);
+
+        for (int dir : directions) {
+            int newRow = row;
+            int newCol = col;
+
+            if (dir == 1) {
+                newRow -= 2;
+            } else if (dir == 2) {
+                newCol += 2;
+            } else if (dir == 3) {
+                newRow += 2;
+            } else if (dir == 4) {
+                newCol -= 2;
+            }
+
+            if (newRow < 1 || newRow >= maze.length - 1 || newCol < 1 || newCol >= maze[0].length - 1
+                    || maze[newRow][newCol] != '#') {
+                continue;
+            }
+
+            maze[newRow][newCol] = ' ';
+            maze[(newRow + row) / 2][(newCol + col) / 2] = ' ';
+            generateMaze(rand, maze, newRow, newCol);
+        }
+    }
+
+    private static void shuffleArray(Random rand, int[] arr) {
+        for (int i = arr.length - 1; i > 0; i--) {
+            int j = rand.nextInt(i + 1);
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
         }
     }
 }
-
 
 ```
 ## Simple RPG
