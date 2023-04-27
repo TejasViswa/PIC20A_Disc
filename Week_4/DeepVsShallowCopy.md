@@ -46,3 +46,5 @@ public class Ex {
 ![image](https://user-images.githubusercontent.com/45400093/234995224-5b8318c0-63f2-433f-bea3-c591300b6d9a.png)
 
 To create a shallow copy in Java, you can use the clone() method, but it only copies the object and its fields, not the objects to which the fields point. To create a deep copy, you will need to implement the copy logic yourself, which can be a more involved process. This is where the copy constructor comes into play. You need to define your copy constructor such that it performs a deep copy.
+
+[Reference](https://www.geeksforgeeks.org/deep-shallow-lazy-copy-java-examples/)
