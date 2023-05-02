@@ -44,4 +44,4 @@ Navigate to the current week and look at the README which has a bunch of links f
 - [Pokemon Type](https://github.com/TejasViswa/PIC20A_Disc/tree/main/PokemonType)
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 - [Shape Shooter](https://github.com/TejasViswa/PIC20A_Disc/tree/main/ShapeShooter)
-
+- [Pokemon Battle](https://github.com/TejasViswa/PIC20A_Disc/tree/main/PokemonBattle)
