@@ -115,8 +115,11 @@ Sample Output
 - [PokemonWithType Class Exercise](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_4/PokemonWithTypeExercise.md) ?
 - [PokemonWithType Class](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_4/PokemonWithType.java) ?
 - [UndergradStudentTester](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_4/UndergradStudentTester.java) !
-- [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) ?
-- [Strings in Java - Immutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StringImmutable.md) ?
+- [Arrays Vs Strings - Mutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ArrayVsString.md) !
+- [Strings in Java - Immutability](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/StringImmutable.md) !
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/P4Eid48RqYr22frIRHWwv7zKnZyhyiusZECO-8noYxpy7UO8tBochzZrUxcGHiJD.O_WQRs_21wvK4Y33)
+    - Passcode: N@yZ7*?5
 
 ## Thu May 4
 - [EmployeeTester](EmployeeTester.java) ?
