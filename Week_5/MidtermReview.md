@@ -59,7 +59,18 @@ double x = Double.MAX_VALUE;
 x = x * 2;
 System.out.println(x); // output: Infinity
 ```
-## Conversions
+### `final` keyword
+- In Java, the final keyword can be used to declare a variable as a constant. When a variable is declared as final, its value cannot be changed after initialization. This applies to all data types, including primitive data types.
+```java
+final int x = 5;
+x = 10; // Compilation error: cannot assign a value to final variable x
+```
+- In this example, x is declared as a final variable with an initial value of 5. When we try to assign a new value to x in the next line, a compilation error occurs because x is a constant and its value cannot be changed.
+- Additional info not required for exam: It's important to note that declaring a variable as final does not make it immutable. For example, if we declare a final variable of an object type, we can still modify the state of the object it references. It just means that we cannot change the address that it references.
+
+## Conversions between primitive data types
+- Please read `Conversions.java` carefully
+
 |To \ From|byte|short|char|int|long|float|double|
 | :---        |    :----:   | :----:   | :----:   | :----:   | :----:   | :----:   | :----:   | 
 |byte|N/A|N|N|N|N|N|N|
@@ -80,3 +91,52 @@ In general:
 - Widening conversions between integral types(`byte`,`short`,`char`,`int`,`long`) guarantee that there is no loss of data
 - Widening conversions between integral to floating or floating to floating types (floating types are `float` and `double`) may or may not result in data loss
 - All narrowing conversions may or may not result in data loss
+
+### Compound Casting
+Compound casting, also known as cascading or chained casting, is a technique used in Java to cast a variable to multiple data types in a single statement. It involves casting a variable to a wider data type and then casting it again to a narrower data type.
+```java
+int i = (int) (long) (float) 123.45;
+````
+This statement casts the floating-point literal 123.45 to float, then to long, and finally to int. It is equivalent to the following sequence of statements:
+```jav
+float f = 123.45f;
+long l = (long) f;
+int i = (int) l;
+```
+Compound casting is often used when converting between different data types, especially when working with mathematical expressions or in performance-critical code where minimizing the number of intermediate variables can be beneficial. However, it can also lead to unexpected results if not used carefully, especially when casting between signed and unsigned data types or when casting values beyond the range of a data type.
+
+## Exercise
+### Question 1
+What is the result of the following code snippet?
+```java
+short s = 32767;
+byte b = (byte) s;
+int i = b * 2;
+System.out.println(i);
+```
+### Answer
+In this example, we start with a short variable s that has a value of 32767, which is the largest value a short can hold. We then cast it to a byte, which can only hold values between -128 and 127. This causes a loss of information, so b now has a value of -1. We then multiply b by 2, which gives us -2, and assign the result to an int variable i. The result of i is -2.
+
+### Question 2
+What is the result of the following code snippet?
+```java
+float f = 1.23f;
+long l = (long) (f * 100);
+int i = (int) l;
+byte b = (byte) i;
+System.out.println(b);
+```
+### Answer
+In this example, we start with a float variable f that has a value of 1.23, which we then multiply by 100 and cast to a long. This gives us a value of 122, which fits within the range of a long. We then cast l to an int, which still fits within the range of an int. Finally, we cast i to a byte, which can only hold values between -128 and 127. Since the value of i is 122, which is within the range of a byte, the cast succeeds and the value of b is 122.
+
+### Question 3
+What is the result of the following code snippet?
+```java
+short s1 = 100;
+short s2 = 200;
+int i = s1 + s2;
+byte b = (byte) i;
+System.out.println(b);
+```
+### Answer
+In this example, we start with two short variables s1 and s2 that have values of 100 and 200, respectively. We then add them together, which gives us an int value of 300. Since 300 is outside the range of a byte, the cast to byte causes a loss of information, and the value of b becomes 44 due to integer overflow.
