@@ -103,3 +103,51 @@ public class VarArgsTest {
 Compile Time Error - Varargs ambiguity
 ```
 There is varargs ambiguity because both the methods are equally specific
+
+## Method Overloading
+Reading the snippets `OverloadingStaticMethods.java` and `TypeTester.java`
+
+The methods are matched according to how specific it is and according the parameter orders.
+
+## Exercise
+### Question 1
+What is the output of the following code?
+```java
+import java.util.*;
+
+public class App {
+
+    public void print(int x) {
+        System.out.println("int: " + x);
+    }
+    
+    public void print(double x) {
+        System.out.println("double: " + x);
+    }
+    
+    public void print(String x) {
+        System.out.println("String: " + x);
+    }
+    public void print(float[] x) {
+        System.out.println("float[]: " + Arrays.toString(x));
+    }
+
+    public void print(double x, double y, double z) {
+        System.out.println("double: " + x + ", int: " + y + ", double: " + z);
+    }
+
+    public void print(double x, int y, int z) {
+        System.out.println("double: " + x + ", int: " + y + ", int: " + z);
+    }
+
+    public static void main(String[] args) {
+        App puzzle = new App();
+        
+        puzzle.print(3+2+"1"+4+"1"+1+4);
+        puzzle.print(new float[] {1, 2, 3});
+        puzzle.print(10.0, 1, 'c');
+        puzzle.print(10.0, 1.5, 'c');
+        puzzle.print(1.23f);
+    }
+}
+```
