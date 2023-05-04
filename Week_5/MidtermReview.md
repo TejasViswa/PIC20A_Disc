@@ -112,31 +112,58 @@ What is the result of the following code snippet?
 short s = 32767;
 byte b = (byte) s;
 int i = b * 2;
-System.out.println(i);
+System.out.println(i == s*2);
 ```
 ### Answer
-In this example, we start with a short variable s that has a value of 32767, which is the largest value a short can hold. We then cast it to a byte, which can only hold values between -128 and 127. This causes a loss of information, so b now has a value of -1. We then multiply b by 2, which gives us -2, and assign the result to an int variable i. The result of i is -2.
+`false` - In this example, we start with a short variable s that has a value of 32767, which is the largest value a short can hold. We then cast it to a byte, which can only hold values between -128 and 127. This causes a loss of information, so b now has a value of -1. We then multiply b by 2, which gives us -2, and assign the result to an int variable i. The result of i is -2.
 
 ### Question 2
 What is the result of the following code snippet?
 ```java
-float f = 1.23f;
-long l = (long) (f * 100);
-int i = (int) l;
-byte b = (byte) i;
+// max value of byte is 127
+// min value of byte is -128
+float f = 1.28f;
+byte b = (byte)(int)(long) (f * 100);
 System.out.println(b);
 ```
 ### Answer
-In this example, we start with a float variable f that has a value of 1.23, which we then multiply by 100 and cast to a long. This gives us a value of 122, which fits within the range of a long. We then cast l to an int, which still fits within the range of an int. Finally, we cast i to a byte, which can only hold values between -128 and 127. Since the value of i is 122, which is within the range of a byte, the cast succeeds and the value of b is 122.
+`-128` - In this example, we start with a float variable f that has a value of 1.28, which we then multiply by 100 and cast to a long. This gives us a value of 128, which fits within the range of a long. We then cast l to an int, which still fits within the range of an int. Finally, we cast i to a byte, which can only hold values between -128 and 127. Since the value of i is 128, which is one more than the range of a byte, the cast essentially wraps around the value to the min value of byte which is -128 (underflow).
 
 ### Question 3
 What is the result of the following code snippet?
 ```java
-short s1 = 100;
-short s2 = 200;
-int i = s1 + s2;
-byte b = (byte) i;
-System.out.println(b);
+// max value of short is 32767
+// min value of short is -32768
+short s1 = 32767;
+short s2 = 32767;
+int i = (int) s1 + s2;
+System.out.println(s1 + s2 == i);
 ```
 ### Answer
-In this example, we start with two short variables s1 and s2 that have values of 100 and 200, respectively. We then add them together, which gives us an int value of 300. Since 300 is outside the range of a byte, the cast to byte causes a loss of information, and the value of b becomes 44 due to integer overflow.
+`true` - In this example, we start with two short variables s1 and s2 that have their max values, respectively. We add them together while casting one of them to an int and store them in an int. Rememeber that addition of any integral datatypes below an int will result in an int. Thus, the addition automatically gives an int which can store that value because int's range is greater and when we compare them it will definitely be true.
+
+### Question 4
+What is the result of the following code snippet?
+```java
+// max value of short is 2_147_483_647
+// min value of short is -2_147_483_648
+int i1 = 2_147_483_647;
+int i2 = 2_147_483_647;
+long l = (long) i1 + i2;
+System.out.println(i1 + i2 == l);
+```
+### Answer
+`false` - In this example, we start with two int variables i1 and i2 that have their max values, respectively. We add them together while casting one of them to an long and store them in an long (Addition promotes both of them to long and they are stored without any loss of data). Rememeber that addition of any two int will result in an int. Thus, the addition automatically gives an int which cannot store that value because int's range is smaller than the sum and when we compare them it will be false.
+
+### Question 5
+What is the result of the following code snippet?
+```java
+// ASCII / Unicode values for:
+// 'c' is 99
+// 'd' is 100
+double d = ('c'+'d')/'c';
+float f = (float) d;
+System.out.println(f);
+```
+### Answer
+`2.0` - ('c'+'d') adds upto to 199 (char + char gives int) and 199/'c' gives 199/99 (integer division) which is 2 and is then stored into double as 2.0. Even though it is casted into float, there is no loss of data as it is within the range of float and thus the output is 2.0. Please remember that you cannot directly assign a double literal (something like `1.5`) into a float. It has to be casted into a float or a float literal has to be used (something like `1.5f`).
