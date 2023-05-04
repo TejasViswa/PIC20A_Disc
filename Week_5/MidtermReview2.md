@@ -107,7 +107,7 @@ There is varargs ambiguity because both the methods are equally specific
 ## Method Overloading
 Reading the snippets `OverloadingStaticMethods.java` and `TypeTester.java`
 
-The methods are matched according to how specific it is and according the parameter orders.
+The methods are matched according to how specific it is and according to the parameter orders.
 
 ## Exercise
 ### Question 1
