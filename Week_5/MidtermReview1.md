@@ -105,8 +105,8 @@ int i = (int) l;
 ```
 Compound casting is often used when converting between different data types, especially when working with mathematical expressions or in performance-critical code where minimizing the number of intermediate variables can be beneficial. However, it can also lead to unexpected results if not used carefully, especially when casting between signed and unsigned data types or when casting values beyond the range of a data type.
 
-## Exercise
-### Question 1
+# Exercise
+## Question 1
 What is the result of the following code snippet?
 ```java
 short s = 32767;
@@ -117,7 +117,7 @@ System.out.println(i == s*2);
 ### Answer
 `false` - In this example, we start with a short variable s that has a value of 32767, which is the largest value a short can hold. We then cast it to a byte, which can only hold values between -128 and 127. This causes a loss of information, so b now has a value of -1. We then multiply b by 2, which gives us -2, and assign the result to an int variable i. The result of i is -2.
 
-### Question 2
+## Question 2
 What is the result of the following code snippet?
 ```java
 // max value of byte is 127
@@ -129,7 +129,7 @@ System.out.println(b);
 ### Answer
 `-128` - In this example, we start with a float variable f that has a value of 1.28, which we then multiply by 100 and cast to a long. This gives us a value of 128, which fits within the range of a long. We then cast l to an int, which still fits within the range of an int. Finally, we cast i to a byte, which can only hold values between -128 and 127. Since the value of i is 128, which is one more than the range of a byte, the cast essentially wraps around the value to the min value of byte which is -128 (underflow).
 
-### Question 3
+## Question 3
 What is the result of the following code snippet?
 ```java
 // max value of short is 32767
@@ -142,7 +142,7 @@ System.out.println(s1 + s2 == i);
 ### Answer
 `true` - In this example, we start with two short variables s1 and s2 that have their max values, respectively. We add them together while casting one of them to an int and store them in an int. Rememeber that addition of any integral datatypes below an int will result in an int. Thus, the addition automatically gives an int which can store that value because int's range is greater and when we compare them it will definitely be true.
 
-### Question 4
+## Question 4
 What is the result of the following code snippet?
 ```java
 // max value of short is 2_147_483_647
@@ -155,7 +155,7 @@ System.out.println(i1 + i2 == l);
 ### Answer
 `false` - In this example, we start with two int variables i1 and i2 that have their max values, respectively. We add them together while casting one of them to an long and store them in an long (Addition promotes both of them to long and they are stored without any loss of data). Rememeber that addition of any two int will result in an int. Thus, the addition automatically gives an int which cannot store that value because int's range is smaller than the sum and when we compare them it will be false.
 
-### Question 5
+## Question 5
 What is the result of the following code snippet?
 ```java
 // ASCII / Unicode values for:
