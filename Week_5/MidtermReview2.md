@@ -55,3 +55,30 @@ double x = -0.5;
 System.out.println(Math.ceil(x));
 ```
 `0.0` - The Math.ceil(x) method will return the smallest double value that is greater than or equal to x, which is 0.0 since -0.5 is closer to 0.0 than to -1.0.
+
+## Varargs
+Read the snippet `VarArgs.java`. [Additional information on varargs](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/Varargs.md)
+
+In Java, varargs (variable arguments) allow methods to take a variable number of arguments of the same type. Here are some rules for using varargs in Java:
+- A method can have at most one varargs parameter.
+- The varargs parameter must be the last parameter in the method's parameter list.
+- The type of the varargs parameter is an array type, and the component type of the array can be any valid Java type.
+- When calling a method with a varargs parameter, you can pass any number of arguments (including zero) of the specified type, separated by commas.
+- The compiler automatically creates an array of the specified type and length to hold the arguments passed to the varargs parameter.
+- If the method has other parameters in addition to the varargs parameter, you must pass values for those parameters before the varargs parameter.
+- You can also pass an array to a varargs parameter by using the syntax arrayName, where arrayName is the name of the array.
+```java
+public static int sum(int... numbers) {
+    int total = 0;
+    for (int n : numbers) {
+        total += n;
+    }
+    return total;
+}
+```
+- In this example, the method sum takes a variable number of int arguments using the varargs syntax (int... numbers). The method uses a for loop to add up all of the values passed in and returns the total sum.
+
+
+
+
+
