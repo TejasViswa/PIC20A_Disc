@@ -122,6 +122,8 @@ Sample Output
     - Passcode: N@yZ7*?5
 
 ## Thu May 4
+- [Midterm Review - Compile and Run java programs, Primitive types, conversions](MidtermReview1.md) ??
+- [Midterm Review - Math functions, varargs, method overloading](MidtermReview2.md) ??
 - [EmployeeTester](EmployeeTester.java) ?
 
 # Winter 2023
