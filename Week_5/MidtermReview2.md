@@ -3,57 +3,30 @@
 # Basics
 ## Math Functions
 - Read the snippet `MathFunctions.java`
-# Exercise
+## Exercise
 ### Question 1
 What is the output of the following code snippet?
 ```java
 double x = -4.5;
 System.out.println(Math.abs(Math.round(x)));
 ```
+### Answer
 `5`- The Math.round(x) method will return -4 since -4.5 rounds to -4. Then, the Math.abs() method will return the absolute value of -4, which is 4.
-### Quesrtion 2
-What is the output of the following code snippet?
-```java
-double x = 3.14;
-System.out.println(Math.floor(x));
-```
-`3` - The Math.floor(x) method will return the largest double value that is less than or equal to x, which is 3.0.
-### Question 3
-What is the output of the following code snippet?
-```java
-double x = 2.5;
-double y = 3.0;
-System.out.println(Math.pow(x, y));
-```
-`15.625` - The Math.pow(x, y) method will return x raised to the power of y, which is 2.5 raised to the power of 3.0. This is equivalent to 2.5 * 2.5 * 2.5, which equals 15.625.
-### Question 4
-What is the output of the following code snippet?
-```java
-double x = 2.5;
-double y = 3.0;
-System.out.println(Math.max(x, Math.pow(y, x)));
-```
-`15.0` - The Math.pow(y, x) method will return y raised to the power of x, which is 3.0 raised to the power of 2.5. This is approximately 15.59. Then, the Math.max(x, Math.pow(y, x)) method will return the larger of x and y^x, which is 15.0.
-### Question 5
+### Question 2
 What is the output of the following code snippet?
 ```java
 double x = 5.0;
 System.out.println(Math.sqrt(-x));
 ```
+### Answer
 `NaN` - The Math.sqrt() method only accepts non-negative arguments. Since -5.0 is negative, the method will return NaN, which stands for "Not a Number".
-### Question 6
-What is the output of the following code snippet?
-```java
-double x = 3.7;
-System.out.println(Math.round(x));
-```
-`4` - The Math.round(x) method will return the closest long value to x, which is 4 since 3.7 is closer to 4 than to 3.
-### Question 7
+### Question 3
 What is the output of the following code snippet?
 ```java
 double x = -0.5;
 System.out.println(Math.ceil(x));
 ```
+### Answer
 `0.0` - The Math.ceil(x) method will return the smallest double value that is greater than or equal to x, which is 0.0 since -0.5 is closer to 0.0 than to -1.0.
 
 ## Varargs
@@ -78,7 +51,55 @@ public static int sum(int... numbers) {
 ```
 - In this example, the method sum takes a variable number of int arguments using the varargs syntax (int... numbers). The method uses a for loop to add up all of the values passed in and returns the total sum.
 
+## Exercise
 
+### Question 1
+What is the output of the following code?
+```java
+public class VarArgsTest {
 
+    public static void main(String[] args) {
+        foo(1, 2);
+        foo(1, 2, 3);
+    }
 
+    public static void foo(int num1, int num2) {
+        System.out.println("Two parameters method");
+    }
 
+    public static void foo(int... numbers) {
+        System.out.println("Varargs method");
+    }
+
+}
+```
+### Answer
+```
+Two parameters method
+Varargs method
+```
+The methods are matched according to how specific they are.
+### Question 2
+What is the output of the following code?
+```java
+public class VarArgsTest {
+
+    public static void main(String[] args) {
+        foo(1);
+    }
+
+    public static void foo(int num, int... number) {
+        System.out.println("int, int...");
+    }
+
+    public static void foo(int... numbers) {
+        System.out.println("int...");
+    }
+
+}
+```
+### Answer
+```
+Compile Time Error - Varargs ambiguity
+```
+There is varargs ambiguity because both the methods are equally specific
