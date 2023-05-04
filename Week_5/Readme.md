@@ -124,7 +124,8 @@ Sample Output
 ## Thu May 4
 - [Midterm Review - Compile and Run java programs, Primitive types, conversions](MidtermReview1.md) ??
 - [Midterm Review - Math functions, varargs, method overloading](MidtermReview2.md) ??
-- [EmployeeTester](EmployeeTester.java) ?
+- [Midterm Review - Control Flow and loops, Objects](MidtermReview3.md) ??
+- [Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ConceptualPuzzles.md) ?
 
 # Winter 2023
 
