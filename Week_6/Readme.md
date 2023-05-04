@@ -11,14 +11,39 @@ Symbols at the end of links and what they mean (hopefully) in order of importanc
 
 # Spring 2023
 ```java
-// Your weekly random ASCII maze generator brought to you by our friend ChatGPT
+// Your weekly simple encryption program brought to you by our friend ChatGPT
 
-// This algorithm uses a recursive backtracking approach to generate the maze.
-// It starts at a random cell and randomly chooses a direction to move in.
-// If the adjacent cell in that direction is unvisited,
-// it carves a path to that cell by replacing the wall characters with empty space characters.
-// It then recursively repeats this process from the new cell until there are no more unvisited cells to move to.
-// The shuf
+import java.util.Scanner;
+
+public class Encryption {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a message: ");
+        String message = input.nextLine();
+        System.out.print("Enter a key: ");
+        int key = input.nextInt();
+        String encryptedMessage = "";
+        for (int i = 0; i < message.length(); i++) {
+            char c = message.charAt(i);
+            if (Character.isLetter(c)) {
+                if (Character.isUpperCase(c)) {
+                    c = (char) ('A' + (c - 'A' + key) % 26);
+                } else {
+                    c = (char) ('a' + (c - 'a' + key) % 26);
+                }
+            }
+            encryptedMessage += c;
+        }
+        System.out.println("Encrypted message: " + encryptedMessage);
+    }
+}
+
+```
+Sample Output:
+```
+Enter a message: Hello, How are you?
+Enter a key: 7
+Encrypted message: Olssv, Ovd hyl fvb?
 ```
 ## Tue May 9
 - [Midterm Review - Control Flow and loops, Objects](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_5/MidtermReview3.md) ??
