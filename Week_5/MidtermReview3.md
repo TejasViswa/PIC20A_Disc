@@ -57,17 +57,23 @@ There are different ways to import Java APIs like java.lang based on the specifi
 1. **Import specific classes** - You can import specific classes from the java.lang package using the import statement followed by the fully qualified name of the class. For example:
 ```java
 import java.lang.String;
-// This approach allows you to import only the classes you need and avoid namespace conflicts.
+// This approach allows you to
+// import only the classes you need
+// and avoid namespace conflicts.
 ```
 2. **Import all classes from a package** - You can import all classes from a package using the asterisk (`*`) wildcard character. For example:
 ```java
 import java.lang.*;
-// This approach imports all classes from the specified package and can save you time typing import statements, but it can also lead to namespace conflicts.
+// This approach imports all classes
+// from the specified package and can save you time typing import statements,
+// but it can also lead to namespace conflicts.
 ```
 3. **Use fully qualified names** - Instead of importing classes, you can use their fully qualified names in your code. For example:
 ```java
 java.lang.String myString = "Hello, world!";
-// This approach avoids namespace conflicts and can make your code more readable, but it can also make your code more verbose.
+// This approach avoids namespace conflicts
+// and can make your code more readable,
+// but it can also make your code more verbose.
 ```
 4. **Static import** - If you want to use static methods or constants from a class, you can use the static import statement. For example:
 ```java
@@ -76,5 +82,7 @@ import static java.lang.Math.cos;
 
 double angle = PI / 4;
 double result = cos(angle);
-// This approach allows you to use static methods or constants without having to qualify them with the class name. However, it can also make your code less readable if used excessively.
+// This approach allows you to use static methods
+// or constants without having to qualify them with the class name.
+// However, it can also make your code less readable if used excessively.
 ```
