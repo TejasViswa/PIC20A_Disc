@@ -46,7 +46,7 @@ Enter a key: 7
 Encrypted message: Olssv, Ovd hyl fvb?
 ```
 ## Tue May 9
-- [Midterm Review - Control Flow and loops, Objects](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_5/MidtermReview3.md) ??
+- [Midterm Review - Control Flow and loops, Objects, Java Packages, Java API](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_5/MidtermReview3.md) ??
 - Practice Midterm Review ??
 - [Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ConceptualPuzzles.md) ?
 
