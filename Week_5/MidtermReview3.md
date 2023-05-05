@@ -38,11 +38,12 @@ MyClass myObject = new MyClass();
 myObject.myMethod();
 ```
 ### Access Modifiers
-| | private | default (package - private) | public |
-| :== | :==: | :==: | :==: |
+
+| Class / Access Specifier | private | default (package - private) | public |
+| :-- | :--: | :--: | :--: |
 | Same Class | Yes | Yes | Yes |
 | Different Class but same package | No | Yes | Yes |
-Different Class, different package | No | No | Yes |
+| Different Class, different package | No | No | Yes |
 
 where:
 - Yes indicates that the class is accessible with the access specifier
