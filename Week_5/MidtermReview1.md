@@ -142,7 +142,7 @@ int i = (int) s1 + s2;
 System.out.println(s1 + s2 == i);
 ```
 ### Answer
-`true` - In this example, we start with two short variables s1 and s2 that have their max values, respectively. We add them together while casting one of them to an int and store them in an int. Rememeber that addition of any integral datatypes below an int will result in an int. Thus, the addition automatically gives an int which can store that value because int's range is greater and when we compare them it will definitely be true.
+`true` - In this example, we start with two short variables s1 and s2 that have their max values, respectively. We add them together while casting one of them to an int and store them in an int. Remember that addition of any integral datatypes below an int will result in an int. Thus, the addition automatically gives an int which can store that value because int's range is greater and when we compare them it will definitely be true.
 
 ## Question 4
 What is the result of the following code snippet?
@@ -155,7 +155,7 @@ long l = (long) i1 + i2;
 System.out.println(i1 + i2 == l);
 ```
 ### Answer
-`false` - In this example, we start with two int variables i1 and i2 that have their max values, respectively. We add them together while casting one of them to an long and store them in an long (Addition promotes both of them to long and they are stored without any loss of data). Rememeber that addition of any two int will result in an int. Thus, the addition automatically gives an int which cannot store that value because int's range is smaller than the sum and when we compare them it will be false.
+`false` - In this example, we start with two int variables i1 and i2 that have their max values, respectively. We add them together while casting one of them to an long and store them in an long (Addition promotes both of them to long and they are stored without any loss of data). Remember that addition of any two int will result in an int. Thus, the addition automatically gives an int which cannot store that value because int's range is smaller than the sum and when we compare them it will be false.
 
 ## Question 5
 What is the result of the following code snippet?
