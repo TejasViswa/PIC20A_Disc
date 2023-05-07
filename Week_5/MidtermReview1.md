@@ -129,7 +129,7 @@ byte b = (byte)(int)(long) (f * 100);
 System.out.println(b);
 ```
 ### Answer
-`-128` - In this example, we start with a float variable f that has a value of 1.28, which we then multiply by 100 and cast to a long. This gives us a value of 128, which fits within the range of a long. We then cast l to an int, which still fits within the range of an int. Finally, we cast i to a byte, which can only hold values between -128 and 127. Since the value of i is 128, which is one more than the range of a byte, the cast essentially wraps around the value to the min value of byte which is -128 (underflow).
+`-128` - In this example, we start with a float variable f that has a value of 1.28, which we then multiply by 100 and cast to a long. This gives us a value of 128, which fits within the range of a long. We then cast it to an int, which still fits within the range of an int. Finally, we cast it to a byte, which can only hold values between -128 and 127. Since the value of i is 128, which is one more than the range of a byte, the cast essentially wraps around the value to the min value of byte which is -128 (underflow).
 
 ## Question 3
 What is the result of the following code snippet?
