@@ -117,7 +117,7 @@ int i = b * 2;
 System.out.println(i == s*2);
 ```
 ### Answer
-`false` - In this example, we start with a short variable s that has a value of 32767, which is the largest value a short can hold. We then cast it to a byte, which can only hold values between -128 and 127. This causes a loss of information, so b now has a value of -1(this is becasue of the wrap-around oepration that happens when you assign a value that is greater than the limit of the datatype - to actually calculate this value, you can mod(%) the input value with the range of byte(127-(-128)=256) and wrap around this remainder around the range - 255 is the remainder and it wraps around the range till we get the value -1). We then multiply b by 2, which gives us -2, and assign the result to an int variable i. The result of i is -2.
+`false` - In this example, we start with a short variable s that has a value of 32767, which is the largest value a short can hold. We then cast it to a byte, which can only hold values between -128 and 127. This causes a loss of information, so b now has a value of -1 (this is because of the wrap-around operation that happens when you assign a value that is greater than the limit of the datatype - to actually calculate this value, you can mod(%) the input value with the range of byte (127 - (-128) = 256) and wrap-around this remainder around its range -> 255 is the remainder and it wraps around the range of byte till we get the value '-1'). We then multiply b by 2, which gives us -2, and assign the result to an int variable i. The result of i is -2.
 
 ## Question 2
 What is the result of the following code snippet?
