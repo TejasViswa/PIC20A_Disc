@@ -11,7 +11,7 @@ double x = -4.5;
 System.out.println(Math.abs(Math.round(x)));
 ```
 ### Answer
-`5`- The Math.round(x) method will return -4 since -4.5 rounds to -4. Then, the Math.abs() method will return the absolute value of -4, which is 4.
+`4`- The Math.round(x) method will return -4 since -4.5 rounds to -4. Then, the Math.abs() method will return the absolute value of -4, which is 4.
 ### Question 2
 What is the output of the following code snippet?
 ```java
