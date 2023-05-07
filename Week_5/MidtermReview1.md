@@ -109,6 +109,8 @@ Compound casting is often used when converting between different data types, esp
 ## Question 1
 What is the result of the following code snippet?
 ```java
+// max value of short is 32767
+// max value of byte is 127
 short s = 32767;
 byte b = (byte) s;
 int i = b * 2;
