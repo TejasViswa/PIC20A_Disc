@@ -27,7 +27,7 @@ double x = -0.5;
 System.out.println(Math.ceil(x));
 ```
 ### Answer
-`0.0` - The Math.ceil(x) method will return the smallest double value that is greater than or equal to x, which is 0.0 since -0.5 is closer to 0.0 than to -1.0.
+`0.0` - The Math.ceil(x) method will return the smallest double value that is greater than or equal to x, which is 0.0.
 
 ## Varargs
 Read the snippet `VarArgs.java`. [Additional information on varargs](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_3/Varargs.md)
