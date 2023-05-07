@@ -104,6 +104,8 @@ Compile Time Error - Varargs ambiguity
 ```
 There is varargs ambiguity because both the methods are equally specific
 
+[Some more on varargs ambiguity](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_5/VarargAmbiguity.md)
+
 ## Method Overloading
 Reading the snippets `OverloadingStaticMethods.java` and `TypeTester.java`
 
