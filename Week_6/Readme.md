@@ -57,8 +57,9 @@ Encrypted message: Olssv, Ovd hyl fvb?
     - Passcode: z=g9Rt6Z
 
 ## Thu May 11
-- [Midterm Solutions](MidtermSolns.md)
-- [Pokemon Type](https://github.com/TejasViswa/PIC20A_Disc/tree/main/PokemonType)
+- [Midterm Solutions](MidtermSolns.md) ??
+- [Midterm Problem 2 Solution](MidProb2.md) ??
+- [Pokemon Type](https://github.com/TejasViswa/PIC20A_Disc/tree/main/PokemonType) !
 
 # Winter 2023
 
