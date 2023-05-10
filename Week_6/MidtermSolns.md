@@ -158,6 +158,8 @@ Write down the output from executing the code in the following box.
 [5, 5, 5, 1, 5]
 ```
 
+[Detailed Memory Diagram for Problem 2](MidProb2.md)
+
 ## Problem 3
 The following code implements the `Point3D` class (saved in a file called `Point3D.java`).
 ```java
