@@ -116,7 +116,7 @@ select this option.
 ```
 
 ## Problem 2
-The following code (saved in a file called `Question2a.java`)
+The following code (saved in a file called `Question2.java`)
 compiles and executes successfully.
 ```java
 public class Question2 {
