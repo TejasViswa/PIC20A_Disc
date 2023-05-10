@@ -50,7 +50,7 @@ Encrypted message: Olssv, Ovd hyl fvb?
 - [Midterm Review - Basics of Java Classes, Inheritance, Polymorphism](MidtermReview4.md) ??
 - Practice Midterm Review ??
 - [Practice Midterm Problem 2b - Shakespeare/Rectangle Problem](PracMidRectQ.md) ??
-- []()
+- [Practice Midterm Problem 3 - C class Problem](PracMidCQ.md) ??
 - [Conceptual Java Puzzles](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_2/ConceptualPuzzles.md) ?
 - Disc 1B recording
     - [link](https://ucla.zoom.us/rec/share/VzvVjVSWd1l_0wtNU6--rxtrGO7izpldCwa_qX5S0JEguLo89ytZez8NpY1p61mb.pUVgawMEiuW9pC_K)
