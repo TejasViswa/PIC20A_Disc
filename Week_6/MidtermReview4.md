@@ -78,7 +78,7 @@ public class Employee {
 ## Example
 ```java
 class Animal {
-    protected String name;
+    public String name;
     
     public Animal(String name) {
         this.name = name;
@@ -99,38 +99,68 @@ class Dog extends Animal {
     }
     
     public void speak() {
-        System.out.println("The dog barks!");
+        System.out.println("The "+name+" barks!");
     }
     
     public void fetch() {
-        System.out.println("The dog fetches the ball");
+        System.out.println("The "+name+" fetches the ball");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
+
+        // Normal assignment
         Animal animal = new Animal("animal");
         Dog dog = new Dog("dog");
         
         // Upcasting
-        Animal animalDog = dog;
-        animalDog.speak();  // Output: The dog barks!
-        animalDog.eat();    // Output: The dog is eating
-        // Downcasting
-        Dog dogAnimal = (Dog) animal;
-        dogAnimal.speak();  // Output: The animal makes a sound
-        dogAnimal.fetch();  // Compilation error: cannot find symbol
+        Animal animalDog = new Dog("animalDog"); // Upcast -> Parent ref points to Child obj
+        animalDog.speak();  // Output: The animalDog barks! - Overidden method is called
+        animalDog.eat();    // Output: The animalDog is eating
+        // animalDog.fetch(); // Compile-time error - Parent ref cannot call methods unique to Child class
         
-        System.out.println(animal);   // Output: Animal@4e25154f
-        System.out.println(dog);      // Output: Dog@70dea4e
+        // Wrong Downcasting
+        // Dog dogAnimal = new Animal("animal"); // Compile-time error
+        // Dog dogAnimal = (Dog)(new Animal("animal")); // Run-time error
+
+        // Correct Downcasting
+        Animal a = new Dog("dogAnimal"); // Upcast first
+        Dog dogAnimal = (Dog) a; // Downcast after upcasting -> Child ref actually points to Child obj
+        dogAnimal.speak(); // Output: The dogAnimal barks! - Overidden method is called
+        dogAnimal.eat(); // Output: The dogAnimal is eating
+        dogAnimal.fetch(); // Output: The dogAnimal fetches the ball
     }
 }
 ```
 - In this example, we have two classes - `Animal` and `Dog`. `Dog` is a subclass of `Animal`, which means it inherits all the properties and methods of the `Animal` class.
-- The `Animal` class has a `protected` name field and two `public` methods - `speak()` and `eat()`. The `speak()` method outputs a generic message about the animal making a sound, and the `eat()` method outputs a message about the animal eating.
+- The `Animal` class has a `public` name field and two `public` methods - `speak()` and `eat()`. The `speak()` method outputs a generic message about the animal making a sound, and the `eat()` method outputs a message about the animal eating.
 - The `Dog` class has a constructor that takes in a name parameter and passes it up to the `Animal` constructor using the `super` keyword. It also has a `speak()` method that overrides the `speak()` method in `Animal` and outputs a message specific to dogs. It also has a `fetch()` method that outputs a message about the dog fetching a ball.
 - In the `main` method, we create an `Animal` object and a `Dog` object. We also perform upcasting and downcasting operations to demonstrate the concepts.
-- **Upcasting** is when a subclass object is assigned to a superclass reference variable. In this example, we create an `Animal` reference variable animalDog and assign it the value of the `Dog` object dog. We can then call the overridden `speak()` method on the animalDog variable, and it will call the `speak()` method in the `Dog` class.
-- **Downcasting** is when a superclass reference variable is assigned to a subclass reference variable. In this example, we create a `Dog` reference variable dogAnimal and cast the `Animal` object animal to it. We can then call the `speak()` method on the dogAnimal variable, and it will call the `speak()` method in the `Animal` class, because the animal object is of type `Animal`, not `Dog`. However, if we try to call the `fetch()` method on the dogAnimal variable, we will get a compilation error, because the animal object does not have a `fetch()` method.
+- **Upcasting** is when a subclass object is assigned to a superclass reference variable.
+  ```java
+  Parent p = new Child(); // Upcasting is fine!
+  ```
+  - Note that with upcasting, the superclass reference can only call the methods defined in the superclass and any method that were overridden will call the overridden version defined in the subclass instead of the methods in the superclass. And note that it cannot call the methods defined in the subclass object even though it is pointing to it (unless its an overridden method).
+  - In this example, we create an `Animal` reference variable animalDog and assign it to a new `Dog` object with the name `animalDog`.
+  - We can then call the overridden `speak()` method on the animalDog variable, and it will call the `speak()` method in the `Dog` class. Remember we say that a method is overridden, if it is a `non-static` method in the subclass and has the same method signature (return type, method name and argument datatypes are the same) as in the superclass.
+  - We can also call the `eat()` method which calls the `eat()` method in the `Animal` class because the `eat()` method is not overidden in the `Dog` class.
+  - But we cannot call the `fetch()` method which attempts to call the `fetch()` method in the `Dog` class because the animalDog variable is ultimately an `Animal` class reference and it can call only `Animal` class methods. Note that if the `Animal` class methods are overridden in the `Dog` class, then the overriden methods are called but if they are not overridden then the methods in the `Animal` class itself will be called.
+- **Downcasting** is when a superclass reference variable is assigned to a subclass reference variable.
+  - Downcasting in the actual meaning of the word is not directly allowed. ie: subclass class ref points to superclass object - This is **not allowed**!!
+  ```java
+  Child c = new Parent(); // This is NOT ALLOWED!!
+  ```
+  - But, if we upcast first (ie: make a superclass ref point to a subclass object) and then downcast (ie: make a subclass ref point to the casted version) - Then it is okay!
+  ```java
+  Parent p = new Child(); // Upcast first
+  Child c = (Child)p; // And then downcast
+  // This is essentially making a Child ref point to a Child object anyway
+  ```
+  - In our example, we first create an Animal class reference called 'a' and make it point to a `Dog` object with the name `dogAnimal`.
+  - Next, we create a `Dog` reference variable called dogAnimal and assign it the dog-casted version of the `a` Animal class reference which essentially makes the dogAnimal reference point to a `Dog` object anyway. Thus, it is okay to perform this. (Although we call it a downcast, it is not really a true downcast)
+  - We can then call the `speak()` method on the dogAnimal variable, and it will call the `speak()` method in the `Dog` class because the method is overridden in the `Dog` class.
+  - We can also call the `eat()` method which calls the `eat()` method in the `Animal` class because the `eat()` method is not overidden in the `Dog` class.
+  - We can also call the `fetch()` method which call the `fetch()` method in the `Dog` class because it is only defined in the `Dog` class and this is okay because it is essentially a `Dog` class reference pointing to a `Dog` class object and nothing is violated here.
 
 ![image](https://user-images.githubusercontent.com/45400093/226465909-8de1e24f-52be-464a-81f3-7aebf7c64ce6.png)
