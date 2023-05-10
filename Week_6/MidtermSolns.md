@@ -1,7 +1,7 @@
 # Midterm Solutions
 
 ## Problem 1
-Read the following code (saved in a file called Question1.java), and answer the following
+Read the following code (saved in a file called `Question1.java`), and answer the following   
 questions (a)-(e).
 ```java
 public class Question1 {
