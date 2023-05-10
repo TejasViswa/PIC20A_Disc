@@ -99,7 +99,7 @@ What happens when you uncomment the line that reads
 #### Answer
 - (A) compile-time error
 ```
-Compiler cannot perform an implicit narrowing conversion from 'float' to 'double'
+Compiler cannot perform an implicit narrowing conversion from 'double' to 'float'
 ```
 
 ### Part (f)
