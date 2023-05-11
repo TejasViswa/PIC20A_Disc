@@ -331,12 +331,12 @@ public class Question3b{
         // p1.modifyBall3D(8.0);
         // System.out.print(p1);
 
-        Point3D p2 = new Ball3D(1.0, 1.0, 1.0, 4.0);
-        // Point3D p3 = new Point3D(0.0, 0.0, 0.0);
+        Point3D p2 = new Ball3D(0.0, 0.0, 0.0, 4.0);
+        // Point3D p3 = new Point3D(1.0, 1.0, 1.0);
         // System.out.println(((Ball3D) p2).f(p3));
 
-        // Point3D p4 = new Point3D(-3.0, -2.0, -1.0);
-        // System.out.println(((Ball3D) p2).f(p4));
+        // Point3D p4 = new Point3D(4.0, 2.0, 2.0);
+        // System.out.println(p2.f(p4));
     }
 }
 ```
@@ -376,7 +376,7 @@ method 'modifyBall3D(double)' that is unique to subclass `Ball3D`
 ```
 
 ### Part (d)
-`// Point3D p3 = new Point3D(0.0, 0.0, 0.0);`   
+`// Point3D p3 = new Point3D(1.0, 1.0, 1.0);`   
 `// System.out.println(((Ball3D) p2).f(p3));`
 #### Answer
 ```
@@ -384,7 +384,7 @@ true
 ```
 
 ### Part (e)
-`// Point3D p4 = new Point3D(-3.0, -2.0, -1.0);`   
+`// Point3D p4 = new Point3D(4.0, 2.0, 2.0);`   
 `// System.out.println(((Ball3D) p2).f(p4));`
 #### Answer
 ```
