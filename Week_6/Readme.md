@@ -1,6 +1,5 @@
 # READ ME
 
-# READ ME
 [Back to Discussion Main Page](https://github.com/TejasViswa/PIC20A_Disc)
 ### Legend
 Symbols at the end of links and what they mean (hopefully) in order of importance:
