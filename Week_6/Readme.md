@@ -61,6 +61,9 @@ Encrypted message: Olssv, Ovd hyl fvb?
 - [Midterm Problem 2 Solution](MidProb2.md) ??
 - [HW3 Hints](HW3HintsSpring.md) ??
 - [Pokemon Type](https://github.com/TejasViswa/PIC20A_Disc/tree/main/PokemonType) !
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/-z3t3A0LkKYI-OdsvxWfC6GU2WccjRcXFUg9ZisHeFYvIn5fX0VHh1iGU7oV3Vg7.nKXlj6ZiYWUHNAsF)
+    - Passcode: =*LcB.5x
 
 # Winter 2023
 
