@@ -16,7 +16,7 @@ public class Question2 {
         arr2 = new int[] {8, 8, 8, 8, 8};
 
         f1(arr1);
-        f2(arr2);
+        f2(arr3);
 
         System.out.println(java.util.Arrays.toString(arr1));
         System.out.println(java.util.Arrays.toString(arr2));
@@ -55,7 +55,7 @@ Write down the output from executing the code in the following box.
   - <img width="763" alt="image" src="https://github.com/TejasViswa/PIC20A_Disc/assets/45400093/6461a3b9-7787-43d2-ac79-4e1ad685c624">
   - After method call
   - <img width="763" alt="image" src="https://github.com/TejasViswa/PIC20A_Disc/assets/45400093/8436d587-7626-4595-9fe5-73e81a7e96ec">
-- `f2(arr2);`
+- `f2(arr3);`
   - <img width="763" alt="image" src="https://github.com/TejasViswa/PIC20A_Disc/assets/45400093/6f655c79-55e4-45df-87c5-4c0a8cc2c173">
   - `arr = new int[] {0, 0, 0, 0};`
   - <img width="650" alt="image" src="https://github.com/TejasViswa/PIC20A_Disc/assets/45400093/83aae25a-5d41-4f36-b5fc-cf4df039f514">
