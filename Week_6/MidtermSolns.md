@@ -385,7 +385,7 @@ true
 
 ### Part (e)
 `// Point3D p4 = new Point3D(4.0, 2.0, 2.0);`   
-`// System.out.println(((Ball3D) p2).f(p4));`
+`// System.out.println(p2.f(p4));`
 #### Answer
 ```
 Compile-time error: superclass 'point3D' reference 'p2' cannot call
