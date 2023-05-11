@@ -44,7 +44,8 @@ public class Chatbot {
 - [Books And Authors](BooksAndAuthors.java) !
 - [Superheroes And Abilities](SuperheroesAndAbilities.java) !
 - [Inheritance Exercise](InheritanceExercise.md) ?
-- [Clothing](Clothing.java) ?
+- [Clothing](Clothing.java) !
+- [Instrument](Instrument.java) !
 - [Smiley Panel](TestGUI.java) ?
 
 ## Thu May 18
