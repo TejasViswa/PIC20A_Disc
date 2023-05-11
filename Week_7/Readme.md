@@ -10,40 +10,34 @@ Symbols at the end of links and what they mean (hopefully) in order of importanc
 
 # Spring 2023
 ```java
-// Your weekly simple encryption program brought to you by our friend ChatGPT
+// Your weekly simple chatbot program brought to you by our friend ChatGPT
 
 import java.util.Scanner;
 
-public class Encryption {
+public class Chatbot {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a message: ");
-        String message = input.nextLine();
-        System.out.print("Enter a key: ");
-        int key = input.nextInt();
-        String encryptedMessage = "";
-        for (int i = 0; i < message.length(); i++) {
-            char c = message.charAt(i);
-            if (Character.isLetter(c)) {
-                if (Character.isUpperCase(c)) {
-                    c = (char) ('A' + (c - 'A' + key) % 26);
-                } else {
-                    c = (char) ('a' + (c - 'a' + key) % 26);
-                }
-            }
-            encryptedMessage += c;
+
+        System.out.println("Hi, I'm a chatbot! What's your name?");
+        String name = input.nextLine();
+
+        System.out.println("Nice to meet you, " + name + "!");
+        System.out.println("How are you feeling today?");
+        String mood = input.nextLine();
+
+        if(mood.equals("good")) {
+            System.out.println("That's great to hear!");
+        } else if(mood.equals("bad")) {
+            System.out.println("I'm sorry to hear that. Is there anything I can do to help?");
+        } else {
+            System.out.println("I'm not sure what you mean. Can you elaborate?");
+            String response = input.nextLine();
+            System.out.println("Okay, I understand. Thanks for telling me!");
         }
-        System.out.println("Encrypted message: " + encryptedMessage);
     }
 }
+```
 
-```
-Sample Output:
-```
-Enter a message: Hello, How are you?
-Enter a key: 7
-Encrypted message: Olssv, Ovd hyl fvb?
-```
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue May 16
