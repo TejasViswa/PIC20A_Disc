@@ -1,6 +1,17 @@
 # READ ME
 
+[Back to Discussion Main Page](https://github.com/TejasViswa/PIC20A_Disc)
+### Legend
+Symbols at the end of links and what they mean (hopefully) in order of importance:
+- ?? - Exam or assignment help
+- ? - Directly related to course content
+- ! - Indirectly related to course content
+- !! - Additional or Fun
+
+# Spring 2023
 ```java
+// Your weekly number fact generator program brought to you by our friend ChatGPT
+
 import java.net.URL;
 import java.net.HttpURLConnection;
 import java.io.BufferedReader;
@@ -60,6 +71,16 @@ public class RandomFactGenerator {
 
 ```
 
+- [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
+
+## Tue May 30
+- HW4 Hints
+
+## Thu Jun 1
+- [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp)
+- HW4 Hints
+
+# Winter 2023
 ## Tue Mar 7
 - HW4 Hints
 - [Problem set on throw](https://www.geeksforgeeks.org/output-java-programs-set-39-throw-keyword/?ref=rp)
