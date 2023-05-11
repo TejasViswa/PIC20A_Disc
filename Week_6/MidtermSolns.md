@@ -388,5 +388,6 @@ true
 `// System.out.println(((Ball3D) p2).f(p4));`
 #### Answer
 ```
-false
+Compile-time error: superclass 'point3D' reference 'p2' cannot call
+method 'f(Point3D)' that is unique to subclass `Ball3D`
 ```
