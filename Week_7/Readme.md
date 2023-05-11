@@ -41,7 +41,11 @@ public class Chatbot {
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue May 16
-- [Smiley Panel](TestGUI.java)
+- [Books And Authors](BooksAndAuthors.java) !
+- [Superheroes And Abilities](SuperheroesAndAbilities.java) !
+- [Inheritance Exercise](InheritanceExercise.md) ?
+- [Clothing](Clothing.java) ?
+- [Smiley Panel](TestGUI.java) ?
 
 ## Thu May 18
 - [Ice cream Confirm dialog](MyGUI.java)
