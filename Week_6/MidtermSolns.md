@@ -132,7 +132,7 @@ public class Question2 {
         arr2 = new int[] {8, 8, 8, 8, 8};
 
         f1(arr1);
-        f2(arr2);
+        f2(arr3);
 
         System.out.println(java.util.Arrays.toString(arr1));
         System.out.println(java.util.Arrays.toString(arr2));
