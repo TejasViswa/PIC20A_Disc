@@ -42,14 +42,15 @@ public class Chatbot {
 
 ## Tue May 16
 - [Road Map to becoming a Java Developer](https://roadmap.sh/java) !!
+- [Inheritance Exercise](InheritanceExercise.md) ?
 - [Books And Authors](BooksAndAuthors.java) !
 - [Superheroes And Abilities](SuperheroesAndAbilities.java) !
-- [Inheritance Exercise](InheritanceExercise.md) ?
 - [Clothing](Clothing.java) !
 - [Instrument](Instrument.java) !
-- [Smiley Panel](TestGUI.java) ?
+
 
 ## Thu May 18
+- [Smiley Panel](TestGUI.java) ?
 - [Ice cream Confirm dialog](MyGUI.java)
 - [Ice cream Confirm dialog with smiley and sad emoji](MyGUITest.java)
 
