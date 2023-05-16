@@ -47,6 +47,9 @@ public class Chatbot {
 - [Superheroes And Abilities](SuperheroesAndAbilities.java) !
 - [Clothing](Clothing.java) !
 - [Instrument](Instrument.java) !
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/9DBjzfdw2-A0HVnxEj3l4QRtUnV7C2nT7q2JWULjakhR5kbl0tfRtFZVWgjRFpSH.wbrrpMJMmCzqZ5Qn)
+    - Passcode: DA7QFC*& 
 
 
 ## Thu May 18
