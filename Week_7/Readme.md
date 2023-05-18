@@ -57,6 +57,9 @@ public class Chatbot {
 - [Smiley Panel](TestGUI.java) ?
 - [Ice cream Confirm dialog](MyGUI.java)
 - [Ice cream Confirm dialog with smiley and sad emoji](MyGUITest.java)
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/POGFQ-vKAwjmvkI0p6UBDXSIsRncNf4_JkgdgfPmyX0uHFrXjWfktItJIerxSWxV.RlXh0UzUWRhV69o4)
+    - Passcode: 10EcKo#& 
 
 # Winter 2023
 ## Tue Feb 21
