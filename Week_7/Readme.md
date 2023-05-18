@@ -53,6 +53,7 @@ public class Chatbot {
 
 
 ## Thu May 18
+- [Conceptual Java Puzzles](ConceptualJavaPuzzles.md) ?
 - [Smiley Panel](TestGUI.java) ?
 - [Ice cream Confirm dialog](MyGUI.java)
 - [Ice cream Confirm dialog with smiley and sad emoji](MyGUITest.java)
