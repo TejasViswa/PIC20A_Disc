@@ -42,6 +42,7 @@ public class Chatbot {
 
 ## Tue May 23
 - [Smiley Test](SmileyTest.java)
+- [Pokemon Sprite](PokeSprite.java)
 - HW4 Hints
 
 ## Thu May 25
