@@ -9,6 +9,8 @@ class Canvas extends JPanel {
         super.paintComponent(g); // JPanel's implementation        
         g.setColor(Color.ORANGE);
         g.fillRect(150, 100, 500, 200);
+        g.setColor(Color.BLACK);
+        g.fillOval(55, 65, 30, 30);
     }
 }
 
