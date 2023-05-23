@@ -41,11 +41,16 @@ public class Chatbot {
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue May 23
-- [Smiley Test](SmileyTest.java)
-- [Pokemon Sprite](PokeSprite.java)
-- HW4 Hints
+- [Smiley Test](SmileyTest.java) ?
+- [Smiley Panel Solution](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_7/TestGUI.java) ?
+- [Pokemon Sprite](PokeSprite.java) !
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/D3NImZqu0WirUCQfUaEYH0aNS6ftmvUQ-KXe8tbN3CDKrzY0FTKFgUcQHZq5VrtL.dBPYLjY8EJM2vmNl)
+    - Passcode: zC%nN.7j
 
 ## Thu May 25
+- [Ice cream Confirm dialog](MyGUI.java)
+- [Ice cream Confirm dialog with smiley and sad emoji](MyGUITest.java)
 - [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp)
 - HW4 Hints
 
