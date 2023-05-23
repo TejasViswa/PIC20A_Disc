@@ -41,6 +41,7 @@ public class Chatbot {
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue May 23
+- [Smiley Test](SmileyTest.java)
 - HW4 Hints
 
 ## Thu May 25
