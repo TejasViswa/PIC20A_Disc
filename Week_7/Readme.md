@@ -55,8 +55,6 @@ public class Chatbot {
 ## Thu May 18
 - [Conceptual Java Puzzles](ConceptualJavaPuzzles.md) ?
 - [Smiley Panel](TestGUI.java) ?
-- [Ice cream Confirm dialog](MyGUI.java)
-- [Ice cream Confirm dialog with smiley and sad emoji](MyGUITest.java)
 - Disc 1B recording
     - [link](https://ucla.zoom.us/rec/share/POGFQ-vKAwjmvkI0p6UBDXSIsRncNf4_JkgdgfPmyX0uHFrXjWfktItJIerxSWxV.RlXh0UzUWRhV69o4)
     - Passcode: 10EcKo#& 
