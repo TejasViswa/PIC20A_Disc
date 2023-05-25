@@ -54,6 +54,9 @@ public class Chatbot {
 - [Ice Cream Confirm Dialog with Icon and emoji](MyGUITest.java)
 - [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp)
 - HW4 Hints
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/smgIKaTvY_-_6m-6G5eMEZKILcIkArR7f4VprkW3NF6gw49i8qQnm4GMs58njxDR._KcyzljpYTXmoPsu)
+    - Passcode: eAW?R5.k
 
 # Winter 2023
 ## Tue Feb 28
