@@ -49,8 +49,8 @@ public class Chatbot {
     - Passcode: zC%nN.7j
 
 ## Thu May 25
-- [Ice cream Confirm dialog](MyGUI.java)
-- [Ice cream Confirm dialog with smiley and sad emoji](MyGUITest.java)
+- [Ice cream Confirm dialog](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_7/MyGUI.java)
+- [Ice cream Confirm dialog with smiley and sad emoji](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_7/MyGUITest.java)
 - [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp)
 - HW4 Hints
 
