@@ -74,11 +74,14 @@ public class RandomFactGenerator {
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue May 30
-- [ColorChanger](ColorChanger.java)
-- [FunButtonDemo](FunButtonDemo.java)
-- [GuessTheNumberGame](GuessTheNumberGame.java)
-- [SlotMachineGame](SlotMachineGame.java)
+- [ColorChanger](ColorChanger.java) !
+- [FunButtonDemo](FunButtonDemo.java) !
+- [GuessTheNumberGame](GuessTheNumberGame.java) !
+- [SlotMachineGame](SlotMachineGame.java) !
 - HW4 Hints
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/aFczBiaW3iAiqWsGsOkYQBPB0XguvVAnmiAV2iH495A-9g_jbSKPwjCz8pg68Zu1.OeO5f8Cjdta7x4zK)
+    - Passcode: 4+&Bp2Xi 
 
 ## Thu Jun 1
 - [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp)
