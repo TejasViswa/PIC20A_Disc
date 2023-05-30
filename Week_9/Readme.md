@@ -74,6 +74,10 @@ public class RandomFactGenerator {
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue May 30
+- [ColorChanger](ColorChanger.java)
+- [FunButtonDemo](FunButtonDemo.java)
+- [GuessTheNumberGame](GuessTheNumberGame.java)
+- [SlotMachineGame](SlotMachineGame.java)
 - HW4 Hints
 
 ## Thu Jun 1
