@@ -86,6 +86,7 @@ public class RandomFactGenerator {
 ## Thu Jun 1
 - [ChooseYourAdventureGame](ChooseYourAdventureGame.java)
 - [MouseAndKeyboardGame](MouseAndKeyboardGame.java)
+- [AdventureGame with 'Completed' Button](AdventureGame.java)
 - [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp)
 - HW4 Hints
 
