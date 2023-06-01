@@ -84,11 +84,14 @@ public class RandomFactGenerator {
     - Passcode: 4+&Bp2Xi 
 
 ## Thu Jun 1
-- [ChooseYourAdventureGame](ChooseYourAdventureGame.java)
-- [MouseAndKeyboardGame](MouseAndKeyboardGame.java)
-- [AdventureGame with 'Completed' Button](AdventureGame.java)
-- [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp)
+- [ChooseYourAdventureGame](ChooseYourAdventureGame.java) !
+- [MouseAndKeyboardGame](MouseAndKeyboardGame.java) !
+- [AdventureGame with 'Completed' Button](AdventureGame.java) !
+- [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp) (Was not covered in Discussion today)
 - HW4 Hints
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/W_qyqClKvbXTphuZJR-5WoG1gvsvb_2NCAw0Aowk8Dog2fsHQGLKumnGC2oPpuon.uSi_XavdkO3gIGiL)
+    - Passcode: 8zLy&kL8
 
 # Winter 2023
 ## Tue Mar 7
