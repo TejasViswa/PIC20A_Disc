@@ -84,6 +84,8 @@ public class RandomFactGenerator {
     - Passcode: 4+&Bp2Xi 
 
 ## Thu Jun 1
+- [ChooseYourAdventureGame](ChooseYourAdventureGame.java)
+- [MouseAndKeyboardGame](MouseAndKeyboardGame.java)
 - [Practice for try-catch](https://www.geeksforgeeks.org/output-java-programs-set-41-try-catch/?ref=rp)
 - HW4 Hints
 
