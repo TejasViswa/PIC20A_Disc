@@ -74,6 +74,7 @@ public class RandomFactGenerator {
 
 ## Tue Jun 6
 - [Exception Handling in Java](Exceptions.md)
+- [Longest Word](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_9/LongestWord.java)
 - HW5 Hints
 
 ## Thu Jun 8
