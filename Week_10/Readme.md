@@ -73,9 +73,11 @@ public class RandomFactGenerator {
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue Jun 6
-- [Exception Handling in Java](Exceptions.md)
-- [Longest Word](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_9/LongestWord.java)
-- HW5 Hints
+- [Exception Handling in Java](Exceptions.md) ?
+- [Longest Word](https://github.com/TejasViswa/PIC20A_Disc/blob/main/Week_9/LongestWord.java) !
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/k7MtULYkaUqrK00lDUazeJ4SHXZUknoTqL4UEiEIltbk9l2ebulAPChmc7It_xZT._n91surwljBchYGQ)
+    - Passcode: A!c+hU!0
 
 ## Thu Jun 8
 - [Final Revision](Final_Revision.md)
