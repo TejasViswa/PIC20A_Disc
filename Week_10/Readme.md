@@ -73,6 +73,7 @@ public class RandomFactGenerator {
 - [Flappy Bird](https://github.com/TejasViswa/PIC20A_Disc/tree/main/FlappyBird)
 
 ## Tue Jun 6
+- [Exception Handling in Java](Exceptions.md)
 - HW5 Hints
 
 ## Thu Jun 8
