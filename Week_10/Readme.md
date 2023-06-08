@@ -81,6 +81,9 @@ public class RandomFactGenerator {
 
 ## Thu Jun 8
 - [Final Revision](Final_Revision.md)
+- Disc 1B recording
+    - [link](https://ucla.zoom.us/rec/share/ZI6VHYzysy-UrTjq8CLZ0I3z3fN4ry77jEkBQzo_hD2MdB1KutWKzmd_2gPAmlV3.Lxyt79OdTx4Nudrx)
+    - Passcode: 61H7@^m0
 
 # Winter 2023
 ## Tue Mar 14
